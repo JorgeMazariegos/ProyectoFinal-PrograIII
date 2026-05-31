@@ -1,0 +1,112 @@
+1     R5_00      R5_01      0.314    Plaza Tigo Torre 3 -> Paso desnivel Km 9.5
+2     R5_01      R5_02      0.651    Paso desnivel Km 9.5 -> Zona 16 acceso norte
+3     R5_02      R5_03      1.164    Zona 16 acceso norte -> Blvd. Vista Hermosa este
+4     R5_03      R5_04      1.547    Blvd. Vista Hermosa este -> Zona 10 Blvd. Acueducto
+5     R5_04      R5_05      0.698    Zona 10 Blvd. Acueducto -> Zona 10 CC Galerias
+6     R5_05      R5_06      0.701    Zona 10 CC Galerias -> Zona 9 Blvd. Liberación
+7     R5_06      R5_07      2.348    Zona 9 Blvd. Liberación -> Zona 4 Cuatro Grados Norte
+8     R5_07      R5_08      4.075    Zona 4 Cuatro Grados Norte -> Calzada Roosevelt km 5
+9     R5_08      R5_09      0.868    Calzada Roosevelt km 5 -> Roosevelt km 7 gasolinera
+10    R5_09      R5_10      1.082    Roosevelt km 7 gasolinera -> Roosevelt km 10
+11    R5_10      R5_11      0.868    Roosevelt km 10 -> Mixco km 12 puente
+12    R5_11      R5_12      0.868    Mixco km 12 puente -> Mixco km 13 mercado
+13    R5_12      R5_13      0.755    Mixco km 13 mercado -> Col. Lomas de Portugal Mixco
+14    R5_13      R5_14      0.755    Col. Lomas de Portugal Mixco -> Col. El Mirador Mixco
+15    R5_14      R5_15      0.755    Col. El Mirador Mixco -> Mixco km 15 gasolinera
+16    R5_15      R5_16      0.646    Mixco km 15 gasolinera -> Puente Mixco-Sacatepéquez km
+17    R5_16      R5_17      0.648    Puente Mixco-Sacatepéquez km -> Desvío Col. Monte Verde km 1
+18    R5_17      R5_18      0.758    Desvío Col. Monte Verde km 1 -> El Panorama km 17.5
+19    R5_18      R5_19      0.765    El Panorama km 17.5 -> Aldea Cruz Blanca Mixco
+20    R5_19      R5_20      0.761    Aldea Cruz Blanca Mixco -> Km 19 CA-1 Occidente
+21    R5_20      R5_21      0.771    Km 19 CA-1 Occidente -> Km 20 CA-1 El Rejón
+22    R5_21      R5_22      1.144    Km 20 CA-1 El Rejón -> San Lucas Sacatepéquez km 23
+23    R5_22      R5_23      0.824    San Lucas Sacatepéquez km 23 -> San Lucas S. gasolinera
+24    R5_23      R5_24      0.824    San Lucas S. gasolinera -> San Lucas S. mercado
+25    R5_24      R5_25      0.848    San Lucas S. mercado -> San Lucas S. centro
+26    R5_25      R5_26      1.737    San Lucas S. centro -> Km 26 CA-1 desvío norte
+27    R5_26      R5_27      0.857    Km 26 CA-1 desvío norte -> Santiago Sacatepéquez norte
+28    R5_27      R5_28      0.582    Santiago Sacatepéquez norte -> Santiago S. iglesia
+29    R5_28      R5_29      0.549    Santiago S. iglesia -> Santiago S. mercado
+30    R5_29      R5_30      0.655    Santiago S. mercado -> Santiago S. zona 3 sur
+31    R5_30      R5_31      0.761    Santiago S. zona 3 sur -> Km 30 camino Sumpango
+32    R5_31      R5_32      0.785    Km 30 camino Sumpango -> Sumpango acceso km 31
+33    R5_32      R5_33      0.868    Sumpango acceso km 31 -> Sumpango norte
+34    R5_33      R5_34      1.736    Sumpango norte -> Sumpango centro
+35    R5_34      R5_35      0.761    Sumpango centro -> Sumpango sur mercado
+36    R5_35      R5_36      1.436    Sumpango sur mercado -> Km 35 camino Chimaltenango
+37    R5_36      R5_37      1.191    Km 35 camino Chimaltenango -> Km 40 CA-1 Chimaltenango
+38    R5_37      R5_38      0.397    Km 40 CA-1 Chimaltenango -> Chimaltenango desvío Antigua
+39    R5_38      R5_39      0.458    Chimaltenango desvío Antigua -> Km 42 camino sur a Antigua
+40    R5_39      R5_40      2.671    Km 42 camino sur a Antigua -> Aldea Pastores sur
+41    R5_40      R5_41      0.778    Aldea Pastores sur -> Pastores centro
+42    R5_41      R5_42      0.915    Pastores centro -> Pastores zona 2 baja
+43    R5_42      R5_43      0.929    Pastores zona 2 baja -> Km 40 bajada Antigua norte
+44    R5_43      R5_44      0.929    Km 40 bajada Antigua norte -> San Bartolomé M.A. bajada
+45    R5_44      R5_45      0.786    San Bartolomé M.A. bajada -> Aldea El Calvario M.A.
+46    R5_45      R5_46      0.676    Aldea El Calvario M.A. -> Aldea Concepción M.A.
+47    R5_46      R5_47      0.669    Aldea Concepción M.A. -> Aldea San Felipe Neri norest
+48    R5_47      R5_48      0.682    Aldea San Felipe Neri norest -> Jocotenango norte acceso
+49    R5_48      R5_49      0.342    Jocotenango norte acceso -> Jocotenango iglesia parroqui
+50    R5_49      R5_50      0.229    Jocotenango iglesia parroqui -> Jocotenango centro mercado
+51    R5_50      R5_51      0.155    Jocotenango centro mercado -> Jocotenango sur
+52    R5_51      R5_52      0.215    Jocotenango sur -> Antigua km 42 norte
+53    R5_52      R5_53      0.113    Antigua km 42 norte -> Antigua Col. San Felipe
+54    R5_53      R5_54      0.116    Antigua Col. San Felipe -> Antigua 1ª Av. Norte
+55    R5_54      R5_55      0.880    Antigua 1ª Av. Norte -> Antigua zona 1 parque
+56    R5_55      R5_56      0.420    Antigua zona 1 parque -> Antigua C. del Chajon
+57    R5_56      R5_57      0.079    Antigua C. del Chajon -> UMG Antigua Guatemala
+58    R5_57      R5_58      25.850   UMG Antigua Guatemala -> Zona 16 Col. El Bosque
+59    R5_58      R5_59      1.720    Zona 16 Col. El Bosque -> Av. Reforma sur z.10
+60    R5_59      R5_60      2.353    Av. Reforma sur z.10 -> Zona 9 Edificio Reforma
+61    R5_60      R5_61      4.157    Zona 9 Edificio Reforma -> Zona 1 Mercado Central
+62    R5_61      R5_62      0.698    Zona 1 Mercado Central -> Zona 6 z.norte col. Atlántid
+63    R5_62      R5_63      4.642    Zona 6 z.norte col. Atlántid -> Calzada Roosevelt km 6
+64    R5_63      R5_64      3.484    Calzada Roosevelt km 6 -> Mixco Col. Lomas km 14
+65    R5_64      R5_65      1.615    Mixco Col. Lomas km 14 -> Mixco residenciales km 15.5
+66    R5_65      R5_66      1.946    Mixco residenciales km 15.5 -> El Panorama vista norte
+67    R5_66      R5_67      3.346    El Panorama vista norte -> CA-1 Km 21 bosque
+68    R5_67      R5_68      2.675    CA-1 Km 21 bosque -> San Lucas zona 2
+69    R5_68      R5_69      0.857    San Lucas zona 2 -> San Lucas sur acceso RN-10
+70    R5_69      R5_70      3.727    San Lucas sur acceso RN-10 -> Desvío Santiago-Sumpango
+71    R5_70      R5_71      1.626    Desvío Santiago-Sumpango -> Sumpango barrio norte
+72    R5_71      R5_72      1.406    Sumpango barrio norte -> Sumpango barrio central
+73    R5_72      R5_73      1.305    Sumpango barrio central -> Sumpango zona comercial
+74    R5_73      R5_74      1.028    Sumpango zona comercial -> Km 34 camino a Pastores
+75    R5_74      R5_75      0.566    Km 34 camino a Pastores -> Pastores norte km 35
+76    R5_75      R5_76      0.669    Pastores norte km 35 -> Pastores gasolinera
+77    R5_76      R5_77      0.780    Pastores gasolinera -> Pastores zona sur
+78    R5_77      R5_78      0.786    Pastores zona sur -> Col. Monte Bello Pastores
+79    R5_78      R5_79      0.915    Col. Monte Bello Pastores -> Km 38 bajada noreste
+80    R5_79      R5_80      0.824    Km 38 bajada noreste -> SBM norte km 39
+81    R5_80      R5_81      0.701    SBM norte km 39 -> SBM centro km 40
+82    R5_81      R5_82      0.676    SBM centro km 40 -> Aldea San José Milpas Altas
+83    R5_82      R5_83      0.673    Aldea San José Milpas Altas -> Aldea San Miguel M.A.
+84    R5_83      R5_84      0.669    Aldea San Miguel M.A. -> Km 41 curva Antigua
+85    R5_84      R5_85      0.557    Km 41 curva Antigua -> Antigua ingreso norte km 42
+86    R5_85      R5_86      0.445    Antigua ingreso norte km 42 -> Antigua Blvd. Primer Orden
+87    R5_86      R5_87      0.445    Antigua Blvd. Primer Orden -> Antigua zona 1 calle larga
+88    R5_87      R5_88      0.336    Antigua zona 1 calle larga -> Antigua 2ª Calle Poniente N.
+89    R5_88      R5_89      0.334    Antigua 2ª Calle Poniente N. -> Antigua Convento Capuchinas
+90    R5_89      R5_90      0.214    Antigua Convento Capuchinas -> Antigua zona 1 Plaza
+91    R5_90      R5_91      0.192    Antigua zona 1 Plaza -> Antigua 3ª Calle Oriente
+92    R5_91      R5_92      0.141    Antigua 3ª Calle Oriente -> Antigua 5ª Calle Poniente
+93    R5_92      R5_93      0.095    Antigua 5ª Calle Poniente -> Antigua callejón del Estudio
+94    R5_93      R5_94      0.084    Antigua callejón del Estudio -> USAC Antigua acceso
+95    R5_94      R5_95      0.141    USAC Antigua acceso -> Hospital Hermano Pedro
+96    R5_95      R5_96      0.104    Hospital Hermano Pedro -> IGSS Antigua zona sur
+97    R5_96      R5_97      0.425    IGSS Antigua zona sur -> Antigua mercado de artesanía
+98    R5_97      R5_98      0.250    Antigua mercado de artesanía -> Antigua 3ª Calle Poniente
+99    R5_98      R5_99      0.135    Antigua 3ª Calle Poniente -> UMG Antigua Guatemala
+100   R5_00      R5_03      2.122    Plaza Tigo Torre 3 -> Blvd. Vista Hermosa este
+101   R5_08      R5_11      2.817    Calzada Roosevelt km 5 -> Mixco km 12 puente
+102   R5_16      R5_19      2.170    Puente Mixco-Sacatepéquez km -> Aldea Cruz Blanca Mixco
+103   R5_24      R5_27      2.706    San Lucas S. mercado -> Santiago Sacatepéquez norte
+104   R5_32      R5_35      3.365    Sumpango acceso km 31 -> Sumpango sur mercado
+105   R5_40      R5_43      2.603    Aldea Pastores sur -> Km 40 bajada Antigua norte
+106   R5_48      R5_51      0.668    Jocotenango norte acceso -> Jocotenango sur
+107   R5_56      R5_59      24.562   Antigua C. del Chajon -> Av. Reforma sur z.10
+108   R5_64      R5_67      6.897    Mixco Col. Lomas km 14 -> CA-1 Km 21 bosque
+109   R5_72      R5_75      1.830    Sumpango barrio central -> Pastores norte km 35
+110   R5_80      R5_83      2.043    SBM norte km 39 -> Aldea San Miguel M.A.
+111   R5_88      R5_91      0.731    Antigua 2ª Calle Poniente N. -> Antigua 3ª Calle Oriente
+112   R5_96      R5_99      0.161    IGSS Antigua zona sur -> UMG Antigua Guatemala

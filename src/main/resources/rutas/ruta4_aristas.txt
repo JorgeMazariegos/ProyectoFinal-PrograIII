@@ -1,0 +1,112 @@
+1     R4_00      R4_01      0.624    Plaza Tigo Torre 3 -> Km 9 desvío norte z.15
+2     R4_01      R4_02      1.176    Km 9 desvío norte z.15 -> Col. Vista Hermosa z.15 nort
+3     R4_02      R4_03      0.936    Col. Vista Hermosa z.15 nort -> Blvd. Vista Hermosa norte
+4     R4_03      R4_04      0.698    Blvd. Vista Hermosa norte -> Zona 15 Col. Eureka
+5     R4_04      R4_05      0.784    Zona 15 Col. Eureka -> Zona 10 ingreso av.reforma
+6     R4_05      R4_06      0.545    Zona 10 ingreso av.reforma -> Av. Reforma y 20 calle
+7     R4_06      R4_07      0.464    Av. Reforma y 20 calle -> Zona 10 CC Oakland
+8     R4_07      R4_08      0.397    Zona 10 CC Oakland -> Blvd. Los Próceres norte
+9     R4_08      R4_09      0.397    Blvd. Los Próceres norte -> Zona 14 av. Las Américas
+10    R4_09      R4_10      2.396    Zona 14 av. Las Américas -> Zona 13 IRTRA acceso
+11    R4_10      R4_11      3.017    Zona 13 IRTRA acceso -> Zona 9 Torre del Reformador
+12    R4_11      R4_12      2.782    Zona 9 Torre del Reformador -> Centro Cívico z.4
+13    R4_12      R4_13      0.309    Centro Cívico z.4 -> Ministerios z.1 sur
+14    R4_13      R4_14      0.544    Ministerios z.1 sur -> Anillo Periférico norte
+15    R4_14      R4_15      1.403    Anillo Periférico norte -> Calzada San Juan norte
+16    R4_15      R4_16      1.189    Calzada San Juan norte -> Zona 7 El Gallito norte
+17    R4_16      R4_17      1.204    Zona 7 El Gallito norte -> Mixco km 12 acceso
+18    R4_17      R4_18      0.868    Mixco km 12 acceso -> Col. Primero de Julio Mixco
+19    R4_18      R4_19      1.842    Col. Primero de Julio Mixco -> San Cristóbal Mixco km 15
+20    R4_19      R4_20      1.077    San Cristóbal Mixco km 15 -> Gasolinera UNO Km 16 Mixco
+21    R4_20      R4_21      1.077    Gasolinera UNO Km 16 Mixco -> Puente La Democracia Mixco
+22    R4_21      R4_22      0.868    Puente La Democracia Mixco -> El Panorama km 17
+23    R4_22      R4_23      0.761    El Panorama km 17 -> Desvío El Panorama-RN14
+24    R4_23      R4_24      0.889    Desvío El Panorama-RN14 -> Col. Planes de Bello Horizon
+25    R4_24      R4_25      0.889    Col. Planes de Bello Horizon -> Finca San Isidro camino
+26    R4_25      R4_26      0.889    Finca San Isidro camino -> Aldea El Potrero Sacatepéque
+27    R4_26      R4_27      1.736    Aldea El Potrero Sacatepéque -> Santiago Sacatepéquez sur
+28    R4_27      R4_28      0.889    Santiago Sacatepéquez sur -> Santiago Sacatepéquez centro
+29    R4_28      R4_29      0.484    Santiago Sacatepéquez centro -> Mercado Santiago S.
+30    R4_29      R4_30      0.655    Mercado Santiago S. -> Santiago S. salida oeste
+31    R4_30      R4_31      0.975    Santiago S. salida oeste -> Km 29 camino a Sumpango
+32    R4_31      R4_32      0.868    Km 29 camino a Sumpango -> Aldea El Rejón norte
+33    R4_32      R4_33      1.082    Aldea El Rejón norte -> Sumpango norte acceso
+34    R4_33      R4_34      3.343    Sumpango norte acceso -> Sumpango mercado
+35    R4_34      R4_35      0.341    Sumpango mercado -> Sumpango centro parque
+36    R4_35      R4_36      0.392    Sumpango centro parque -> Sumpango zona 2
+37    R4_36      R4_37      0.596    Sumpango zona 2 -> Sumpango sur desvío
+38    R4_37      R4_38      0.566    Sumpango sur desvío -> Aldea El Rejón sur
+39    R4_38      R4_39      0.566    Aldea El Rejón sur -> Km 34 camino bajada a Antigu
+40    R4_39      R4_40      0.808    Km 34 camino bajada a Antigu -> Aldea El Tablón Sacatepéquez
+41    R4_40      R4_41      0.808    Aldea El Tablón Sacatepéquez -> Aldea Los Pinos Sacatepéquez
+42    R4_41      R4_42      0.915    Aldea Los Pinos Sacatepéquez -> San Bartolomé Milpas Altas
+43    R4_42      R4_43      0.676    San Bartolomé Milpas Altas -> Aldea Concepción Milpas Alta
+44    R4_43      R4_44      0.676    Aldea Concepción Milpas Alta -> Aldea San Antonio M.A.
+45    R4_44      R4_45      0.701    Aldea San Antonio M.A. -> Jocotenango norte
+46    R4_45      R4_46      0.566    Jocotenango norte -> Jocotenango centro
+47    R4_46      R4_47      0.445    Jocotenango centro -> Jocotenango sur / ingreso
+48    R4_47      R4_48      0.341    Jocotenango sur / ingreso -> Antigua ingreso norte
+49    R4_48      R4_49      0.229    Antigua ingreso norte -> Antigua 1ª Av. Norte
+50    R4_49      R4_50      0.880    Antigua 1ª Av. Norte -> Antigua Parque Central
+51    R4_50      R4_51      0.420    Antigua Parque Central -> C. del Chajon Antigua
+52    R4_51      R4_52      0.079    C. del Chajon Antigua -> UMG Antigua Guatemala
+53    R4_52      R4_53      27.307   UMG Antigua Guatemala -> Gasolinera z.15 km 8.5
+54    R4_53      R4_54      0.889    Gasolinera z.15 km 8.5 -> Col. Residenciales z.15
+55    R4_54      R4_55      0.774    Col. Residenciales z.15 -> Zona 16 Santa Rosita norte
+56    R4_55      R4_56      0.484    Zona 16 Santa Rosita norte -> CC Plaza Mayor z.16
+57    R4_56      R4_57      3.635    CC Plaza Mayor z.16 -> Gasolinera Shell z.14
+58    R4_57      R4_58      0.545    Gasolinera Shell z.14 -> Torre Murano z.10
+59    R4_58      R4_59      0.494    Torre Murano z.10 -> Zona 10 Hotel Princess
+60    R4_59      R4_60      1.083    Zona 10 Hotel Princess -> Zona 9 Centro Médico
+61    R4_60      R4_61      3.616    Zona 9 Centro Médico -> Zona 1 Palacio Nacional
+62    R4_61      R4_62      0.544    Zona 1 Palacio Nacional -> Zona 2 Mercado Norte
+63    R4_62      R4_63      3.659    Zona 2 Mercado Norte -> Calzada San Juan km 2
+64    R4_63      R4_64      1.310    Calzada San Juan km 2 -> Zona 7 Col. Monte Verde
+65    R4_64      R4_65      1.082    Zona 7 Col. Monte Verde -> Mixco km 13 gasolinera
+66    R4_65      R4_66      1.189    Mixco km 13 gasolinera -> Aldea El Naranjito Mixco
+67    R4_66      R4_67      1.506    Aldea El Naranjito Mixco -> Col. San José Mixco
+68    R4_67      R4_68      1.079    Col. San José Mixco -> El Panorama km 18
+69    R4_68      R4_69      1.082    El Panorama km 18 -> Aldea Cruz Blanca
+70    R4_69      R4_70      2.390    Aldea Cruz Blanca -> Km 30 desvío San Marcos
+71    R4_70      R4_71      2.063    Km 30 desvío San Marcos -> Aldea La Embaulada Sacatepéq
+72    R4_71      R4_72      1.523    Aldea La Embaulada Sacatepéq -> Santiago S. zona 1
+73    R4_72      R4_73      0.549    Santiago S. zona 1 -> Gasolinera Santiago Sac.
+74    R4_73      R4_74      4.304    Gasolinera Santiago Sac. -> Sumpango aldea norte
+75    R4_74      R4_75      1.082    Sumpango aldea norte -> Sumpango gasolinera
+76    R4_75      R4_76      1.082    Sumpango gasolinera -> Sumpango barrio El Calvario
+77    R4_76      R4_77      1.796    Sumpango barrio El Calvario -> Bajada Sumpango km 36
+78    R4_77      R4_78      0.676    Bajada Sumpango km 36 -> Km 37 camino Antigua
+79    R4_78      R4_79      0.795    Km 37 camino Antigua -> Aldea El Calvario Sac.
+80    R4_79      R4_80      0.686    Aldea El Calvario Sac. -> Km 38 bajada norte Antigua
+81    R4_80      R4_81      0.808    Km 38 bajada norte Antigua -> Aldea San Felipe Neri
+82    R4_81      R4_82      0.701    Aldea San Felipe Neri -> SBM zona 2
+83    R4_82      R4_83      0.342    SBM zona 2 -> SBM mercado
+84    R4_83      R4_84      0.449    SBM mercado -> Aldea San Marcos A. M.A.
+85    R4_84      R4_85      0.783    Aldea San Marcos A. M.A. -> Km 40 bajada final
+86    R4_85      R4_86      0.669    Km 40 bajada final -> Aldea San Felipe Antigua
+87    R4_86      R4_87      0.397    Aldea San Felipe Antigua -> Jocotenango iglesia
+88    R4_87      R4_88      0.175    Jocotenango iglesia -> Jocotenango Blvd. principal
+89    R4_88      R4_89      0.375    Jocotenango Blvd. principal -> Antigua norte km 42
+90    R4_89      R4_90      0.113    Antigua norte km 42 -> Antigua calle de los Pasos
+91    R4_90      R4_91      0.502    Antigua calle de los Pasos -> Antigua 1ª Calle Poniente
+92    R4_91      R4_92      0.223    Antigua 1ª Calle Poniente -> Antigua Convento Capuchinas
+93    R4_92      R4_93      0.116    Antigua Convento Capuchinas -> Antigua zona 1 norte
+94    R4_93      R4_94      0.060    Antigua zona 1 norte -> Antigua Casa del Tejido
+95    R4_94      R4_95      0.046    Antigua Casa del Tejido -> Antigua Portal del Comercio
+96    R4_95      R4_96      0.190    Antigua Portal del Comercio -> Antigua zona 1 sur
+97    R4_96      R4_97      0.124    Antigua zona 1 sur -> Antigua Escuela de Cristo
+98    R4_97      R4_98      0.084    Antigua Escuela de Cristo -> Antigua 4ª Av. Sur
+99    R4_98      R4_99      0.111    Antigua 4ª Av. Sur -> UMG Antigua Guatemala
+100   R4_00      R4_03      2.696    Plaza Tigo Torre 3 -> Blvd. Vista Hermosa norte
+101   R4_08      R4_11      0.896    Blvd. Los Próceres norte -> Zona 9 Torre del Reformador
+102   R4_16      R4_19      3.875    Zona 7 El Gallito norte -> San Cristóbal Mixco km 15
+103   R4_24      R4_27      3.450    Col. Planes de Bello Horizon -> Santiago Sacatepéquez sur
+104   R4_32      R4_35      4.755    Aldea El Rejón norte -> Sumpango centro parque
+105   R4_40      R4_43      2.396    Aldea El Tablón Sacatepéquez -> Aldea Concepción Milpas Alta
+106   R4_48      R4_51      1.501    Antigua ingreso norte -> C. del Chajon Antigua
+107   R4_56      R4_59      3.686    CC Plaza Mayor z.16 -> Zona 10 Hotel Princess
+108   R4_64      R4_67      3.765    Zona 7 Col. Monte Verde -> Col. San José Mixco
+109   R4_72      R4_75      5.917    Santiago S. zona 1 -> Sumpango gasolinera
+110   R4_80      R4_83      1.850    Km 38 bajada norte Antigua -> SBM mercado
+111   R4_88      R4_91      0.894    Jocotenango Blvd. principal -> Antigua 1ª Calle Poniente
+112   R4_96      R4_99      0.312    Antigua zona 1 sur -> UMG Antigua Guatemala

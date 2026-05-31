@@ -1,0 +1,1419 @@
+================================================================================
+SIMULADOR GPS DIJKSTRA
+Origen : Plaza Tigo Torre 3 Edificio Everest — Km 9.5, Carretera a El Salvador
+Destino: Universidad Mariano Galvez de Guatemala — Antigua Guatemala
+Coordenadas sistema: WGS84 | Distancias: Formula de Haversine (km)
+Total de nodos: 600 (100 por ruta) | Total de rutas: 6
+================================================================================
+
+
+================================================================================
+RUTA 1: CA-1 Occidente via Mixco → San Lucas → RN-10 → Antigua
+================================================================================
+  Nodos totales   : 100
+  Aristas totales : 112
+  Distancia total : 144.51 km (suma secuencial)
+  Arista minima   : 0.06 km
+  Arista maxima   : 18.744 km
+  Arista promedio : 1.626 km
+  Origen          : Plaza Tigo Torre 3 (14.5722, -90.482)
+  Destino         : 2ª Calle Poniente Antigua (14.5572, -90.7341)
+
+--- NODOS (100 total) ---
+#     ID         Latitud      Longitud      Nombre
+------------------------------------------------------------------------------
+1     R1_00      14.57220     -90.48200     Plaza Tigo Torre 3
+2     R1_01      14.57290     -90.48480     Paso a desnivel Km 9.5
+3     R1_02      14.57360     -90.48700     Gasolinera Puma Km 9
+4     R1_03      14.57420     -90.48950     CC Pradera Concepción
+5     R1_04      14.57800     -90.49300     Zona 15 ingreso norte
+6     R1_05      14.58200     -90.49700     Col. Vista Hermosa II
+7     R1_06      14.58550     -90.50100     Blvd. Vista Hermosa km 10
+8     R1_07      14.58700     -90.50500     Centro Médico Santa Rosita
+9     R1_08      14.58850     -90.50900     Zona 16 Santa Rosita
+10    R1_09      14.59100     -90.51400     Intersección 20 Calle z.10
+11    R1_10      14.59400     -90.51800     Blvd. Los Próceres
+12    R1_11      14.59700     -90.52100     Anillo Periférico z.10
+13    R1_12      14.60000     -90.52400     CC Miraflores
+14    R1_13      14.60400     -90.52800     Zona 11 Mariscal
+15    R1_14      14.60800     -90.53100     Calzada Aguilar Batres z.11
+16    R1_15      14.61100     -90.53500     CC Las Majadas
+17    R1_16      14.61500     -90.53800     Intersección Periférico-Agt.B.
+18    R1_17      14.62000     -90.54200     Trébol z.7
+19    R1_18      14.62300     -90.54600     Calzada San Juan km 1
+20    R1_19      14.62600     -90.54900     Col. El Gallito z.3
+21    R1_20      14.63000     -90.55300     Calzada Roosevelt km 6
+22    R1_21      14.63300     -90.55700     CC Peri-Roosevelt
+23    R1_22      14.63500     -90.56100     Zona 7 El Rodeo
+24    R1_23      14.63800     -90.56600     Gasolinera Texaco Mixco km 12
+25    R1_24      14.64000     -90.57200     Col. Monte Verde Mixco
+26    R1_25      14.64100     -90.57800     Mixco km 14 centro
+27    R1_26      14.64200     -90.58400     Colonia El Naranjillo
+28    R1_27      14.64300     -90.59000     Desvío Los Altos Mixco
+29    R1_28      14.64400     -90.59600     San Cristóbal Mixco km 16
+30    R1_29      14.64450     -90.60200     Col. Lomas de Portugal
+31    R1_30      14.64480     -90.60800     Colonia Residenciales km 17
+32    R1_31      14.64450     -90.61400     Puente Mixco-Sacatepéquez
+33    R1_32      14.64350     -90.62000     El Panorama desvío
+34    R1_33      14.64200     -90.62600     Col. San Isidro z.13 Mixco
+35    R1_34      14.64100     -90.63300     Santiago Sacatepéquez acceso
+36    R1_35      14.63950     -90.64000     Aldea Las Trojas
+37    R1_36      14.63750     -90.64700     Km 20 CA-1 Occidente
+38    R1_37      14.63500     -90.65300     Aldea El Rejón
+39    R1_38      14.63200     -90.65900     San Bartolomé M.A. desvío
+40    R1_39      14.62900     -90.66400     Km 22 CA-1
+41    R1_40      14.62550     -90.66800     Puente Los Chocoyos
+42    R1_41      14.62150     -90.67100     San Lucas Sacatepéquez centro
+43    R1_42      14.61900     -90.67300     Mercado Municipal San Lucas
+44    R1_43      14.61650     -90.67500     Gasolinera Shell San Lucas
+45    R1_44      14.61400     -90.67750     Km 25 CA-1 / Cruce RN-10
+46    R1_45      14.61100     -90.67900     RN-10 inicio bajada a Antigua
+47    R1_46      14.60700     -90.68100     Mirador El Calvario RN-10
+48    R1_47      14.60300     -90.68400     Aldea Los Gavilanes
+49    R1_48      14.59900     -90.68800     Curva El Caracol RN-10
+50    R1_49      14.59600     -90.69600     Santa Lucía Milpas Altas cruce
+51    R1_50      14.59200     -90.70000     Granja Carberts RN-10
+52    R1_51      14.58800     -90.70300     Aldea San Miguel Milpas Altas
+53    R1_52      14.58400     -90.70600     Col. Monte Sión RN-10
+54    R1_53      14.58000     -90.70900     Puente sobre Río Pensativo
+55    R1_54      14.57600     -90.71100     Km 31 RN-10
+56    R1_55      14.57200     -90.71400     Aldea San Felipe de Jesús
+57    R1_56      14.56800     -90.71700     Aldea La Concepción RN-10
+58    R1_57      14.56400     -90.72000     Curva Panorámica RN-10
+59    R1_58      14.57000     -90.72400     Jocotenango ingreso norte
+60    R1_59      14.56900     -90.72750     Col. Santa Inés del Monte Pulgas
+61    R1_60      14.57000     -90.73100     Jocotenango centro
+62    R1_61      14.57000     -90.73400     Antigua ingreso norte Km 42
+63    R1_62      14.56920     -90.73420     Col. San Felipe Antigua
+64    R1_63      14.56800     -90.73450     1ª Av. Norte Antigua
+65    R1_64      14.56020     -90.73310     Parque Central Antigua
+66    R1_65      14.55750     -90.73360     4ª Calle Oriente Antigua
+67    R1_66      14.55700     -90.73380     6ª Calle Poniente Antigua
+68    R1_67      14.55950     -90.73400     Arco de Santa Catalina
+69    R1_68      14.55800     -90.73350     Col. San Francisco Antigua
+70    R1_69      14.55650     -90.73390     C. del Chajon / 3ª Calle
+71    R1_70      14.55580     -90.73400     UMG Antigua Guatemala
+72    R1_71      14.64150     -90.58400     Gasolinera Uno Mixco km 15
+73    R1_72      14.62900     -90.54100     Col. Primero de Julio z.5
+74    R1_73      14.62800     -90.54600     Zona 6 El Gallito
+75    R1_74      14.63150     -90.53300     Puente El Incienso
+76    R1_75      14.63800     -90.51900     Centro Cívico z.4
+77    R1_76      14.60500     -90.51600     Blvd. Liberación z.9
+78    R1_77      14.58300     -90.52700     Av. Hincapié z.13 aeropuerto
+79    R1_78      14.58500     -90.53100     Zona 13 La Aurora
+80    R1_79      14.58700     -90.70100     Km 28 RN-10 curva pino
+81    R1_80      14.57500     -90.71000     Aldea El Hato Antigua
+82    R1_81      14.59050     -90.70200     Entrada Colegio Bilingüe RN-10
+83    R1_82      14.61000     -90.68000     Km 26 CA-1 mirador
+84    R1_83      14.61700     -90.67600     Puente San Lucas sur
+85    R1_84      14.60500     -90.53600     Col. San Marcos z.12
+86    R1_85      14.61400     -90.54000     Blvd. Mateo Flores
+87    R1_86      14.60100     -90.53100     Col. La Reformita z.12
+88    R1_87      14.59600     -90.52800     Zona 12 Col. Bello Horizonte
+89    R1_88      14.59300     -90.52500     Anillo Periférico Sur z.12
+90    R1_89      14.59100     -90.52200     Intersección CA-9 z.12
+91    R1_90      14.62000     -90.67200     Gasolinera Full San Lucas
+92    R1_91      14.62200     -90.67000     Cementerio San Lucas
+93    R1_92      14.62350     -90.66900     Escola Parroquial San Lucas
+94    R1_93      14.55600     -90.73300     Antigua zona 3 sector Sur
+95    R1_94      14.55450     -90.73500     Hospital Nacional Pedro de Bethancourt
+96    R1_95      14.55550     -90.73450     Colegio La Salle Antigua
+97    R1_96      14.56000     -90.73500     Antigua calle del Arco
+98    R1_97      14.55900     -90.73550     Col. Santa Lucía Antigua
+99    R1_98      14.55850     -90.73420     USAC Antigua
+100   R1_99      14.55720     -90.73410     2ª Calle Poniente Antigua
+
+--- ARISTAS (112 total) ---
+#     Desde      Hasta      km       Desde (nombre) -> Hasta (nombre)
+------------------------------------------------------------------------------
+1     R1_00      R1_01      0.311    Plaza Tigo Torre 3 -> Paso a desnivel Km 9.5
+2     R1_01      R1_02      0.249    Paso a desnivel Km 9.5 -> Gasolinera Puma Km 9
+3     R1_02      R1_03      0.277    Gasolinera Puma Km 9 -> CC Pradera Concepción
+4     R1_03      R1_04      0.566    CC Pradera Concepción -> Zona 15 ingreso norte
+5     R1_04      R1_05      0.619    Zona 15 ingreso norte -> Col. Vista Hermosa II
+6     R1_05      R1_06      0.580    Col. Vista Hermosa II -> Blvd. Vista Hermosa km 10
+7     R1_06      R1_07      0.462    Blvd. Vista Hermosa km 10 -> Centro Médico Santa Rosita
+8     R1_07      R1_08      0.462    Centro Médico Santa Rosita -> Zona 16 Santa Rosita
+9     R1_08      R1_09      0.606    Zona 16 Santa Rosita -> Intersección 20 Calle z.10
+10    R1_09      R1_10      0.545    Intersección 20 Calle z.10 -> Blvd. Los Próceres
+11    R1_10      R1_11      0.464    Blvd. Los Próceres -> Anillo Periférico z.10
+12    R1_11      R1_12      0.464    Anillo Periférico z.10 -> CC Miraflores
+13    R1_12      R1_13      0.619    CC Miraflores -> Zona 11 Mariscal
+14    R1_13      R1_14      0.550    Zona 11 Mariscal -> Calzada Aguilar Batres z.11
+15    R1_14      R1_15      0.545    Calzada Aguilar Batres z.11 -> CC Las Majadas
+16    R1_15      R1_16      0.550    CC Las Majadas -> Intersección Periférico-Agt.
+17    R1_16      R1_17      0.703    Intersección Periférico-Agt. -> Trébol z.7
+18    R1_17      R1_18      0.545    Trébol z.7 -> Calzada San Juan km 1
+19    R1_18      R1_19      0.464    Calzada San Juan km 1 -> Col. El Gallito z.3
+20    R1_19      R1_20      0.619    Col. El Gallito z.3 -> Calzada Roosevelt km 6
+21    R1_20      R1_21      0.545    Calzada Roosevelt km 6 -> CC Peri-Roosevelt
+22    R1_21      R1_22      0.484    CC Peri-Roosevelt -> Zona 7 El Rodeo
+23    R1_22      R1_23      0.633    Zona 7 El Rodeo -> Gasolinera Texaco Mixco km 1
+24    R1_23      R1_24      0.683    Gasolinera Texaco Mixco km 1 -> Col. Monte Verde Mixco
+25    R1_24      R1_25      0.655    Col. Monte Verde Mixco -> Mixco km 14 centro
+26    R1_25      R1_26      0.655    Mixco km 14 centro -> Colonia El Naranjillo
+27    R1_26      R1_27      0.655    Colonia El Naranjillo -> Desvío Los Altos Mixco
+28    R1_27      R1_28      0.655    Desvío Los Altos Mixco -> San Cristóbal Mixco km 16
+29    R1_28      R1_29      0.648    San Cristóbal Mixco km 16 -> Col. Lomas de Portugal
+30    R1_29      R1_30      0.646    Col. Lomas de Portugal -> Colonia Residenciales km 17
+31    R1_30      R1_31      0.646    Colonia Residenciales km 17 -> Puente Mixco-Sacatepéquez
+32    R1_31      R1_32      0.655    Puente Mixco-Sacatepéquez -> El Panorama desvío
+33    R1_32      R1_33      0.667    El Panorama desvío -> Col. San Isidro z.13 Mixco
+34    R1_33      R1_34      0.761    Col. San Isidro z.13 Mixco -> Santiago Sacatepéquez acceso
+35    R1_34      R1_35      0.771    Santiago Sacatepéquez acceso -> Aldea Las Trojas
+36    R1_35      R1_36      0.785    Aldea Las Trojas -> Km 20 CA-1 Occidente
+37    R1_36      R1_37      0.703    Km 20 CA-1 Occidente -> Aldea El Rejón
+38    R1_37      R1_38      0.727    Aldea El Rejón -> San Bartolomé M.A. desvío
+39    R1_38      R1_39      0.633    San Bartolomé M.A. desvío -> Km 22 CA-1
+40    R1_39      R1_40      0.580    Km 22 CA-1 -> Puente Los Chocoyos
+41    R1_40      R1_41      0.550    Puente Los Chocoyos -> San Lucas Sacatepéquez centr
+42    R1_41      R1_42      0.352    San Lucas Sacatepéquez centr -> Mercado Municipal San Lucas
+43    R1_42      R1_43      0.352    Mercado Municipal San Lucas -> Gasolinera Shell San Lucas
+44    R1_43      R1_44      0.387    Gasolinera Shell San Lucas -> Km 25 CA-1 / Cruce RN-10
+45    R1_44      R1_45      0.371    Km 25 CA-1 / Cruce RN-10 -> RN-10 inicio bajada a Antigu
+46    R1_45      R1_46      0.494    RN-10 inicio bajada a Antigu -> Mirador El Calvario RN-10
+47    R1_46      R1_47      0.550    Mirador El Calvario RN-10 -> Aldea Los Gavilanes
+48    R1_47      R1_48      0.619    Aldea Los Gavilanes -> Curva El Caracol RN-10
+49    R1_48      R1_49      0.923    Curva El Caracol RN-10 -> Santa Lucía Milpas Altas cru
+50    R1_49      R1_50      0.619    Santa Lucía Milpas Altas cru -> Granja Carberts RN-10
+51    R1_50      R1_51      0.550    Granja Carberts RN-10 -> Aldea San Miguel Milpas Alta
+52    R1_51      R1_52      0.550    Aldea San Miguel Milpas Alta -> Col. Monte Sión RN-10
+53    R1_52      R1_53      0.550    Col. Monte Sión RN-10 -> Puente sobre Río Pensativo
+54    R1_53      R1_54      0.494    Puente sobre Río Pensativo -> Km 31 RN-10
+55    R1_54      R1_55      0.550    Km 31 RN-10 -> Aldea San Felipe de Jesús
+56    R1_55      R1_56      0.550    Aldea San Felipe de Jesús -> Aldea La Concepción RN-10
+57    R1_56      R1_57      0.550    Aldea La Concepción RN-10 -> Curva Panorámica RN-10
+58    R1_57      R1_58      0.794    Curva Panorámica RN-10 -> Jocotenango ingreso norte
+59    R1_58      R1_59      0.393    Jocotenango ingreso norte -> Col. Santa Inés del Monte Pu
+60    R1_59      R1_60      0.393    Col. Santa Inés del Monte Pu -> Jocotenango centro
+61    R1_60      R1_61      0.323    Jocotenango centro -> Antigua ingreso norte Km 42
+62    R1_61      R1_62      0.092    Antigua ingreso norte Km 42 -> Col. San Felipe Antigua
+63    R1_62      R1_63      0.137    Col. San Felipe Antigua -> 1ª Av. Norte Antigua
+64    R1_63      R1_64      0.880    1ª Av. Norte Antigua -> Parque Central Antigua
+65    R1_64      R1_65      0.305    Parque Central Antigua -> 4ª Calle Oriente Antigua
+66    R1_65      R1_66      0.060    4ª Calle Oriente Antigua -> 6ª Calle Poniente Antigua
+67    R1_66      R1_67      0.279    6ª Calle Poniente Antigua -> Arco de Santa Catalina
+68    R1_67      R1_68      0.175    Arco de Santa Catalina -> Col. San Francisco Antigua
+69    R1_68      R1_69      0.172    Col. San Francisco Antigua -> C. del Chajon / 3ª Calle
+70    R1_69      R1_70      0.079    C. del Chajon / 3ª Calle -> UMG Antigua Guatemala
+71    R1_70      R1_71      18.744   UMG Antigua Guatemala -> Gasolinera Uno Mixco km 15
+72    R1_71      R1_72      4.831    Gasolinera Uno Mixco km 15 -> Col. Primero de Julio z.5
+73    R1_72      R1_73      0.549    Col. Primero de Julio z.5 -> Zona 6 El Gallito
+74    R1_73      R1_74      1.452    Zona 6 El Gallito -> Puente El Incienso
+75    R1_74      R1_75      1.671    Puente El Incienso -> Centro Cívico z.4
+76    R1_75      R1_76      3.684    Centro Cívico z.4 -> Blvd. Liberación z.9
+77    R1_76      R1_77      2.718    Blvd. Liberación z.9 -> Av. Hincapié z.13 aeropuerto
+78    R1_77      R1_78      0.485    Av. Hincapié z.13 aeropuerto -> Zona 13 La Aurora
+79    R1_78      R1_79      18.295   Zona 13 La Aurora -> Km 28 RN-10 curva pino
+80    R1_79      R1_80      1.649    Km 28 RN-10 curva pino -> Aldea El Hato Antigua
+81    R1_80      R1_81      1.927    Aldea El Hato Antigua -> Entrada Colegio Bilingüe RN-
+82    R1_81      R1_82      3.210    Entrada Colegio Bilingüe RN- -> Km 26 CA-1 mirador
+83    R1_82      R1_83      0.889    Km 26 CA-1 mirador -> Puente San Lucas sur
+84    R1_83      R1_84      15.123   Puente San Lucas sur -> Col. San Marcos z.12
+85    R1_84      R1_85      1.089    Col. San Marcos z.12 -> Blvd. Mateo Flores
+86    R1_85      R1_86      1.740    Blvd. Mateo Flores -> Col. La Reformita z.12
+87    R1_86      R1_87      0.643    Col. La Reformita z.12 -> Zona 12 Col. Bello Horizonte
+88    R1_87      R1_88      0.464    Zona 12 Col. Bello Horizonte -> Anillo Periférico Sur z.12
+89    R1_88      R1_89      0.392    Anillo Periférico Sur z.12 -> Intersección CA-9 z.12
+90    R1_89      R1_90      16.459   Intersección CA-9 z.12 -> Gasolinera Full San Lucas
+91    R1_90      R1_91      0.309    Gasolinera Full San Lucas -> Cementerio San Lucas
+92    R1_91      R1_92      0.198    Cementerio San Lucas -> Escola Parroquial San Lucas
+93    R1_92      R1_93      10.187   Escola Parroquial San Lucas -> Antigua zona 3 sector Sur
+94    R1_93      R1_94      0.272    Antigua zona 3 sector Sur -> Hospital Nacional Pedro de B
+95    R1_94      R1_95      0.124    Hospital Nacional Pedro de B -> Colegio La Salle Antigua
+96    R1_95      R1_96      0.503    Colegio La Salle Antigua -> Antigua calle del Arco
+97    R1_96      R1_97      0.124    Antigua calle del Arco -> Col. Santa Lucía Antigua
+98    R1_97      R1_98      0.151    Col. Santa Lucía Antigua -> USAC Antigua
+99    R1_98      R1_99      0.145    USAC Antigua -> 2ª Calle Poniente Antigua
+100   R1_00      R1_03      0.837    Plaza Tigo Torre 3 -> CC Pradera Concepción
+101   R1_08      R1_11      1.600    Zona 16 Santa Rosita -> Anillo Periférico z.10
+102   R1_16      R1_19      1.702    Intersección Periférico-Agt. -> Col. El Gallito z.3
+103   R1_24      R1_27      1.965    Col. Monte Verde Mixco -> Desvío Los Altos Mixco
+104   R1_32      R1_35      2.197    El Panorama desvío -> Aldea Las Trojas
+105   R1_40      R1_43      1.253    Puente Los Chocoyos -> Gasolinera Shell San Lucas
+106   R1_48      R1_51      2.025    Curva El Caracol RN-10 -> Aldea San Miguel Milpas Alta
+107   R1_56      R1_59      1.135    Aldea La Concepción RN-10 -> Col. Santa Inés del Monte Pu
+108   R1_64      R1_67      0.124    Parque Central Antigua -> Arco de Santa Catalina
+109   R1_72      R1_75      2.570    Col. Primero de Julio z.5 -> Centro Cívico z.4
+110   R1_80      R1_83      5.933    Aldea El Hato Antigua -> Puente San Lucas sur
+111   R1_88      R1_91      15.932   Anillo Periférico Sur z.12 -> Cementerio San Lucas
+112   R1_96      R1_99      0.326    Antigua calle del Arco -> 2ª Calle Poniente Antigua
+
+================================================================================
+RUTA 2: Anillo Sur → Villa Canales → Amatitlan → Barcenas → Antigua
+================================================================================
+  Nodos totales   : 100
+  Aristas totales : 112
+  Distancia total : 180.58 km (suma secuencial)
+  Arista minima   : 0.054 km
+  Arista maxima   : 21.389 km
+  Arista promedio : 1.857 km
+  Origen          : Plaza Tigo Torre 3 (14.5722, -90.482)
+  Destino         : UMG Antigua Guatemala (14.5558, -90.734)
+
+--- NODOS (100 total) ---
+#     ID         Latitud      Longitud      Nombre
+------------------------------------------------------------------------------
+1     R2_00      14.57220     -90.48200     Plaza Tigo Torre 3
+2     R2_01      14.56500     -90.48400     Intersección Km 13 Carr. E.S.
+3     R2_02      14.56200     -90.48300     Gasolinera Shell Km 12
+4     R2_03      14.55900     -90.48200     Desvío Santa Catarina Pinula
+5     R2_04      14.55500     -90.47500     San José Pinula acceso
+6     R2_05      14.55200     -90.47200     Aldea Canchón
+7     R2_06      14.54900     -90.47000     Km 14.5 Carr. El Salvador
+8     R2_07      14.57300     -90.47600     CC Portales z.17 acceso
+9     R2_08      14.57600     -90.48000     Zona 17 La Castañeda
+10    R2_09      14.54500     -90.49500     Zona 25 Col. El Búcaro
+11    R2_10      14.54900     -90.51000     Puente zona 25-Boca del Monte
+12    R2_11      14.55400     -90.52000     Boca del Monte ingreso
+13    R2_12      14.55600     -90.52500     Col. El Maestro Boca del Monte
+14    R2_13      14.56500     -90.52500     Zona 12 anillo sur km 1
+15    R2_14      14.55900     -90.55000     CC Pradera Villa Nueva
+16    R2_15      14.55100     -90.56000     Villa Nueva 1ª Av.
+17    R2_16      14.53000     -90.57500     Mayan Golf desvío
+18    R2_17      14.52500     -90.58700     Col. Enríquez Gómez VN
+19    R2_18      14.52000     -90.59200     Villa Nueva centro mercado
+20    R2_19      14.51000     -90.59800     Puente Río Villalobos
+21    R2_20      14.50500     -90.57500     San Miguel Petapa norte
+22    R2_21      14.49700     -90.57000     Aldea Boca del Río Petapa
+23    R2_22      14.48000     -90.59500     Lago de Amatitlán vista
+24    R2_23      14.48200     -90.61000     Amatitlán ingreso norte
+25    R2_24      14.47900     -90.62000     Puente Amatitlán
+26    R2_25      14.47600     -90.62000     Amatitlán centro
+27    R2_26      14.47400     -90.62200     Mercado Amatitlán
+28    R2_27      14.47200     -90.62300     Amatitlán zona 3
+29    R2_28      14.47000     -90.62500     Aldea San Juan Amatitlán
+30    R2_29      14.46800     -90.62800     Desvío hacia Palín sur
+31    R2_30      14.47200     -90.63400     Km 37 carr. sur Amatitlán
+32    R2_31      14.47600     -90.63900     Col. Belén Amatitlán
+33    R2_32      14.49300     -90.56500     Villa Canales norte ingreso
+34    R2_33      14.49500     -90.56800     Villa Canales centro
+35    R2_34      14.49700     -90.57500     Aldea Boca del Monte VC
+36    R2_35      14.49000     -90.60000     Carretera Bárcenas desvío
+37    R2_36      14.50500     -90.60500     Bárcenas norte
+38    R2_37      14.50800     -90.61000     Bárcenas centro Villa Nueva
+39    R2_38      14.51000     -90.62000     Km 30 carr. Bárcenas-Antigua
+40    R2_39      14.51500     -90.63500     Aldea Lo de Diéguez
+41    R2_40      14.52000     -90.65000     Carretera RD-SAC-01 inicio
+42    R2_41      14.52500     -90.65800     Aldea Rincón Grande
+43    R2_42      14.53000     -90.66500     Puente Río Guacalate norte
+44    R2_43      14.53500     -90.67200     Aldea San Cristóbal El Alto
+45    R2_44      14.53900     -90.67800     Km 36 carr. rural Sacatepéquez
+46    R2_45      14.54200     -90.68400     Aldea Los Llanos Antigua
+47    R2_46      14.51800     -90.71800     Ciudad Vieja sur acceso
+48    R2_47      14.52000     -90.72000     Ciudad Vieja centro
+49    R2_48      14.52800     -90.72200     Aldea San Lorenzo El Cubo
+50    R2_49      14.53300     -90.72300     Km 40 camino a Antigua sur
+51    R2_50      14.54000     -90.72400     Aldea San Pedro Las Huertas
+52    R2_51      14.54300     -90.72500     Col. Vista al Valle
+53    R2_52      14.50500     -90.73200     San Juan del Obispo sur
+54    R2_53      14.50600     -90.73400     San Juan del Obispo centro
+55    R2_54      14.51000     -90.73100     Aldea El Hato SJO
+56    R2_55      14.52000     -90.72800     Mirador Volcán Agua
+57    R2_56      14.53000     -90.72700     Aldea Santa María de Jesús S.
+58    R2_57      14.53600     -90.72600     Km 45 carretera Antigua sur
+59    R2_58      14.54000     -90.72600     Col. Primavera sur Antigua
+60    R2_59      14.54500     -90.73800     Santa Ana Antigua sur
+61    R2_60      14.54800     -90.73400     Antigua zona 3 sur
+62    R2_61      14.55100     -90.73350     Calle Ancha de los Herreros
+63    R2_62      14.56020     -90.73310     Parque Central Antigua
+64    R2_63      14.55950     -90.73400     Arco de Santa Catalina
+65    R2_64      14.55650     -90.73390     C. del Chajon / 3ª Calle
+66    R2_65      14.55580     -90.73400     UMG Antigua Guatemala
+67    R2_66      14.62100     -90.54700     Col. Utatlán z.11
+68    R2_67      14.53500     -90.72000     Puente Ciudad Vieja-Antigua
+69    R2_68      14.52000     -90.58800     Gasolinera Puma Villa Nueva
+70    R2_69      14.51800     -90.59000     Mercado Villa Nueva km 20
+71    R2_70      14.51300     -90.59500     Aldea El Zarzal VN
+72    R2_71      14.50600     -90.60000     San Rafael VN
+73    R2_72      14.50100     -90.60500     Aldea El Frutal VN
+74    R2_73      14.48300     -90.61500     Col. Paraíso Amatitlán
+75    R2_74      14.47600     -90.63000     Balneario Los Aposentos
+76    R2_75      14.50000     -90.62000     Km 33 carretera Bárcenas
+77    R2_76      14.50500     -90.61500     Col. San Francisco Bárcenas
+78    R2_77      14.51000     -90.63000     Carretera antigua Bárcenas-CV
+79    R2_78      14.54600     -90.73000     Aldea Monte Bello Antigua
+80    R2_79      14.55400     -90.73100     Colegio Americano Antigua
+81    R2_80      14.55300     -90.73250     Col. El Panorama Antigua
+82    R2_81      14.55200     -90.73350     Antigua 5ª Av. Sur
+83    R2_82      14.55500     -90.73500     Hospital Hermano Pedro
+84    R2_83      14.55600     -90.73600     IGSS Antigua
+85    R2_84      14.55620     -90.73450     Escuela Técnica Antigua
+86    R2_85      14.53700     -90.68000     Aldea Chijoj norte antigua
+87    R2_86      14.54100     -90.68700     Caserio Las Vegas Antigua
+88    R2_87      14.54400     -90.69200     Km 38 carretera sur
+89    R2_88      14.54700     -90.71000     Cruce Cuatro Caminos Antigua
+90    R2_89      14.54900     -90.72000     Col. Linda Vista Antigua
+91    R2_90      14.54200     -90.71500     Desvío San Cristóbal Antigua
+92    R2_91      14.53800     -90.71200     Aldea El Naranjo Antigua
+93    R2_92      14.53400     -90.71700     Km 42 camino sur Antigua
+94    R2_93      14.55800     -90.73200     Aldea Pensativo Antigua
+95    R2_94      14.55900     -90.73250     Antigua 2ª Calle Oriente
+96    R2_95      14.55980     -90.73380     Antigua Convento La Merced
+97    R2_96      14.56000     -90.73330     Antigua Catedral ingreso
+98    R2_97      14.56030     -90.73370     Antigua 3ª Av. Norte
+99    R2_98      14.55700     -90.73420     Antigua 1ª Calle Poniente
+100   R2_99      14.55580     -90.73400     UMG Antigua Guatemala
+
+--- ARISTAS (112 total) ---
+#     Desde      Hasta      km       Desde (nombre) -> Hasta (nombre)
+------------------------------------------------------------------------------
+1     R2_00      R2_01      0.829    Plaza Tigo Torre 3 -> Intersección Km 13 Carr. E.S
+2     R2_01      R2_02      0.351    Intersección Km 13 Carr. E.S -> Gasolinera Shell Km 12
+3     R2_02      R2_03      0.351    Gasolinera Shell Km 12 -> Desvío Santa Catarina Pinula
+4     R2_03      R2_04      0.875    Desvío Santa Catarina Pinula -> San José Pinula acceso
+5     R2_04      R2_05      0.464    San José Pinula acceso -> Aldea Canchón
+6     R2_05      R2_06      0.397    Aldea Canchón -> Km 14.5 Carr. El Salvador
+7     R2_06      R2_07      2.746    Km 14.5 Carr. El Salvador -> CC Portales z.17 acceso
+8     R2_07      R2_08      0.545    CC Portales z.17 acceso -> Zona 17 La Castañeda
+9     R2_08      R2_09      3.806    Zona 17 La Castañeda -> Zona 25 Col. El Búcaro
+10    R2_09      R2_10      1.675    Zona 25 Col. El Búcaro -> Puente zona 25-Boca del Mont
+11    R2_10      R2_11      1.211    Puente zona 25-Boca del Mont -> Boca del Monte ingreso
+12    R2_11      R2_12      0.582    Boca del Monte ingreso -> Col. El Maestro Boca del Mon
+13    R2_12      R2_13      1.001    Col. El Maestro Boca del Mon -> Zona 12 anillo sur km 1
+14    R2_13      R2_14      2.772    Zona 12 anillo sur km 1 -> CC Pradera Villa Nueva
+15    R2_14      R2_15      1.396    CC Pradera Villa Nueva -> Villa Nueva 1ª Av.
+16    R2_15      R2_16      2.839    Villa Nueva 1ª Av. -> Mayan Golf desvío
+17    R2_16      R2_17      1.406    Mayan Golf desvío -> Col. Enríquez Gómez VN
+18    R2_17      R2_18      0.774    Col. Enríquez Gómez VN -> Villa Nueva centro mercado
+19    R2_18      R2_19      1.286    Villa Nueva centro mercado -> Puente Río Villalobos
+20    R2_19      R2_20      2.538    Puente Río Villalobos -> San Miguel Petapa norte
+21    R2_20      R2_21      1.040    San Miguel Petapa norte -> Aldea Boca del Río Petapa
+22    R2_21      R2_22      3.289    Aldea Boca del Río Petapa -> Lago de Amatitlán vista
+23    R2_22      R2_23      1.630    Lago de Amatitlán vista -> Amatitlán ingreso norte
+24    R2_23      R2_24      1.127    Amatitlán ingreso norte -> Puente Amatitlán
+25    R2_24      R2_25      0.334    Puente Amatitlán -> Amatitlán centro
+26    R2_25      R2_26      0.310    Amatitlán centro -> Mercado Amatitlán
+27    R2_26      R2_27      0.247    Mercado Amatitlán -> Amatitlán zona 3
+28    R2_27      R2_28      0.310    Amatitlán zona 3 -> Aldea San Juan Amatitlán
+29    R2_28      R2_29      0.392    Aldea San Juan Amatitlán -> Desvío hacia Palín sur
+30    R2_29      R2_30      0.784    Desvío hacia Palín sur -> Km 37 carr. sur Amatitlán
+31    R2_30      R2_31      0.698    Km 37 carr. sur Amatitlán -> Col. Belén Amatitlán
+32    R2_31      R2_32      8.188    Col. Belén Amatitlán -> Villa Canales norte ingreso
+33    R2_32      R2_33      0.392    Villa Canales norte ingreso -> Villa Canales centro
+34    R2_33      R2_34      0.786    Villa Canales centro -> Aldea Boca del Monte VC
+35    R2_34      R2_35      2.802    Aldea Boca del Monte VC -> Carretera Bárcenas desvío
+36    R2_35      R2_36      1.753    Carretera Bárcenas desvío -> Bárcenas norte
+37    R2_36      R2_37      0.633    Bárcenas norte -> Bárcenas centro Villa Nueva
+38    R2_37      R2_38      1.099    Bárcenas centro Villa Nueva -> Km 30 carr. Bárcenas-Antigua
+39    R2_38      R2_39      1.708    Km 30 carr. Bárcenas-Antigua -> Aldea Lo de Diéguez
+40    R2_39      R2_40      1.708    Aldea Lo de Diéguez -> Carretera RD-SAC-01 inicio
+41    R2_40      R2_41      1.025    Carretera RD-SAC-01 inicio -> Aldea Rincón Grande
+42    R2_41      R2_42      0.936    Aldea Rincón Grande -> Puente Río Guacalate norte
+43    R2_42      R2_43      0.936    Puente Río Guacalate norte -> Aldea San Cristóbal El Alto
+44    R2_43      R2_44      0.784    Aldea San Cristóbal El Alto -> Km 36 carr. rural Sacatepéqu
+45    R2_44      R2_45      0.727    Km 36 carr. rural Sacatepéqu -> Aldea Los Llanos Antigua
+46    R2_45      R2_46      4.529    Aldea Los Llanos Antigua -> Ciudad Vieja sur acceso
+47    R2_46      R2_47      0.310    Ciudad Vieja sur acceso -> Ciudad Vieja centro
+48    R2_47      R2_48      0.915    Ciudad Vieja centro -> Aldea San Lorenzo El Cubo
+49    R2_48      R2_49      0.566    Aldea San Lorenzo El Cubo -> Km 40 camino a Antigua sur
+50    R2_49      R2_50      0.786    Km 40 camino a Antigua sur -> Aldea San Pedro Las Huertas
+51    R2_50      R2_51      0.351    Aldea San Pedro Las Huertas -> Col. Vista al Valle
+52    R2_51      R2_52      4.292    Col. Vista al Valle -> San Juan del Obispo sur
+53    R2_52      R2_53      0.242    San Juan del Obispo sur -> San Juan del Obispo centro
+54    R2_53      R2_54      0.550    San Juan del Obispo centro -> Aldea El Hato SJO
+55    R2_54      R2_55      1.158    Aldea El Hato SJO -> Mirador Volcán Agua
+56    R2_55      R2_56      1.117    Mirador Volcán Agua -> Aldea Santa María de Jesús S
+57    R2_56      R2_57      0.676    Aldea Santa María de Jesús S -> Km 45 carretera Antigua sur
+58    R2_57      R2_58      0.445    Km 45 carretera Antigua sur -> Col. Primavera sur Antigua
+59    R2_58      R2_59      1.406    Col. Primavera sur Antigua -> Santa Ana Antigua sur
+60    R2_59      R2_60      0.545    Santa Ana Antigua sur -> Antigua zona 3 sur
+61    R2_60      R2_61      0.338    Antigua zona 3 sur -> Calle Ancha de los Herreros
+62    R2_61      R2_62      1.024    Calle Ancha de los Herreros -> Parque Central Antigua
+63    R2_62      R2_63      0.124    Parque Central Antigua -> Arco de Santa Catalina
+64    R2_63      R2_64      0.334    Arco de Santa Catalina -> C. del Chajon / 3ª Calle
+65    R2_64      R2_65      0.079    C. del Chajon / 3ª Calle -> UMG Antigua Guatemala
+66    R2_65      R2_66      21.389   UMG Antigua Guatemala -> Col. Utatlán z.11
+67    R2_66      R2_67      20.930   Col. Utatlán z.11 -> Puente Ciudad Vieja-Antigua
+68    R2_67      R2_68      14.306   Puente Ciudad Vieja-Antigua -> Gasolinera Puma Villa Nueva
+69    R2_68      R2_69      0.310    Gasolinera Puma Villa Nueva -> Mercado Villa Nueva km 20
+70    R2_69      R2_70      0.774    Mercado Villa Nueva km 20 -> Aldea El Zarzal VN
+71    R2_70      R2_71      0.946    Aldea El Zarzal VN -> San Rafael VN
+72    R2_71      R2_72      0.774    San Rafael VN -> Aldea El Frutal VN
+73    R2_72      R2_73      2.273    Aldea El Frutal VN -> Col. Paraíso Amatitlán
+74    R2_73      R2_74      1.793    Col. Paraíso Amatitlán -> Balneario Los Aposentos
+75    R2_74      R2_75      2.878    Balneario Los Aposentos -> Km 33 carretera Bárcenas
+76    R2_75      R2_76      0.774    Km 33 carretera Bárcenas -> Col. San Francisco Bárcenas
+77    R2_76      R2_77      1.708    Col. San Francisco Bárcenas -> Carretera antigua Bárcenas-C
+78    R2_77      R2_78      11.484   Carretera antigua Bárcenas-C -> Aldea Monte Bello Antigua
+79    R2_78      R2_79      0.896    Aldea Monte Bello Antigua -> Colegio Americano Antigua
+80    R2_79      R2_80      0.196    Colegio Americano Antigua -> Col. El Panorama Antigua
+81    R2_80      R2_81      0.155    Col. El Panorama Antigua -> Antigua 5ª Av. Sur
+82    R2_81      R2_82      0.371    Antigua 5ª Av. Sur -> Hospital Hermano Pedro
+83    R2_82      R2_83      0.155    Hospital Hermano Pedro -> IGSS Antigua
+84    R2_83      R2_84      0.163    IGSS Antigua -> Escuela Técnica Antigua
+85    R2_84      R2_85      6.242    Escuela Técnica Antigua -> Aldea Chijoj norte antigua
+86    R2_85      R2_86      0.875    Aldea Chijoj norte antigua -> Caserio Las Vegas Antigua
+87    R2_86      R2_87      0.633    Caserio Las Vegas Antigua -> Km 38 carretera sur
+88    R2_87      R2_88      1.966    Km 38 carretera sur -> Cruce Cuatro Caminos Antigua
+89    R2_88      R2_89      1.099    Cruce Cuatro Caminos Antigua -> Col. Linda Vista Antigua
+90    R2_89      R2_90      0.946    Col. Linda Vista Antigua -> Desvío San Cristóbal Antigua
+91    R2_90      R2_91      0.550    Desvío San Cristóbal Antigua -> Aldea El Naranjo Antigua
+92    R2_91      R2_92      0.698    Aldea El Naranjo Antigua -> Km 42 camino sur Antigua
+93    R2_92      R2_93      3.119    Km 42 camino sur Antigua -> Aldea Pensativo Antigua
+94    R2_93      R2_94      0.124    Aldea Pensativo Antigua -> Antigua 2ª Calle Oriente
+95    R2_94      R2_95      0.166    Antigua 2ª Calle Oriente -> Antigua Convento La Merced
+96    R2_95      R2_96      0.058    Antigua Convento La Merced -> Antigua Catedral ingreso
+97    R2_96      R2_97      0.054    Antigua Catedral ingreso -> Antigua 3ª Av. Norte
+98    R2_97      R2_98      0.371    Antigua 3ª Av. Norte -> Antigua 1ª Calle Poniente
+99    R2_98      R2_99      0.135    Antigua 1ª Calle Poniente -> UMG Antigua Guatemala
+100   R2_00      R2_03      1.468    Plaza Tigo Torre 3 -> Desvío Santa Catarina Pinula
+101   R2_08      R2_11      4.951    Zona 17 La Castañeda -> Boca del Monte ingreso
+102   R2_16      R2_19      3.328    Mayan Golf desvío -> Puente Río Villalobos
+103   R2_24      R2_27      0.843    Puente Amatitlán -> Amatitlán zona 3
+104   R2_32      R2_35      3.783    Villa Canales norte ingreso -> Carretera Bárcenas desvío
+105   R2_40      R2_43      2.897    Carretera RD-SAC-01 inicio -> Aldea San Cristóbal El Alto
+106   R2_48      R2_51      1.699    Aldea San Lorenzo El Cubo -> Col. Vista al Valle
+107   R2_56      R2_59      2.045    Aldea Santa María de Jesús S -> Santa Ana Antigua sur
+108   R2_64      R2_67      2.820    C. del Chajon / 3ª Calle -> Puente Ciudad Vieja-Antigua
+109   R2_72      R2_75      1.619    Aldea El Frutal VN -> Km 33 carretera Bárcenas
+110   R2_80      R2_83      0.503    Col. El Panorama Antigua -> IGSS Antigua
+111   R2_88      R2_91      1.024    Cruce Cuatro Caminos Antigua -> Aldea El Naranjo Antigua
+112   R2_96      R2_99      0.473    Antigua Catedral ingreso -> UMG Antigua Guatemala
+
+================================================================================
+RUTA 3: CA-9 Sur → Palin → Escuintla → RN-14 → Santa Maria de Jesus → Antigua
+================================================================================
+  Nodos totales   : 100
+  Aristas totales : 112
+  Distancia total : 296.75 km (suma secuencial)
+  Arista minima   : 0.057 km
+  Arista maxima   : 29.405 km
+  Arista promedio : 3.35 km
+  Origen          : Plaza Tigo Torre 3 (14.5722, -90.482)
+  Destino         : UMG Antigua Guatemala (14.5558, -90.734)
+
+--- NODOS (100 total) ---
+#     ID         Latitud      Longitud      Nombre
+------------------------------------------------------------------------------
+1     R3_00      14.57220     -90.48200     Plaza Tigo Torre 3
+2     R3_01      14.56500     -90.48400     Km 13.5 Carr. El Salvador
+3     R3_02      14.56000     -90.48700     Zona 25 ingreso
+4     R3_03      14.57000     -90.52000     Anillo Periférico zona 12
+5     R3_04      14.57500     -90.53500     Zona 12 Calzada Aguilar Batres
+6     R3_05      14.58200     -90.53000     Zona 13 sur aeropuerto
+7     R3_06      14.55000     -90.55000     Gasolinera Km 15 CA-9 Sur
+8     R3_07      14.54000     -90.55500     CA-9 Sur km 16 ingreso
+9     R3_08      14.52500     -90.56500     Villa Nueva CA-9 Sur
+10    R3_09      14.50800     -90.58000     Bárcenas - CA9 Sur cruce
+11    R3_10      14.49500     -90.59000     Km 22 CA-9 Sur
+12    R3_11      14.48500     -90.60000     Finca El Pilar acceso
+13    R3_12      14.47600     -90.62000     Amatitlán CA-9 cruce
+14    R3_13      14.46000     -90.65000     Km 30 CA-9 Sur
+15    R3_14      14.42500     -90.68500     Palín norte ingreso
+16    R3_15      14.40500     -90.69700     Palín centro
+17    R3_16      14.40300     -90.69800     Mercado de Palín
+18    R3_17      14.39800     -90.70000     Palín sur - autopista desvío
+19    R3_18      14.39000     -90.70500     Autopista Palín-Escuintla km 1
+20    R3_19      14.37000     -90.72000     Km 50 Autopista
+21    R3_20      14.34500     -90.73500     Km 55 área boscosa
+22    R3_21      14.31500     -90.77000     Escuintla norte ingreso
+23    R3_22      14.30500     -90.78000     Gasolinera Texaco Escuintla
+24    R3_23      14.30000     -90.78500     Escuintla centro
+25    R3_24      14.29800     -90.78600     Mercado Escuintla
+26    R3_25      14.29600     -90.78700     Escuintla zona 2
+27    R3_26      14.29500     -90.79000     Desvío RN-14 a Antigua
+28    R3_27      14.30500     -90.79500     RN-14 km 1 inicio subida
+29    R3_28      14.33500     -90.77200     RN-14 km 5 curva montaña
+30    R3_29      14.37000     -90.76000     RN-14 km 10 mirador
+31    R3_30      14.40500     -90.75000     RN-14 km 15
+32    R3_31      14.43000     -90.74200     Aldea El Cedro RN-14
+33    R3_32      14.45500     -90.73600     RN-14 km 20 pino
+34    R3_33      14.46000     -90.73100     Santa María de Jesús norte
+35    R3_34      14.47000     -90.72800     Santa María de Jesús centro
+36    R3_35      14.47200     -90.72700     Mercado Sta. María de Jesús
+37    R3_36      14.47500     -90.72650     Aldea Guadalupe SMJ
+38    R3_37      14.48000     -90.72900     RN-14 km 25 bajada
+39    R3_38      14.48500     -90.73000     Mirador Volcán Agua SMJ
+40    R3_39      14.48800     -90.73100     Aldea Eje Quemado SMJ
+41    R3_40      14.49300     -90.73200     Cruce Aldea La Pastora
+42    R3_41      14.50000     -90.73200     San Juan del Obispo norte
+43    R3_42      14.50600     -90.73400     San Juan del Obispo centro
+44    R3_43      14.50800     -90.73300     Aldea San Pedro Apóstol SJO
+45    R3_44      14.51200     -90.73300     Km 32 camino a Antigua
+46    R3_45      14.51800     -90.73200     Aldea El Hato SJO-Antigua
+47    R3_46      14.52300     -90.73100     Aldea San Cristóbal SJO
+48    R3_47      14.52800     -90.72800     Aldea San Pedro Las Huertas
+49    R3_48      14.52000     -90.72200     Ciudad Vieja oriente
+50    R3_49      14.52100     -90.72000     Ciudad Vieja centro
+51    R3_50      14.53000     -90.72400     Km 36 carretera a Antigua
+52    R3_51      14.53400     -90.72400     Aldea El Manchén
+53    R3_52      14.53700     -90.72400     Aldea El Calvario CV
+54    R3_53      14.54100     -90.72500     Aldea Chorro de Agua
+55    R3_54      14.53200     -90.71000     Cruce Alotenango desvío
+56    R3_55      14.52800     -90.70500     Alotenango acceso
+57    R3_56      14.54300     -90.72600     Km 39 carretera Antigua sur
+58    R3_57      14.54500     -90.73800     Santa Ana Antigua
+59    R3_58      14.54600     -90.73600     Col. Alameda Santa Ana
+60    R3_59      14.54800     -90.73400     Antigua zona 3
+61    R3_60      14.55100     -90.73350     Calle Ancha Herreros
+62    R3_61      14.55200     -90.73360     Antigua 7ª Av. Sur
+63    R3_62      14.56020     -90.73310     Antigua Plaza Mayor
+64    R3_63      14.55650     -90.73390     C. del Chajon Antigua
+65    R3_64      14.55580     -90.73400     UMG Antigua Guatemala
+66    R3_65      14.56500     -90.53000     Km 4 CA-9 Sur ingreso
+67    R3_66      14.54000     -90.54500     Puente Río Villalobos CA-9
+68    R3_67      14.44500     -90.66500     Km 25 CA-9 Sur peaje
+69    R3_68      14.42000     -90.67500     Km 35 CA-9 Sur bajada
+70    R3_69      14.35500     -90.72800     Km 43 autopista boscosa
+71    R3_70      14.29300     -90.79200     Escuintla zona 4 sur
+72    R3_71      14.31500     -90.79000     RN-14 km 3 primer curva
+73    R3_72      14.35500     -90.76500     RN-14 km 8 mirador SMJ
+74    R3_73      14.39000     -90.75500     RN-14 km 12 bosque nuboso
+75    R3_74      14.41800     -90.74600     RN-14 km 17 Los Pinos
+76    R3_75      14.44500     -90.73900     RN-14 km 22 mirador volcanes
+77    R3_76      14.46500     -90.72900     SMJ aldea El Pepinal
+78    R3_77      14.47200     -90.72950     SMJ zona baja
+79    R3_78      14.51400     -90.72500     Camino real SJO-CV
+80    R3_79      14.52100     -90.71800     Col. El Rosario CV
+81    R3_80      14.56200     -90.73100     Antigua zona 2 norte
+82    R3_81      14.56100     -90.73200     Gasolinera Shell Antigua
+83    R3_82      14.56000     -90.73250     Antigua Blvd. Principal
+84    R3_83      14.55960     -90.73320     Antigua Hotel Casa Santo Domingo
+85    R3_84      14.55920     -90.73370     Antigua Mercado de artesanías
+86    R3_85      14.55720     -90.73410     Antigua calle del Espíritu Santo
+87    R3_86      14.55670     -90.73400     Antigua 2ª Calle Poniente
+88    R3_87      14.29700     -90.78550     Escuintla Parque Central
+89    R3_88      14.29900     -90.78400     Escuintla zona 1 terminal
+90    R3_89      14.37800     -90.71400     Km 47 autopista Palín barranco
+91    R3_90      14.40400     -90.69750     Palín mercado artesanías
+92    R3_91      14.40100     -90.69900     Palín zona 2 salida
+93    R3_92      14.40700     -90.69600     Desvío Aldea El Sitio Palín
+94    R3_93      14.46800     -90.63400     Km 28 CA-9 curva Amatitlán
+95    R3_94      14.45300     -90.65800     Puente Madre Vieja
+96    R3_95      14.41200     -90.69300     Sector industrial Palín
+97    R3_96      14.40900     -90.69500     Colonia Santa Teresa Palín
+98    R3_97      14.31000     -90.77800     Aldea El Rodeo Escuintla
+99    R3_98      14.30500     -90.78700     Escuintla salida norte RN-14
+100   R3_99      14.55580     -90.73400     UMG Antigua Guatemala
+
+--- ARISTAS (112 total) ---
+#     Desde      Hasta      km       Desde (nombre) -> Hasta (nombre)
+------------------------------------------------------------------------------
+1     R3_00      R3_01      0.829    Plaza Tigo Torre 3 -> Km 13.5 Carr. El Salvador
+2     R3_01      R3_02      0.643    Km 13.5 Carr. El Salvador -> Zona 25 ingreso
+3     R3_02      R3_03      3.722    Zona 25 ingreso -> Anillo Periférico zona 12
+4     R3_03      R3_04      1.707    Anillo Periférico zona 12 -> Zona 12 Calzada Aguilar Batr
+5     R3_04      R3_05      0.946    Zona 12 Calzada Aguilar Batr -> Zona 13 sur aeropuerto
+6     R3_05      R3_06      4.159    Zona 13 sur aeropuerto -> Gasolinera Km 15 CA-9 Sur
+7     R3_06      R3_07      1.235    Gasolinera Km 15 CA-9 Sur -> CA-9 Sur km 16 ingreso
+8     R3_07      R3_08      1.985    CA-9 Sur km 16 ingreso -> Villa Nueva CA-9 Sur
+9     R3_08      R3_09      2.486    Villa Nueva CA-9 Sur -> Bárcenas - CA9 Sur cruce
+10    R3_09      R3_10      1.802    Bárcenas - CA9 Sur cruce -> Km 22 CA-9 Sur
+11    R3_10      R3_11      1.548    Km 22 CA-9 Sur -> Finca El Pilar acceso
+12    R3_11      R3_12      2.374    Finca El Pilar acceso -> Amatitlán CA-9 cruce
+13    R3_12      R3_13      3.688    Amatitlán CA-9 cruce -> Km 30 CA-9 Sur
+14    R3_13      R3_14      5.418    Km 30 CA-9 Sur -> Palín norte ingreso
+15    R3_14      R3_15      2.572    Palín norte ingreso -> Palín centro
+16    R3_15      R3_16      0.247    Palín centro -> Mercado de Palín
+17    R3_16      R3_17      0.596    Mercado de Palín -> Palín sur - autopista desvío
+18    R3_17      R3_18      1.040    Palín sur - autopista desvío -> Autopista Palín-Escuintla km
+19    R3_18      R3_19      2.749    Autopista Palín-Escuintla km -> Km 50 Autopista
+20    R3_19      R3_20      3.215    Km 50 Autopista -> Km 55 área boscosa
+21    R3_20      R3_21      5.035    Km 55 área boscosa -> Escuintla norte ingreso
+22    R3_21      R3_22      1.548    Escuintla norte ingreso -> Gasolinera Texaco Escuintla
+23    R3_22      R3_23      0.774    Gasolinera Texaco Escuintla -> Escuintla centro
+24    R3_23      R3_24      0.247    Escuintla centro -> Mercado Escuintla
+25    R3_24      R3_25      0.247    Mercado Escuintla -> Escuintla zona 2
+26    R3_25      R3_26      0.342    Escuintla zona 2 -> Desvío RN-14 a Antigua
+27    R3_26      R3_27      1.236    Desvío RN-14 a Antigua -> RN-14 km 1 inicio subida
+28    R3_27      R3_28      4.156    RN-14 km 1 inicio subida -> RN-14 km 5 curva montaña
+29    R3_28      R3_29      4.101    RN-14 km 5 curva montaña -> RN-14 km 10 mirador
+30    R3_29      R3_30      4.038    RN-14 km 10 mirador -> RN-14 km 15
+31    R3_30      R3_31      2.910    RN-14 km 15 -> Aldea El Cedro RN-14
+32    R3_31      R3_32      2.854    Aldea El Cedro RN-14 -> RN-14 km 20 pino
+33    R3_32      R3_33      0.774    RN-14 km 20 pino -> Santa María de Jesús norte
+34    R3_33      R3_34      1.158    Santa María de Jesús norte -> Santa María de Jesús centro
+35    R3_34      R3_35      0.247    Santa María de Jesús centro -> Mercado Sta. María de Jesús
+36    R3_35      R3_36      0.338    Mercado Sta. María de Jesús -> Aldea Guadalupe SMJ
+37    R3_36      R3_37      0.618    Aldea Guadalupe SMJ -> RN-14 km 25 bajada
+38    R3_37      R3_38      0.566    RN-14 km 25 bajada -> Mirador Volcán Agua SMJ
+39    R3_38      R3_39      0.351    Mirador Volcán Agua SMJ -> Aldea Eje Quemado SMJ
+40    R3_39      R3_40      0.566    Aldea Eje Quemado SMJ -> Cruce Aldea La Pastora
+41    R3_40      R3_41      0.778    Cruce Aldea La Pastora -> San Juan del Obispo norte
+42    R3_41      R3_42      0.701    San Juan del Obispo norte -> San Juan del Obispo centro
+43    R3_42      R3_43      0.247    San Juan del Obispo centro -> Aldea San Pedro Apóstol SJO
+44    R3_43      R3_44      0.445    Aldea San Pedro Apóstol SJO -> Km 32 camino a Antigua
+45    R3_44      R3_45      0.676    Km 32 camino a Antigua -> Aldea El Hato SJO-Antigua
+46    R3_45      R3_46      0.566    Aldea El Hato SJO-Antigua -> Aldea San Cristóbal SJO
+47    R3_46      R3_47      0.643    Aldea San Cristóbal SJO -> Aldea San Pedro Las Huertas
+48    R3_47      R3_48      1.099    Aldea San Pedro Las Huertas -> Ciudad Vieja oriente
+49    R3_48      R3_49      0.242    Ciudad Vieja oriente -> Ciudad Vieja centro
+50    R3_49      R3_50      1.089    Ciudad Vieja centro -> Km 36 carretera a Antigua
+51    R3_50      R3_51      0.445    Km 36 carretera a Antigua -> Aldea El Manchén
+52    R3_51      R3_52      0.334    Aldea El Manchén -> Aldea El Calvario CV
+53    R3_52      R3_53      0.458    Aldea El Calvario CV -> Aldea Chorro de Agua
+54    R3_53      R3_54      1.900    Aldea Chorro de Agua -> Cruce Alotenango desvío
+55    R3_54      R3_55      0.698    Cruce Alotenango desvío -> Alotenango acceso
+56    R3_55      R3_56      2.809    Alotenango acceso -> Km 39 carretera Antigua sur
+57    R3_56      R3_57      1.311    Km 39 carretera Antigua sur -> Santa Ana Antigua
+58    R3_57      R3_58      0.242    Santa Ana Antigua -> Col. Alameda Santa Ana
+59    R3_58      R3_59      0.310    Col. Alameda Santa Ana -> Antigua zona 3
+60    R3_59      R3_60      0.338    Antigua zona 3 -> Calle Ancha Herreros
+61    R3_60      R3_61      0.112    Calle Ancha Herreros -> Antigua 7ª Av. Sur
+62    R3_61      R3_62      0.913    Antigua 7ª Av. Sur -> Antigua Plaza Mayor
+63    R3_62      R3_63      0.420    Antigua Plaza Mayor -> C. del Chajon Antigua
+64    R3_63      R3_64      0.079    C. del Chajon Antigua -> UMG Antigua Guatemala
+65    R3_64      R3_65      21.979   UMG Antigua Guatemala -> Km 4 CA-9 Sur ingreso
+66    R3_65      R3_66      3.215    Km 4 CA-9 Sur ingreso -> Puente Río Villalobos CA-9
+67    R3_66      R3_67      16.688   Puente Río Villalobos CA-9 -> Km 25 CA-9 Sur peaje
+68    R3_67      R3_68      2.981    Km 25 CA-9 Sur peaje -> Km 35 CA-9 Sur bajada
+69    R3_68      R3_69      9.210    Km 35 CA-9 Sur bajada -> Km 43 autopista boscosa
+70    R3_69      R3_70      9.751    Km 43 autopista boscosa -> Escuintla zona 4 sur
+71    R3_70      R3_71      2.456    Escuintla zona 4 sur -> RN-14 km 3 primer curva
+72    R3_71      R3_72      5.200    RN-14 km 3 primer curva -> RN-14 km 8 mirador SMJ
+73    R3_72      R3_73      4.038    RN-14 km 8 mirador SMJ -> RN-14 km 12 bosque nuboso
+74    R3_73      R3_74      3.261    RN-14 km 12 bosque nuboso -> RN-14 km 17 Los Pinos
+75    R3_74      R3_75      3.095    RN-14 km 17 Los Pinos -> RN-14 km 22 mirador volcanes
+76    R3_75      R3_76      2.471    RN-14 km 22 mirador volcanes -> SMJ aldea El Pepinal
+77    R3_76      R3_77      0.780    SMJ aldea El Pepinal -> SMJ zona baja
+78    R3_77      R3_78      4.695    SMJ zona baja -> Camino real SJO-CV
+79    R3_78      R3_79      1.083    Camino real SJO-CV -> Col. El Rosario CV
+80    R3_79      R3_80      4.769    Col. El Rosario CV -> Antigua zona 2 norte
+81    R3_80      R3_81      0.155    Antigua zona 2 norte -> Gasolinera Shell Antigua
+82    R3_81      R3_82      0.124    Gasolinera Shell Antigua -> Antigua Blvd. Principal
+83    R3_82      R3_83      0.087    Antigua Blvd. Principal -> Antigua Hotel Casa Santo Dom
+84    R3_83      R3_84      0.070    Antigua Hotel Casa Santo Dom -> Antigua Mercado de artesanía
+85    R3_84      R3_85      0.227    Antigua Mercado de artesanía -> Antigua calle del Espíritu S
+86    R3_85      R3_86      0.057    Antigua calle del Espíritu S -> Antigua 2ª Calle Poniente
+87    R3_86      R3_87      29.405   Antigua 2ª Calle Poniente -> Escuintla Parque Central
+88    R3_87      R3_88      0.275    Escuintla Parque Central -> Escuintla zona 1 terminal
+89    R3_88      R3_89      11.577   Escuintla zona 1 terminal -> Km 47 autopista Palín barran
+90    R3_89      R3_90      3.394    Km 47 autopista Palín barran -> Palín mercado artesanías
+91    R3_90      R3_91      0.371    Palín mercado artesanías -> Palín zona 2 salida
+92    R3_91      R3_92      0.741    Palín zona 2 salida -> Desvío Aldea El Sitio Palín
+93    R3_92      R3_93      9.517    Desvío Aldea El Sitio Palín -> Km 28 CA-9 curva Amatitlán
+94    R3_93      R3_94      3.076    Km 28 CA-9 curva Amatitlán -> Puente Madre Vieja
+95    R3_94      R3_95      5.915    Puente Madre Vieja -> Sector industrial Palín
+96    R3_95      R3_96      0.397    Sector industrial Palín -> Colonia Santa Teresa Palín
+97    R3_96      R3_97      14.182   Colonia Santa Teresa Palín -> Aldea El Rodeo Escuintla
+98    R3_97      R3_98      1.118    Aldea El Rodeo Escuintla -> Escuintla salida norte RN-14
+99    R3_98      R3_99      28.466   Escuintla salida norte RN-14 -> UMG Antigua Guatemala
+100   R3_00      R3_03      4.097    Plaza Tigo Torre 3 -> Anillo Periférico zona 12
+101   R3_08      R3_11      5.829    Villa Nueva CA-9 Sur -> Finca El Pilar acceso
+102   R3_16      R3_19      4.368    Mercado de Palín -> Km 50 Autopista
+103   R3_24      R3_27      1.243    Mercado Escuintla -> RN-14 km 1 inicio subida
+104   R3_32      R3_35      2.124    RN-14 km 20 pino -> Mercado Sta. María de Jesús
+105   R3_40      R3_43      1.671    Cruce Aldea La Pastora -> Aldea San Pedro Apóstol SJO
+106   R3_48      R3_51      1.572    Ciudad Vieja oriente -> Aldea El Manchén
+107   R3_56      R3_59      1.025    Km 39 carretera Antigua sur -> Antigua zona 3
+108   R3_64      R3_67      14.386   UMG Antigua Guatemala -> Km 25 CA-9 Sur peaje
+109   R3_72      R3_75      10.392   RN-14 km 8 mirador SMJ -> RN-14 km 22 mirador volcanes
+110   R3_80      R3_83      0.357    Antigua zona 2 norte -> Antigua Hotel Casa Santo Dom
+111   R3_88      R3_91      14.577   Escuintla zona 1 terminal -> Palín zona 2 salida
+112   R3_96      R3_99      16.855   Colonia Santa Teresa Palín -> UMG Antigua Guatemala
+
+================================================================================
+RUTA 4: Vista Hermosa → El Panorama → Santiago Sacatepequez → Sumpango → Antigua
+================================================================================
+  Nodos totales   : 100
+  Aristas totales : 112
+  Distancia total : 121.55 km (suma secuencial)
+  Arista minima   : 0.046 km
+  Arista maxima   : 27.307 km
+  Arista promedio : 1.407 km
+  Origen          : Plaza Tigo Torre 3 (14.5722, -90.482)
+  Destino         : UMG Antigua Guatemala (14.5558, -90.734)
+
+--- NODOS (100 total) ---
+#     ID         Latitud      Longitud      Nombre
+------------------------------------------------------------------------------
+1     R4_00      14.57220     -90.48200     Plaza Tigo Torre 3
+2     R4_01      14.57700     -90.48500     Km 9 desvío norte z.15
+3     R4_02      14.58300     -90.49400     Col. Vista Hermosa z.15 norte
+4     R4_03      14.58800     -90.50100     Blvd. Vista Hermosa norte
+5     R4_04      14.59200     -90.50600     Zona 15 Col. Eureka
+6     R4_05      14.59600     -90.51200     Zona 10 ingreso av.reforma
+7     R4_06      14.59900     -90.51600     Av. Reforma y 20 calle
+8     R4_07      14.60200     -90.51900     Zona 10 CC Oakland
+9     R4_08      14.60500     -90.52100     Blvd. Los Próceres norte
+10    R4_09      14.60800     -90.52300     Zona 14 av. Las Américas
+11    R4_10      14.58700     -90.52800     Zona 13 IRTRA acceso
+12    R4_11      14.61300     -90.52000     Zona 9 Torre del Reformador
+13    R4_12      14.63800     -90.51900     Centro Cívico z.4
+14    R4_13      14.64000     -90.52100     Ministerios z.1 sur
+15    R4_14      14.64300     -90.52500     Anillo Periférico norte
+16    R4_15      14.64400     -90.53800     Calzada San Juan norte
+17    R4_16      14.64500     -90.54900     Zona 7 El Gallito norte
+18    R4_17      14.64300     -90.56000     Mixco km 12 acceso
+19    R4_18      14.64200     -90.56800     Col. Primero de Julio Mixco
+20    R4_19      14.64400     -90.58500     San Cristóbal Mixco km 15
+21    R4_20      14.64450     -90.59500     Gasolinera UNO Km 16 Mixco
+22    R4_21      14.64400     -90.60500     Puente La Democracia Mixco
+23    R4_22      14.64300     -90.61300     El Panorama km 17
+24    R4_23      14.64200     -90.62000     Desvío El Panorama-RN14
+25    R4_24      14.64000     -90.62800     Col. Planes de Bello Horizonte
+26    R4_25      14.63800     -90.63600     Finca San Isidro camino
+27    R4_26      14.63600     -90.64400     Aldea El Potrero Sacatepéquez
+28    R4_27      14.63800     -90.66000     Santiago Sacatepéquez sur
+29    R4_28      14.64000     -90.66800     Santiago Sacatepéquez centro
+30    R4_29      14.64200     -90.67200     Mercado Santiago S.
+31    R4_30      14.64300     -90.67800     Santiago S. salida oeste
+32    R4_31      14.64200     -90.68700     Km 29 camino a Sumpango
+33    R4_32      14.64100     -90.69500     Aldea El Rejón norte
+34    R4_33      14.64000     -90.70500     Sumpango norte acceso
+35    R4_34      14.63800     -90.73600     Sumpango mercado
+36    R4_35      14.63700     -90.73900     Sumpango centro parque
+37    R4_36      14.63500     -90.74200     Sumpango zona 2
+38    R4_37      14.63000     -90.74400     Sumpango sur desvío
+39    R4_38      14.62500     -90.74300     Aldea El Rejón sur
+40    R4_39      14.62000     -90.74200     Km 34 camino bajada a Antigua
+41    R4_40      14.61300     -90.74000     Aldea El Tablón Sacatepéquez
+42    R4_41      14.60600     -90.73800     Aldea Los Pinos Sacatepéquez
+43    R4_42      14.59800     -90.73600     San Bartolomé Milpas Altas
+44    R4_43      14.59200     -90.73500     Aldea Concepción Milpas Altas
+45    R4_44      14.58600     -90.73400     Aldea San Antonio M.A.
+46    R4_45      14.58000     -90.73600     Jocotenango norte
+47    R4_46      14.57500     -90.73700     Jocotenango centro
+48    R4_47      14.57100     -90.73700     Jocotenango sur / ingreso
+49    R4_48      14.57000     -90.73400     Antigua ingreso norte
+50    R4_49      14.56800     -90.73450     Antigua 1ª Av. Norte
+51    R4_50      14.56020     -90.73310     Antigua Parque Central
+52    R4_51      14.55650     -90.73390     C. del Chajon Antigua
+53    R4_52      14.55580     -90.73400     UMG Antigua Guatemala
+54    R4_53      14.57450     -90.48100     Gasolinera z.15 km 8.5
+55    R4_54      14.58000     -90.48700     Col. Residenciales z.15
+56    R4_55      14.58500     -90.49200     Zona 16 Santa Rosita norte
+57    R4_56      14.58700     -90.49600     CC Plaza Mayor z.16
+58    R4_57      14.61000     -90.52000     Gasolinera Shell z.14
+59    R4_58      14.60700     -90.52400     Torre Murano z.10
+60    R4_59      14.60300     -90.52600     Zona 10 Hotel Princess
+61    R4_60      14.61000     -90.51900     Zona 9 Centro Médico
+62    R4_61      14.64200     -90.51300     Zona 1 Palacio Nacional
+63    R4_62      14.64500     -90.50900     Zona 2 Mercado Norte
+64    R4_63      14.64600     -90.54300     Calzada San Juan km 2
+65    R4_64      14.64400     -90.55500     Zona 7 Col. Monte Verde
+66    R4_65      14.64300     -90.56500     Mixco km 13 gasolinera
+67    R4_66      14.64400     -90.57600     Aldea El Naranjito Mixco
+68    R4_67      14.64420     -90.59000     Col. San José Mixco
+69    R4_68      14.64350     -90.60000     El Panorama km 18
+70    R4_69      14.64250     -90.61000     Aldea Cruz Blanca
+71    R4_70      14.63950     -90.63200     Km 30 desvío San Marcos
+72    R4_71      14.63700     -90.65100     Aldea La Embaulada Sacatepéquez
+73    R4_72      14.63900     -90.66500     Santiago S. zona 1
+74    R4_73      14.64000     -90.67000     Gasolinera Santiago Sac.
+75    R4_74      14.63950     -90.71000     Sumpango aldea norte
+76    R4_75      14.63850     -90.72000     Sumpango gasolinera
+77    R4_76      14.63750     -90.73000     Sumpango barrio El Calvario
+78    R4_77      14.62800     -90.74350     Bajada Sumpango km 36
+79    R4_78      14.62200     -90.74250     Km 37 camino Antigua
+80    R4_79      14.61500     -90.74100     Aldea El Calvario Sac.
+81    R4_80      14.60900     -90.73950     Km 38 bajada norte Antigua
+82    R4_81      14.60200     -90.73750     Aldea San Felipe Neri
+83    R4_82      14.59600     -90.73550     SBM zona 2
+84    R4_83      14.59300     -90.73480     SBM mercado
+85    R4_84      14.58900     -90.73420     Aldea San Marcos A. M.A.
+86    R4_85      14.58200     -90.73500     Km 40 bajada final
+87    R4_86      14.57600     -90.73450     Aldea San Felipe Antigua
+88    R4_87      14.57300     -90.73650     Jocotenango iglesia
+89    R4_88      14.57150     -90.73700     Jocotenango Blvd. principal
+90    R4_89      14.56950     -90.73420     Antigua norte km 42
+91    R4_90      14.56850     -90.73440     Antigua calle de los Pasos
+92    R4_91      14.56400     -90.73400     Antigua 1ª Calle Poniente
+93    R4_92      14.56200     -90.73380     Antigua Convento Capuchinas
+94    R4_93      14.56100     -90.73350     Antigua zona 1 norte
+95    R4_94      14.56050     -90.73330     Antigua Casa del Tejido
+96    R4_95      14.56020     -90.73300     Antigua Portal del Comercio
+97    R4_96      14.55850     -90.73320     Antigua zona 1 sur
+98    R4_97      14.55750     -90.73370     Antigua Escuela de Cristo
+99    R4_98      14.55680     -90.73400     Antigua 4ª Av. Sur
+100   R4_99      14.55580     -90.73400     UMG Antigua Guatemala
+
+--- ARISTAS (112 total) ---
+#     Desde      Hasta      km       Desde (nombre) -> Hasta (nombre)
+------------------------------------------------------------------------------
+1     R4_00      R4_01      0.624    Plaza Tigo Torre 3 -> Km 9 desvío norte z.15
+2     R4_01      R4_02      1.176    Km 9 desvío norte z.15 -> Col. Vista Hermosa z.15 nort
+3     R4_02      R4_03      0.936    Col. Vista Hermosa z.15 nort -> Blvd. Vista Hermosa norte
+4     R4_03      R4_04      0.698    Blvd. Vista Hermosa norte -> Zona 15 Col. Eureka
+5     R4_04      R4_05      0.784    Zona 15 Col. Eureka -> Zona 10 ingreso av.reforma
+6     R4_05      R4_06      0.545    Zona 10 ingreso av.reforma -> Av. Reforma y 20 calle
+7     R4_06      R4_07      0.464    Av. Reforma y 20 calle -> Zona 10 CC Oakland
+8     R4_07      R4_08      0.397    Zona 10 CC Oakland -> Blvd. Los Próceres norte
+9     R4_08      R4_09      0.397    Blvd. Los Próceres norte -> Zona 14 av. Las Américas
+10    R4_09      R4_10      2.396    Zona 14 av. Las Américas -> Zona 13 IRTRA acceso
+11    R4_10      R4_11      3.017    Zona 13 IRTRA acceso -> Zona 9 Torre del Reformador
+12    R4_11      R4_12      2.782    Zona 9 Torre del Reformador -> Centro Cívico z.4
+13    R4_12      R4_13      0.309    Centro Cívico z.4 -> Ministerios z.1 sur
+14    R4_13      R4_14      0.544    Ministerios z.1 sur -> Anillo Periférico norte
+15    R4_14      R4_15      1.403    Anillo Periférico norte -> Calzada San Juan norte
+16    R4_15      R4_16      1.189    Calzada San Juan norte -> Zona 7 El Gallito norte
+17    R4_16      R4_17      1.204    Zona 7 El Gallito norte -> Mixco km 12 acceso
+18    R4_17      R4_18      0.868    Mixco km 12 acceso -> Col. Primero de Julio Mixco
+19    R4_18      R4_19      1.842    Col. Primero de Julio Mixco -> San Cristóbal Mixco km 15
+20    R4_19      R4_20      1.077    San Cristóbal Mixco km 15 -> Gasolinera UNO Km 16 Mixco
+21    R4_20      R4_21      1.077    Gasolinera UNO Km 16 Mixco -> Puente La Democracia Mixco
+22    R4_21      R4_22      0.868    Puente La Democracia Mixco -> El Panorama km 17
+23    R4_22      R4_23      0.761    El Panorama km 17 -> Desvío El Panorama-RN14
+24    R4_23      R4_24      0.889    Desvío El Panorama-RN14 -> Col. Planes de Bello Horizon
+25    R4_24      R4_25      0.889    Col. Planes de Bello Horizon -> Finca San Isidro camino
+26    R4_25      R4_26      0.889    Finca San Isidro camino -> Aldea El Potrero Sacatepéque
+27    R4_26      R4_27      1.736    Aldea El Potrero Sacatepéque -> Santiago Sacatepéquez sur
+28    R4_27      R4_28      0.889    Santiago Sacatepéquez sur -> Santiago Sacatepéquez centro
+29    R4_28      R4_29      0.484    Santiago Sacatepéquez centro -> Mercado Santiago S.
+30    R4_29      R4_30      0.655    Mercado Santiago S. -> Santiago S. salida oeste
+31    R4_30      R4_31      0.975    Santiago S. salida oeste -> Km 29 camino a Sumpango
+32    R4_31      R4_32      0.868    Km 29 camino a Sumpango -> Aldea El Rejón norte
+33    R4_32      R4_33      1.082    Aldea El Rejón norte -> Sumpango norte acceso
+34    R4_33      R4_34      3.343    Sumpango norte acceso -> Sumpango mercado
+35    R4_34      R4_35      0.341    Sumpango mercado -> Sumpango centro parque
+36    R4_35      R4_36      0.392    Sumpango centro parque -> Sumpango zona 2
+37    R4_36      R4_37      0.596    Sumpango zona 2 -> Sumpango sur desvío
+38    R4_37      R4_38      0.566    Sumpango sur desvío -> Aldea El Rejón sur
+39    R4_38      R4_39      0.566    Aldea El Rejón sur -> Km 34 camino bajada a Antigu
+40    R4_39      R4_40      0.808    Km 34 camino bajada a Antigu -> Aldea El Tablón Sacatepéquez
+41    R4_40      R4_41      0.808    Aldea El Tablón Sacatepéquez -> Aldea Los Pinos Sacatepéquez
+42    R4_41      R4_42      0.915    Aldea Los Pinos Sacatepéquez -> San Bartolomé Milpas Altas
+43    R4_42      R4_43      0.676    San Bartolomé Milpas Altas -> Aldea Concepción Milpas Alta
+44    R4_43      R4_44      0.676    Aldea Concepción Milpas Alta -> Aldea San Antonio M.A.
+45    R4_44      R4_45      0.701    Aldea San Antonio M.A. -> Jocotenango norte
+46    R4_45      R4_46      0.566    Jocotenango norte -> Jocotenango centro
+47    R4_46      R4_47      0.445    Jocotenango centro -> Jocotenango sur / ingreso
+48    R4_47      R4_48      0.341    Jocotenango sur / ingreso -> Antigua ingreso norte
+49    R4_48      R4_49      0.229    Antigua ingreso norte -> Antigua 1ª Av. Norte
+50    R4_49      R4_50      0.880    Antigua 1ª Av. Norte -> Antigua Parque Central
+51    R4_50      R4_51      0.420    Antigua Parque Central -> C. del Chajon Antigua
+52    R4_51      R4_52      0.079    C. del Chajon Antigua -> UMG Antigua Guatemala
+53    R4_52      R4_53      27.307   UMG Antigua Guatemala -> Gasolinera z.15 km 8.5
+54    R4_53      R4_54      0.889    Gasolinera z.15 km 8.5 -> Col. Residenciales z.15
+55    R4_54      R4_55      0.774    Col. Residenciales z.15 -> Zona 16 Santa Rosita norte
+56    R4_55      R4_56      0.484    Zona 16 Santa Rosita norte -> CC Plaza Mayor z.16
+57    R4_56      R4_57      3.635    CC Plaza Mayor z.16 -> Gasolinera Shell z.14
+58    R4_57      R4_58      0.545    Gasolinera Shell z.14 -> Torre Murano z.10
+59    R4_58      R4_59      0.494    Torre Murano z.10 -> Zona 10 Hotel Princess
+60    R4_59      R4_60      1.083    Zona 10 Hotel Princess -> Zona 9 Centro Médico
+61    R4_60      R4_61      3.616    Zona 9 Centro Médico -> Zona 1 Palacio Nacional
+62    R4_61      R4_62      0.544    Zona 1 Palacio Nacional -> Zona 2 Mercado Norte
+63    R4_62      R4_63      3.659    Zona 2 Mercado Norte -> Calzada San Juan km 2
+64    R4_63      R4_64      1.310    Calzada San Juan km 2 -> Zona 7 Col. Monte Verde
+65    R4_64      R4_65      1.082    Zona 7 Col. Monte Verde -> Mixco km 13 gasolinera
+66    R4_65      R4_66      1.189    Mixco km 13 gasolinera -> Aldea El Naranjito Mixco
+67    R4_66      R4_67      1.506    Aldea El Naranjito Mixco -> Col. San José Mixco
+68    R4_67      R4_68      1.079    Col. San José Mixco -> El Panorama km 18
+69    R4_68      R4_69      1.082    El Panorama km 18 -> Aldea Cruz Blanca
+70    R4_69      R4_70      2.390    Aldea Cruz Blanca -> Km 30 desvío San Marcos
+71    R4_70      R4_71      2.063    Km 30 desvío San Marcos -> Aldea La Embaulada Sacatepéq
+72    R4_71      R4_72      1.523    Aldea La Embaulada Sacatepéq -> Santiago S. zona 1
+73    R4_72      R4_73      0.549    Santiago S. zona 1 -> Gasolinera Santiago Sac.
+74    R4_73      R4_74      4.304    Gasolinera Santiago Sac. -> Sumpango aldea norte
+75    R4_74      R4_75      1.082    Sumpango aldea norte -> Sumpango gasolinera
+76    R4_75      R4_76      1.082    Sumpango gasolinera -> Sumpango barrio El Calvario
+77    R4_76      R4_77      1.796    Sumpango barrio El Calvario -> Bajada Sumpango km 36
+78    R4_77      R4_78      0.676    Bajada Sumpango km 36 -> Km 37 camino Antigua
+79    R4_78      R4_79      0.795    Km 37 camino Antigua -> Aldea El Calvario Sac.
+80    R4_79      R4_80      0.686    Aldea El Calvario Sac. -> Km 38 bajada norte Antigua
+81    R4_80      R4_81      0.808    Km 38 bajada norte Antigua -> Aldea San Felipe Neri
+82    R4_81      R4_82      0.701    Aldea San Felipe Neri -> SBM zona 2
+83    R4_82      R4_83      0.342    SBM zona 2 -> SBM mercado
+84    R4_83      R4_84      0.449    SBM mercado -> Aldea San Marcos A. M.A.
+85    R4_84      R4_85      0.783    Aldea San Marcos A. M.A. -> Km 40 bajada final
+86    R4_85      R4_86      0.669    Km 40 bajada final -> Aldea San Felipe Antigua
+87    R4_86      R4_87      0.397    Aldea San Felipe Antigua -> Jocotenango iglesia
+88    R4_87      R4_88      0.175    Jocotenango iglesia -> Jocotenango Blvd. principal
+89    R4_88      R4_89      0.375    Jocotenango Blvd. principal -> Antigua norte km 42
+90    R4_89      R4_90      0.113    Antigua norte km 42 -> Antigua calle de los Pasos
+91    R4_90      R4_91      0.502    Antigua calle de los Pasos -> Antigua 1ª Calle Poniente
+92    R4_91      R4_92      0.223    Antigua 1ª Calle Poniente -> Antigua Convento Capuchinas
+93    R4_92      R4_93      0.116    Antigua Convento Capuchinas -> Antigua zona 1 norte
+94    R4_93      R4_94      0.060    Antigua zona 1 norte -> Antigua Casa del Tejido
+95    R4_94      R4_95      0.046    Antigua Casa del Tejido -> Antigua Portal del Comercio
+96    R4_95      R4_96      0.190    Antigua Portal del Comercio -> Antigua zona 1 sur
+97    R4_96      R4_97      0.124    Antigua zona 1 sur -> Antigua Escuela de Cristo
+98    R4_97      R4_98      0.084    Antigua Escuela de Cristo -> Antigua 4ª Av. Sur
+99    R4_98      R4_99      0.111    Antigua 4ª Av. Sur -> UMG Antigua Guatemala
+100   R4_00      R4_03      2.696    Plaza Tigo Torre 3 -> Blvd. Vista Hermosa norte
+101   R4_08      R4_11      0.896    Blvd. Los Próceres norte -> Zona 9 Torre del Reformador
+102   R4_16      R4_19      3.875    Zona 7 El Gallito norte -> San Cristóbal Mixco km 15
+103   R4_24      R4_27      3.450    Col. Planes de Bello Horizon -> Santiago Sacatepéquez sur
+104   R4_32      R4_35      4.755    Aldea El Rejón norte -> Sumpango centro parque
+105   R4_40      R4_43      2.396    Aldea El Tablón Sacatepéquez -> Aldea Concepción Milpas Alta
+106   R4_48      R4_51      1.501    Antigua ingreso norte -> C. del Chajon Antigua
+107   R4_56      R4_59      3.686    CC Plaza Mayor z.16 -> Zona 10 Hotel Princess
+108   R4_64      R4_67      3.765    Zona 7 Col. Monte Verde -> Col. San José Mixco
+109   R4_72      R4_75      5.917    Santiago S. zona 1 -> Sumpango gasolinera
+110   R4_80      R4_83      1.850    Km 38 bajada norte Antigua -> SBM mercado
+111   R4_88      R4_91      0.894    Jocotenango Blvd. principal -> Antigua 1ª Calle Poniente
+112   R4_96      R4_99      0.312    Antigua zona 1 sur -> UMG Antigua Guatemala
+
+================================================================================
+RUTA 5: Roosevelt → Mixco → Santiago → Sumpango → Chimaltenango → Jocotenango → Antigua
+================================================================================
+  Nodos totales   : 100
+  Aristas totales : 112
+  Distancia total : 123.39 km (suma secuencial)
+  Arista minima   : 0.079 km
+  Arista maxima   : 25.85 km
+  Arista promedio : 1.572 km
+  Origen          : Plaza Tigo Torre 3 (14.5722, -90.482)
+  Destino         : UMG Antigua Guatemala (14.5558, -90.734)
+
+--- NODOS (100 total) ---
+#     ID         Latitud      Longitud      Nombre
+------------------------------------------------------------------------------
+1     R5_00      14.57220     -90.48200     Plaza Tigo Torre 3
+2     R5_01      14.57300     -90.48480     Paso desnivel Km 9.5
+3     R5_02      14.57600     -90.49000     Zona 16 acceso norte
+4     R5_03      14.58000     -90.50000     Blvd. Vista Hermosa este
+5     R5_04      14.59000     -90.51000     Zona 10 Blvd. Acueducto
+6     R5_05      14.59400     -90.51500     Zona 10 CC Galerias
+7     R5_06      14.60000     -90.51700     Zona 9 Blvd. Liberación
+8     R5_07      14.62000     -90.51000     Zona 4 Cuatro Grados Norte
+9     R5_08      14.63400     -90.54500     Calzada Roosevelt km 5
+10    R5_09      14.63500     -90.55300     Roosevelt km 7 gasolinera
+11    R5_10      14.63600     -90.56300     Roosevelt km 10
+12    R5_11      14.63700     -90.57100     Mixco km 12 puente
+13    R5_12      14.63800     -90.57900     Mixco km 13 mercado
+14    R5_13      14.63850     -90.58600     Col. Lomas de Portugal Mixco
+15    R5_14      14.63900     -90.59300     Col. El Mirador Mixco
+16    R5_15      14.63950     -90.60000     Mixco km 15 gasolinera
+17    R5_16      14.63950     -90.60600     Puente Mixco-Sacatepéquez km16
+18    R5_17      14.63900     -90.61200     Desvío Col. Monte Verde km 17
+19    R5_18      14.63820     -90.61900     El Panorama km 17.5
+20    R5_19      14.63700     -90.62600     Aldea Cruz Blanca Mixco
+21    R5_20      14.63600     -90.63300     Km 19 CA-1 Occidente
+22    R5_21      14.63450     -90.64000     Km 20 CA-1 El Rejón
+23    R5_22      14.63100     -90.65000     San Lucas Sacatepéquez km 23
+24    R5_23      14.62800     -90.65700     San Lucas S. gasolinera
+25    R5_24      14.62500     -90.66400     San Lucas S. mercado
+26    R5_25      14.62150     -90.67100     San Lucas S. centro
+27    R5_26      14.63600     -90.67700     Km 26 CA-1 desvío norte
+28    R5_27      14.64200     -90.68200     Santiago Sacatepéquez norte
+29    R5_28      14.64400     -90.68700     Santiago S. iglesia
+30    R5_29      14.64500     -90.69200     Santiago S. mercado
+31    R5_30      14.64400     -90.69800     Santiago S. zona 3 sur
+32    R5_31      14.64300     -90.70500     Km 30 camino Sumpango
+33    R5_32      14.64100     -90.71200     Sumpango acceso km 31
+34    R5_33      14.64000     -90.72000     Sumpango norte
+35    R5_34      14.63800     -90.73600     Sumpango centro
+36    R5_35      14.63700     -90.74300     Sumpango sur mercado
+37    R5_36      14.64800     -90.75000     Km 35 camino Chimaltenango
+38    R5_37      14.65700     -90.74400     Km 40 CA-1 Chimaltenango
+39    R5_38      14.66000     -90.74200     Chimaltenango desvío Antigua
+40    R5_39      14.65600     -90.74300     Km 42 camino sur a Antigua
+41    R5_40      14.63200     -90.74400     Aldea Pastores sur
+42    R5_41      14.62500     -90.74400     Pastores centro
+43    R5_42      14.61700     -90.74200     Pastores zona 2 baja
+44    R5_43      14.60900     -90.73950     Km 40 bajada Antigua norte
+45    R5_44      14.60100     -90.73700     San Bartolomé M.A. bajada
+46    R5_45      14.59400     -90.73600     Aldea El Calvario M.A.
+47    R5_46      14.58800     -90.73500     Aldea Concepción M.A.
+48    R5_47      14.58200     -90.73450     Aldea San Felipe Neri noreste
+49    R5_48      14.57600     -90.73580     Jocotenango norte acceso
+50    R5_49      14.57300     -90.73650     Jocotenango iglesia parroquia
+51    R5_50      14.57100     -90.73700     Jocotenango centro mercado
+52    R5_51      14.57000     -90.73600     Jocotenango sur
+53    R5_52      14.57000     -90.73400     Antigua km 42 norte
+54    R5_53      14.56900     -90.73420     Antigua Col. San Felipe
+55    R5_54      14.56800     -90.73450     Antigua 1ª Av. Norte
+56    R5_55      14.56020     -90.73310     Antigua zona 1 parque
+57    R5_56      14.55650     -90.73390     Antigua C. del Chajon
+58    R5_57      14.55580     -90.73400     UMG Antigua Guatemala
+59    R5_58      14.57900     -90.49500     Zona 16 Col. El Bosque
+60    R5_59      14.58800     -90.50800     Av. Reforma sur z.10
+61    R5_60      14.60600     -90.51950     Zona 9 Edificio Reforma
+62    R5_61      14.64300     -90.51400     Zona 1 Mercado Central
+63    R5_62      14.64700     -90.50900     Zona 6 z.norte col. Atlántida
+64    R5_63      14.63400     -90.55000     Calzada Roosevelt km 6
+65    R5_64      14.63880     -90.58200     Mixco Col. Lomas km 14
+66    R5_65      14.63930     -90.59700     Mixco residenciales km 15.5
+67    R5_66      14.63760     -90.61500     El Panorama vista norte
+68    R5_67      14.63520     -90.64600     CA-1 Km 21 bosque
+69    R5_68      14.62400     -90.66800     San Lucas zona 2
+70    R5_69      14.61800     -90.67300     San Lucas sur acceso RN-10
+71    R5_70      14.63900     -90.70000     Desvío Santiago-Sumpango
+72    R5_71      14.64080     -90.71500     Sumpango barrio norte
+73    R5_72      14.63950     -90.72800     Sumpango barrio central
+74    R5_73      14.63780     -90.74000     Sumpango zona comercial
+75    R5_74      14.64500     -90.74600     Km 34 camino a Pastores
+76    R5_75      14.64000     -90.74500     Pastores norte km 35
+77    R5_76      14.63400     -90.74450     Pastores gasolinera
+78    R5_77      14.62700     -90.74400     Pastores zona sur
+79    R5_78      14.62000     -90.74300     Col. Monte Bello Pastores
+80    R5_79      14.61200     -90.74100     Km 38 bajada noreste
+81    R5_80      14.60500     -90.73850     SBM norte km 39
+82    R5_81      14.59900     -90.73650     SBM centro km 40
+83    R5_82      14.59300     -90.73550     Aldea San José Milpas Altas
+84    R5_83      14.58700     -90.73470     Aldea San Miguel M.A.
+85    R5_84      14.58100     -90.73430     Km 41 curva Antigua
+86    R5_85      14.57600     -90.73400     Antigua ingreso norte km 42
+87    R5_86      14.57200     -90.73400     Antigua Blvd. Primer Orden
+88    R5_87      14.56800     -90.73420     Antigua zona 1 calle larga
+89    R5_88      14.56500     -90.73380     Antigua 2ª Calle Poniente N.
+90    R5_89      14.56200     -90.73380     Antigua Convento Capuchinas
+91    R5_90      14.56020     -90.73310     Antigua zona 1 Plaza
+92    R5_91      14.55850     -90.73280     Antigua 3ª Calle Oriente
+93    R5_92      14.55750     -90.73360     Antigua 5ª Calle Poniente
+94    R5_93      14.55670     -90.73390     Antigua callejón del Estudio
+95    R5_94      14.55600     -90.73420     USAC Antigua acceso
+96    R5_95      14.55500     -90.73500     Hospital Hermano Pedro
+97    R5_96      14.55580     -90.73550     IGSS Antigua zona sur
+98    R5_97      14.55920     -90.73370     Antigua mercado de artesanías
+99    R5_98      14.55700     -90.73420     Antigua 3ª Calle Poniente
+100   R5_99      14.55580     -90.73400     UMG Antigua Guatemala
+
+--- ARISTAS (112 total) ---
+#     Desde      Hasta      km       Desde (nombre) -> Hasta (nombre)
+------------------------------------------------------------------------------
+1     R5_00      R5_01      0.314    Plaza Tigo Torre 3 -> Paso desnivel Km 9.5
+2     R5_01      R5_02      0.651    Paso desnivel Km 9.5 -> Zona 16 acceso norte
+3     R5_02      R5_03      1.164    Zona 16 acceso norte -> Blvd. Vista Hermosa este
+4     R5_03      R5_04      1.547    Blvd. Vista Hermosa este -> Zona 10 Blvd. Acueducto
+5     R5_04      R5_05      0.698    Zona 10 Blvd. Acueducto -> Zona 10 CC Galerias
+6     R5_05      R5_06      0.701    Zona 10 CC Galerias -> Zona 9 Blvd. Liberación
+7     R5_06      R5_07      2.348    Zona 9 Blvd. Liberación -> Zona 4 Cuatro Grados Norte
+8     R5_07      R5_08      4.075    Zona 4 Cuatro Grados Norte -> Calzada Roosevelt km 5
+9     R5_08      R5_09      0.868    Calzada Roosevelt km 5 -> Roosevelt km 7 gasolinera
+10    R5_09      R5_10      1.082    Roosevelt km 7 gasolinera -> Roosevelt km 10
+11    R5_10      R5_11      0.868    Roosevelt km 10 -> Mixco km 12 puente
+12    R5_11      R5_12      0.868    Mixco km 12 puente -> Mixco km 13 mercado
+13    R5_12      R5_13      0.755    Mixco km 13 mercado -> Col. Lomas de Portugal Mixco
+14    R5_13      R5_14      0.755    Col. Lomas de Portugal Mixco -> Col. El Mirador Mixco
+15    R5_14      R5_15      0.755    Col. El Mirador Mixco -> Mixco km 15 gasolinera
+16    R5_15      R5_16      0.646    Mixco km 15 gasolinera -> Puente Mixco-Sacatepéquez km
+17    R5_16      R5_17      0.648    Puente Mixco-Sacatepéquez km -> Desvío Col. Monte Verde km 1
+18    R5_17      R5_18      0.758    Desvío Col. Monte Verde km 1 -> El Panorama km 17.5
+19    R5_18      R5_19      0.765    El Panorama km 17.5 -> Aldea Cruz Blanca Mixco
+20    R5_19      R5_20      0.761    Aldea Cruz Blanca Mixco -> Km 19 CA-1 Occidente
+21    R5_20      R5_21      0.771    Km 19 CA-1 Occidente -> Km 20 CA-1 El Rejón
+22    R5_21      R5_22      1.144    Km 20 CA-1 El Rejón -> San Lucas Sacatepéquez km 23
+23    R5_22      R5_23      0.824    San Lucas Sacatepéquez km 23 -> San Lucas S. gasolinera
+24    R5_23      R5_24      0.824    San Lucas S. gasolinera -> San Lucas S. mercado
+25    R5_24      R5_25      0.848    San Lucas S. mercado -> San Lucas S. centro
+26    R5_25      R5_26      1.737    San Lucas S. centro -> Km 26 CA-1 desvío norte
+27    R5_26      R5_27      0.857    Km 26 CA-1 desvío norte -> Santiago Sacatepéquez norte
+28    R5_27      R5_28      0.582    Santiago Sacatepéquez norte -> Santiago S. iglesia
+29    R5_28      R5_29      0.549    Santiago S. iglesia -> Santiago S. mercado
+30    R5_29      R5_30      0.655    Santiago S. mercado -> Santiago S. zona 3 sur
+31    R5_30      R5_31      0.761    Santiago S. zona 3 sur -> Km 30 camino Sumpango
+32    R5_31      R5_32      0.785    Km 30 camino Sumpango -> Sumpango acceso km 31
+33    R5_32      R5_33      0.868    Sumpango acceso km 31 -> Sumpango norte
+34    R5_33      R5_34      1.736    Sumpango norte -> Sumpango centro
+35    R5_34      R5_35      0.761    Sumpango centro -> Sumpango sur mercado
+36    R5_35      R5_36      1.436    Sumpango sur mercado -> Km 35 camino Chimaltenango
+37    R5_36      R5_37      1.191    Km 35 camino Chimaltenango -> Km 40 CA-1 Chimaltenango
+38    R5_37      R5_38      0.397    Km 40 CA-1 Chimaltenango -> Chimaltenango desvío Antigua
+39    R5_38      R5_39      0.458    Chimaltenango desvío Antigua -> Km 42 camino sur a Antigua
+40    R5_39      R5_40      2.671    Km 42 camino sur a Antigua -> Aldea Pastores sur
+41    R5_40      R5_41      0.778    Aldea Pastores sur -> Pastores centro
+42    R5_41      R5_42      0.915    Pastores centro -> Pastores zona 2 baja
+43    R5_42      R5_43      0.929    Pastores zona 2 baja -> Km 40 bajada Antigua norte
+44    R5_43      R5_44      0.929    Km 40 bajada Antigua norte -> San Bartolomé M.A. bajada
+45    R5_44      R5_45      0.786    San Bartolomé M.A. bajada -> Aldea El Calvario M.A.
+46    R5_45      R5_46      0.676    Aldea El Calvario M.A. -> Aldea Concepción M.A.
+47    R5_46      R5_47      0.669    Aldea Concepción M.A. -> Aldea San Felipe Neri norest
+48    R5_47      R5_48      0.682    Aldea San Felipe Neri norest -> Jocotenango norte acceso
+49    R5_48      R5_49      0.342    Jocotenango norte acceso -> Jocotenango iglesia parroqui
+50    R5_49      R5_50      0.229    Jocotenango iglesia parroqui -> Jocotenango centro mercado
+51    R5_50      R5_51      0.155    Jocotenango centro mercado -> Jocotenango sur
+52    R5_51      R5_52      0.215    Jocotenango sur -> Antigua km 42 norte
+53    R5_52      R5_53      0.113    Antigua km 42 norte -> Antigua Col. San Felipe
+54    R5_53      R5_54      0.116    Antigua Col. San Felipe -> Antigua 1ª Av. Norte
+55    R5_54      R5_55      0.880    Antigua 1ª Av. Norte -> Antigua zona 1 parque
+56    R5_55      R5_56      0.420    Antigua zona 1 parque -> Antigua C. del Chajon
+57    R5_56      R5_57      0.079    Antigua C. del Chajon -> UMG Antigua Guatemala
+58    R5_57      R5_58      25.850   UMG Antigua Guatemala -> Zona 16 Col. El Bosque
+59    R5_58      R5_59      1.720    Zona 16 Col. El Bosque -> Av. Reforma sur z.10
+60    R5_59      R5_60      2.353    Av. Reforma sur z.10 -> Zona 9 Edificio Reforma
+61    R5_60      R5_61      4.157    Zona 9 Edificio Reforma -> Zona 1 Mercado Central
+62    R5_61      R5_62      0.698    Zona 1 Mercado Central -> Zona 6 z.norte col. Atlántid
+63    R5_62      R5_63      4.642    Zona 6 z.norte col. Atlántid -> Calzada Roosevelt km 6
+64    R5_63      R5_64      3.484    Calzada Roosevelt km 6 -> Mixco Col. Lomas km 14
+65    R5_64      R5_65      1.615    Mixco Col. Lomas km 14 -> Mixco residenciales km 15.5
+66    R5_65      R5_66      1.946    Mixco residenciales km 15.5 -> El Panorama vista norte
+67    R5_66      R5_67      3.346    El Panorama vista norte -> CA-1 Km 21 bosque
+68    R5_67      R5_68      2.675    CA-1 Km 21 bosque -> San Lucas zona 2
+69    R5_68      R5_69      0.857    San Lucas zona 2 -> San Lucas sur acceso RN-10
+70    R5_69      R5_70      3.727    San Lucas sur acceso RN-10 -> Desvío Santiago-Sumpango
+71    R5_70      R5_71      1.626    Desvío Santiago-Sumpango -> Sumpango barrio norte
+72    R5_71      R5_72      1.406    Sumpango barrio norte -> Sumpango barrio central
+73    R5_72      R5_73      1.305    Sumpango barrio central -> Sumpango zona comercial
+74    R5_73      R5_74      1.028    Sumpango zona comercial -> Km 34 camino a Pastores
+75    R5_74      R5_75      0.566    Km 34 camino a Pastores -> Pastores norte km 35
+76    R5_75      R5_76      0.669    Pastores norte km 35 -> Pastores gasolinera
+77    R5_76      R5_77      0.780    Pastores gasolinera -> Pastores zona sur
+78    R5_77      R5_78      0.786    Pastores zona sur -> Col. Monte Bello Pastores
+79    R5_78      R5_79      0.915    Col. Monte Bello Pastores -> Km 38 bajada noreste
+80    R5_79      R5_80      0.824    Km 38 bajada noreste -> SBM norte km 39
+81    R5_80      R5_81      0.701    SBM norte km 39 -> SBM centro km 40
+82    R5_81      R5_82      0.676    SBM centro km 40 -> Aldea San José Milpas Altas
+83    R5_82      R5_83      0.673    Aldea San José Milpas Altas -> Aldea San Miguel M.A.
+84    R5_83      R5_84      0.669    Aldea San Miguel M.A. -> Km 41 curva Antigua
+85    R5_84      R5_85      0.557    Km 41 curva Antigua -> Antigua ingreso norte km 42
+86    R5_85      R5_86      0.445    Antigua ingreso norte km 42 -> Antigua Blvd. Primer Orden
+87    R5_86      R5_87      0.445    Antigua Blvd. Primer Orden -> Antigua zona 1 calle larga
+88    R5_87      R5_88      0.336    Antigua zona 1 calle larga -> Antigua 2ª Calle Poniente N.
+89    R5_88      R5_89      0.334    Antigua 2ª Calle Poniente N. -> Antigua Convento Capuchinas
+90    R5_89      R5_90      0.214    Antigua Convento Capuchinas -> Antigua zona 1 Plaza
+91    R5_90      R5_91      0.192    Antigua zona 1 Plaza -> Antigua 3ª Calle Oriente
+92    R5_91      R5_92      0.141    Antigua 3ª Calle Oriente -> Antigua 5ª Calle Poniente
+93    R5_92      R5_93      0.095    Antigua 5ª Calle Poniente -> Antigua callejón del Estudio
+94    R5_93      R5_94      0.084    Antigua callejón del Estudio -> USAC Antigua acceso
+95    R5_94      R5_95      0.141    USAC Antigua acceso -> Hospital Hermano Pedro
+96    R5_95      R5_96      0.104    Hospital Hermano Pedro -> IGSS Antigua zona sur
+97    R5_96      R5_97      0.425    IGSS Antigua zona sur -> Antigua mercado de artesanía
+98    R5_97      R5_98      0.250    Antigua mercado de artesanía -> Antigua 3ª Calle Poniente
+99    R5_98      R5_99      0.135    Antigua 3ª Calle Poniente -> UMG Antigua Guatemala
+100   R5_00      R5_03      2.122    Plaza Tigo Torre 3 -> Blvd. Vista Hermosa este
+101   R5_08      R5_11      2.817    Calzada Roosevelt km 5 -> Mixco km 12 puente
+102   R5_16      R5_19      2.170    Puente Mixco-Sacatepéquez km -> Aldea Cruz Blanca Mixco
+103   R5_24      R5_27      2.706    San Lucas S. mercado -> Santiago Sacatepéquez norte
+104   R5_32      R5_35      3.365    Sumpango acceso km 31 -> Sumpango sur mercado
+105   R5_40      R5_43      2.603    Aldea Pastores sur -> Km 40 bajada Antigua norte
+106   R5_48      R5_51      0.668    Jocotenango norte acceso -> Jocotenango sur
+107   R5_56      R5_59      24.562   Antigua C. del Chajon -> Av. Reforma sur z.10
+108   R5_64      R5_67      6.897    Mixco Col. Lomas km 14 -> CA-1 Km 21 bosque
+109   R5_72      R5_75      1.830    Sumpango barrio central -> Pastores norte km 35
+110   R5_80      R5_83      2.043    SBM norte km 39 -> Aldea San Miguel M.A.
+111   R5_88      R5_91      0.731    Antigua 2ª Calle Poniente N. -> Antigua 3ª Calle Oriente
+112   R5_96      R5_99      0.161    IGSS Antigua zona sur -> UMG Antigua Guatemala
+
+================================================================================
+RUTA 6: SJ Pinula → Villa Nueva → Lo de Dieguz → Ciudad Vieja → Antigua
+================================================================================
+  Nodos totales   : 100
+  Aristas totales : 112
+  Distancia total : 111.86 km (suma secuencial)
+  Arista minima   : 0.06 km
+  Arista maxima   : 27.382 km
+  Arista promedio : 1.281 km
+  Origen          : Plaza Tigo Torre 3 (14.5722, -90.482)
+  Destino         : UMG Antigua Guatemala (14.5558, -90.734)
+
+--- NODOS (100 total) ---
+#     ID         Latitud      Longitud      Nombre
+------------------------------------------------------------------------------
+1     R6_00      14.57220     -90.48200     Plaza Tigo Torre 3
+2     R6_01      14.56500     -90.48400     Km 13.5 desvío sur
+3     R6_02      14.55800     -90.47600     Col. San José Pinula desvío
+4     R6_03      14.55200     -90.46800     Km 15 carr. antigua ES
+5     R6_04      14.54800     -90.46400     Aldea San Rafael Pinula
+6     R6_05      14.54400     -90.46100     San José Pinula norte
+7     R6_06      14.54100     -90.46000     San José Pinula centro
+8     R6_07      14.53900     -90.46100     Mercado San José Pinula
+9     R6_08      14.53600     -90.46500     San José Pinula sur aldea
+10    R6_09      14.53300     -90.47000     Aldea La Cuchilla
+11    R6_10      14.52900     -90.47800     Km 18 carr. departamental
+12    R6_11      14.52500     -90.48700     Aldea La Cerra
+13    R6_12      14.52200     -90.49600     Desvío hacia zona 25
+14    R6_13      14.52000     -90.50600     Aldea El Cambray
+15    R6_14      14.51800     -90.51600     Km 20 camino departamental
+16    R6_15      14.51600     -90.52600     Puente Río Las Vacas
+17    R6_16      14.51900     -90.53500     Aldea Contreras z.12
+18    R6_17      14.52400     -90.53800     Col. Justo Rufino Barrios z.21
+19    R6_18      14.52900     -90.54200     Zona 21 Sta. Rosa
+20    R6_19      14.53400     -90.54700     Zona 21 Col. Campo Nuevo
+21    R6_20      14.54000     -90.55000     Km 12 Calzada Aguilar Batres S
+22    R6_21      14.54400     -90.55400     Col. Nimajuyú z.21
+23    R6_22      14.54800     -90.55700     Col. El Tesoro z.12
+24    R6_23      14.55100     -90.56000     Anillo Periférico Sur z.12
+25    R6_24      14.53000     -90.57000     Villa Nueva norte km 17
+26    R6_25      14.52500     -90.58000     Villa Nueva mercado central
+27    R6_26      14.52000     -90.58700     Villa Nueva zona 1 centro
+28    R6_27      14.51700     -90.59200     Villa Nueva zona 2
+29    R6_28      14.51300     -90.59600     Villa Nueva zona 3 sur
+30    R6_29      14.50900     -90.60100     Puente Villa Nueva-Barcenas
+31    R6_30      14.50700     -90.60600     Bárcenas km 23
+32    R6_31      14.50600     -90.61200     Bárcenas centro
+33    R6_32      14.50500     -90.61800     Bárcenas zona sur
+34    R6_33      14.51000     -90.62800     Km 25 carretera Lo de Diéguez
+35    R6_34      14.51500     -90.63500     Lo de Diéguez norte
+36    R6_35      14.51800     -90.64000     Lo de Diéguez centro
+37    R6_36      14.52000     -90.64600     Lo de Diéguez zona sur
+38    R6_37      14.52200     -90.65500     Km 28 camino rural
+39    R6_38      14.52500     -90.66000     Aldea Rincón Grande
+40    R6_39      14.52800     -90.66700     Puente Río Guacalate sur
+41    R6_40      14.53100     -90.67300     Aldea San Cristóbal El Bajo
+42    R6_41      14.53400     -90.68000     Km 31 carr. rural Sacatepéquez
+43    R6_42      14.53700     -90.68600     Aldea Los Llanos
+44    R6_43      14.52800     -90.69500     Km 33 ingreso Ciudad Vieja
+45    R6_44      14.52300     -90.70500     Ciudad Vieja norte
+46    R6_45      14.52000     -90.72000     Ciudad Vieja centro
+47    R6_46      14.51900     -90.72200     Mercado Ciudad Vieja
+48    R6_47      14.51800     -90.72400     Ciudad Vieja zona 2
+49    R6_48      14.52800     -90.72200     Aldea San Lorenzo El Cubo
+50    R6_49      14.53200     -90.72150     Aldea El Hato CV
+51    R6_50      14.53600     -90.72100     Km 37 carretera a Antigua
+52    R6_51      14.54000     -90.72200     Aldea Chorro de Agua CV
+53    R6_52      14.54300     -90.72300     Aldea Santa Inés del Monte
+54    R6_53      14.54000     -90.72400     Aldea San Pedro Las Huertas
+55    R6_54      14.54400     -90.72800     Km 39 entrada Antigua sur
+56    R6_55      14.54500     -90.73800     Col. Santa Ana Antigua
+57    R6_56      14.54700     -90.73600     Col. El Pensativo Antigua
+58    R6_57      14.54900     -90.73450     Antigua zona 3 sur
+59    R6_58      14.55100     -90.73400     Antigua calle Ancha
+60    R6_59      14.55250     -90.73380     Antigua 5ª Av. Sur
+61    R6_60      14.55450     -90.73520     Antigua Hospital Hermano Pedro
+62    R6_61      14.56020     -90.73310     Antigua zona 1 parque
+63    R6_62      14.55650     -90.73390     C. del Chajon Antigua
+64    R6_63      14.55580     -90.73400     UMG Antigua Guatemala
+65    R6_64      14.57000     -90.48000     Zona 17 acceso Km 14
+66    R6_65      14.55600     -90.47300     Km 16 Col. Residenciales
+67    R6_66      14.54600     -90.48700     Zona 25 acceso norte
+68    R6_67      14.54400     -90.49800     Zona 25 Col. El Búcaro
+69    R6_68      14.54600     -90.50800     Puente zona 25
+70    R6_69      14.55100     -90.51800     Col. El Maestro
+71    R6_70      14.55400     -90.52200     Boca del Monte gasolinera
+72    R6_71      14.56000     -90.52700     Zona 12 ingreso
+73    R6_72      14.55300     -90.54800     Anillo periférico gasolinera
+74    R6_73      14.53600     -90.55900     Villa Nueva km 16
+75    R6_74      14.53200     -90.56400     Villa Nueva Col. La Enamorada
+76    R6_75      14.52700     -90.57000     Villa Nueva zona 4
+77    R6_76      14.52100     -90.57800     Aldea El Frutal VN norte
+78    R6_77      14.51600     -90.58700     Zona 3 VN mercado
+79    R6_78      14.51200     -90.59400     Puente Villalobos acceso
+80    R6_79      14.50750     -90.60300     Bárcenas km 22 gasolinera
+81    R6_80      14.50650     -90.60900     Bárcenas acceso norte
+82    R6_81      14.51300     -90.63000     Lo de Diéguez acceso
+83    R6_82      14.51600     -90.63700     Aldea El Zarzal LD
+84    R6_83      14.52000     -90.64400     Caserio Los Lotes
+85    R6_84      14.52200     -90.65100     Km 27 camino rural
+86    R6_85      14.52600     -90.66200     Aldea San Antonio CV
+87    R6_86      14.52900     -90.67000     Km 30 puente río
+88    R6_87      14.52200     -90.71200     Aldea El Rosario CV
+89    R6_88      14.52100     -90.71600     Ciudad Vieja zona 1
+90    R6_89      14.51950     -90.71950     CV gasolinera Shell
+91    R6_90      14.54200     -90.72000     Antigua San Cristóbal Km 38
+92    R6_91      14.54400     -90.72600     Aldea Las Mercedes Antigua
+93    R6_92      14.54600     -90.73100     Km 40 ingreso Antigua
+94    R6_93      14.54550     -90.73700     Santa Ana Antigua oriente
+95    R6_94      14.54950     -90.73550     Antigua zona 3 poniente
+96    R6_95      14.55300     -90.73450     Antigua calle Camposanto
+97    R6_96      14.55480     -90.73420     Antigua 6ª Av. Sur
+98    R6_97      14.55600     -90.73420     Antigua 5ª Calle Poniente
+99    R6_98      14.55650     -90.73400     Antigua zona 1 comercio
+100   R6_99      14.55580     -90.73400     UMG Antigua Guatemala
+
+--- ARISTAS (112 total) ---
+#     Desde      Hasta      km       Desde (nombre) -> Hasta (nombre)
+------------------------------------------------------------------------------
+1     R6_00      R6_01      0.829    Plaza Tigo Torre 3 -> Km 13.5 desvío sur
+2     R6_01      R6_02      1.161    Km 13.5 desvío sur -> Col. San José Pinula desvío
+3     R6_02      R6_03      1.089    Col. San José Pinula desvío -> Km 15 carr. antigua ES
+4     R6_03      R6_04      0.619    Km 15 carr. antigua ES -> Aldea San Rafael Pinula
+5     R6_04      R6_05      0.550    Aldea San Rafael Pinula -> San José Pinula norte
+6     R6_05      R6_06      0.351    San José Pinula norte -> San José Pinula centro
+7     R6_06      R6_07      0.247    San José Pinula centro -> Mercado San José Pinula
+8     R6_07      R6_08      0.545    Mercado San José Pinula -> San José Pinula sur aldea
+9     R6_08      R6_09      0.633    San José Pinula sur aldea -> Aldea La Cuchilla
+10    R6_09      R6_10      0.969    Aldea La Cuchilla -> Km 18 carr. departamental
+11    R6_10      R6_11      1.066    Km 18 carr. departamental -> Aldea La Cerra
+12    R6_11      R6_12      1.025    Aldea La Cerra -> Desvío hacia zona 25
+13    R6_12      R6_13      1.099    Desvío hacia zona 25 -> Aldea El Cambray
+14    R6_13      R6_14      1.099    Aldea El Cambray -> Km 20 camino departamental
+15    R6_14      R6_15      1.099    Km 20 camino departamental -> Puente Río Las Vacas
+16    R6_15      R6_16      1.025    Puente Río Las Vacas -> Aldea Contreras z.12
+17    R6_16      R6_17      0.643    Aldea Contreras z.12 -> Col. Justo Rufino Barrios z.
+18    R6_17      R6_18      0.703    Col. Justo Rufino Barrios z. -> Zona 21 Sta. Rosa
+19    R6_18      R6_19      0.774    Zona 21 Sta. Rosa -> Zona 21 Col. Campo Nuevo
+20    R6_19      R6_20      0.741    Zona 21 Col. Campo Nuevo -> Km 12 Calzada Aguilar Batres
+21    R6_20      R6_21      0.619    Km 12 Calzada Aguilar Batres -> Col. Nimajuyú z.21
+22    R6_21      R6_22      0.550    Col. Nimajuyú z.21 -> Col. El Tesoro z.12
+23    R6_22      R6_23      0.464    Col. El Tesoro z.12 -> Anillo Periférico Sur z.12
+24    R6_23      R6_24      2.571    Anillo Periférico Sur z.12 -> Villa Nueva norte km 17
+25    R6_24      R6_25      1.212    Villa Nueva norte km 17 -> Villa Nueva mercado central
+26    R6_25      R6_26      0.936    Villa Nueva mercado central -> Villa Nueva zona 1 centro
+27    R6_26      R6_27      0.633    Villa Nueva zona 1 centro -> Villa Nueva zona 2
+28    R6_27      R6_28      0.619    Villa Nueva zona 2 -> Villa Nueva zona 3 sur
+29    R6_28      R6_29      0.698    Villa Nueva zona 3 sur -> Puente Villa Nueva-Barcenas
+30    R6_29      R6_30      0.582    Puente Villa Nueva-Barcenas -> Bárcenas km 23
+31    R6_30      R6_31      0.655    Bárcenas km 23 -> Bárcenas centro
+32    R6_31      R6_32      0.655    Bárcenas centro -> Bárcenas zona sur
+33    R6_32      R6_33      1.212    Bárcenas zona sur -> Km 25 carretera Lo de Diégue
+34    R6_33      R6_34      0.936    Km 25 carretera Lo de Diégue -> Lo de Diéguez norte
+35    R6_34      R6_35      0.633    Lo de Diéguez norte -> Lo de Diéguez centro
+36    R6_35      R6_36      0.683    Lo de Diéguez centro -> Lo de Diéguez zona sur
+37    R6_36      R6_37      0.994    Lo de Diéguez zona sur -> Km 28 camino rural
+38    R6_37      R6_38      0.633    Km 28 camino rural -> Aldea Rincón Grande
+39    R6_38      R6_39      0.824    Aldea Rincón Grande -> Puente Río Guacalate sur
+40    R6_39      R6_40      0.727    Puente Río Guacalate sur -> Aldea San Cristóbal El Bajo
+41    R6_40      R6_41      0.824    Aldea San Cristóbal El Bajo -> Km 31 carr. rural Sacatepéqu
+42    R6_41      R6_42      0.727    Km 31 carr. rural Sacatepéqu -> Aldea Los Llanos
+43    R6_42      R6_43      1.393    Aldea Los Llanos -> Km 33 ingreso Ciudad Vieja
+44    R6_43      R6_44      1.212    Km 33 ingreso Ciudad Vieja -> Ciudad Vieja norte
+45    R6_44      R6_45      1.649    Ciudad Vieja norte -> Ciudad Vieja centro
+46    R6_45      R6_46      0.242    Ciudad Vieja centro -> Mercado Ciudad Vieja
+47    R6_46      R6_47      0.242    Mercado Ciudad Vieja -> Ciudad Vieja zona 2
+48    R6_47      R6_48      1.133    Ciudad Vieja zona 2 -> Aldea San Lorenzo El Cubo
+49    R6_48      R6_49      0.448    Aldea San Lorenzo El Cubo -> Aldea El Hato CV
+50    R6_49      R6_50      0.448    Aldea El Hato CV -> Km 37 carretera a Antigua
+51    R6_50      R6_51      0.458    Km 37 carretera a Antigua -> Aldea Chorro de Agua CV
+52    R6_51      R6_52      0.351    Aldea Chorro de Agua CV -> Aldea Santa Inés del Monte
+53    R6_52      R6_53      0.351    Aldea Santa Inés del Monte -> Aldea San Pedro Las Huertas
+54    R6_53      R6_54      0.619    Aldea San Pedro Las Huertas -> Km 39 entrada Antigua sur
+55    R6_54      R6_55      1.082    Km 39 entrada Antigua sur -> Col. Santa Ana Antigua
+56    R6_55      R6_56      0.310    Col. Santa Ana Antigua -> Col. El Pensativo Antigua
+57    R6_56      R6_57      0.275    Col. El Pensativo Antigua -> Antigua zona 3 sur
+58    R6_57      R6_58      0.229    Antigua zona 3 sur -> Antigua calle Ancha
+59    R6_58      R6_59      0.168    Antigua calle Ancha -> Antigua 5ª Av. Sur
+60    R6_59      R6_60      0.269    Antigua 5ª Av. Sur -> Antigua Hospital Hermano Ped
+61    R6_60      R6_61      0.673    Antigua Hospital Hermano Ped -> Antigua zona 1 parque
+62    R6_61      R6_62      0.420    Antigua zona 1 parque -> C. del Chajon Antigua
+63    R6_62      R6_63      0.079    C. del Chajon Antigua -> UMG Antigua Guatemala
+64    R6_63      R6_64      27.382   UMG Antigua Guatemala -> Zona 17 acceso Km 14
+65    R6_64      R6_65      1.729    Zona 17 acceso Km 14 -> Km 16 Col. Residenciales
+66    R6_65      R6_66      1.873    Km 16 Col. Residenciales -> Zona 25 acceso norte
+67    R6_66      R6_67      1.205    Zona 25 acceso norte -> Zona 25 Col. El Búcaro
+68    R6_67      R6_68      1.099    Zona 25 Col. El Búcaro -> Puente zona 25
+69    R6_68      R6_69      1.211    Puente zona 25 -> Col. El Maestro
+70    R6_69      R6_70      0.545    Col. El Maestro -> Boca del Monte gasolinera
+71    R6_70      R6_71      0.857    Boca del Monte gasolinera -> Zona 12 ingreso
+72    R6_71      R6_72      2.390    Zona 12 ingreso -> Anillo periférico gasolinera
+73    R6_72      R6_73      2.230    Anillo periférico gasolinera -> Villa Nueva km 16
+74    R6_73      R6_74      0.698    Villa Nueva km 16 -> Villa Nueva Col. La Enamorad
+75    R6_74      R6_75      0.852    Villa Nueva Col. La Enamorad -> Villa Nueva zona 4
+76    R6_75      R6_76      1.089    Villa Nueva zona 4 -> Aldea El Frutal VN norte
+77    R6_76      R6_77      1.117    Aldea El Frutal VN norte -> Zona 3 VN mercado
+78    R6_77      R6_78      0.875    Zona 3 VN mercado -> Puente Villalobos acceso
+79    R6_78      R6_79      1.090    Puente Villalobos acceso -> Bárcenas km 22 gasolinera
+80    R6_79      R6_80      0.655    Bárcenas km 22 gasolinera -> Bárcenas acceso norte
+81    R6_80      R6_81      2.373    Bárcenas acceso norte -> Lo de Diéguez acceso
+82    R6_81      R6_82      0.824    Lo de Diéguez acceso -> Aldea El Zarzal LD
+83    R6_82      R6_83      0.875    Aldea El Zarzal LD -> Caserio Los Lotes
+84    R6_83      R6_84      0.786    Caserio Los Lotes -> Km 27 camino rural
+85    R6_84      R6_85      1.265    Km 27 camino rural -> Aldea San Antonio CV
+86    R6_85      R6_86      0.923    Aldea San Antonio CV -> Km 30 puente río
+87    R6_86      R6_87      4.587    Km 30 puente río -> Aldea El Rosario CV
+88    R6_87      R6_88      0.445    Aldea El Rosario CV -> Ciudad Vieja zona 1
+89    R6_88      R6_89      0.412    Ciudad Vieja zona 1 -> CV gasolinera Shell
+90    R6_89      R6_90      2.502    CV gasolinera Shell -> Antigua San Cristóbal Km 38
+91    R6_90      R6_91      0.683    Antigua San Cristóbal Km 38 -> Aldea Las Mercedes Antigua
+92    R6_91      R6_92      0.582    Aldea Las Mercedes Antigua -> Km 40 ingreso Antigua
+93    R6_92      R6_93      0.648    Km 40 ingreso Antigua -> Santa Ana Antigua oriente
+94    R6_93      R6_94      0.473    Santa Ana Antigua oriente -> Antigua zona 3 poniente
+95    R6_94      R6_95      0.404    Antigua zona 3 poniente -> Antigua calle Camposanto
+96    R6_95      R6_96      0.203    Antigua calle Camposanto -> Antigua 6ª Av. Sur
+97    R6_96      R6_97      0.133    Antigua 6ª Av. Sur -> Antigua 5ª Calle Poniente
+98    R6_97      R6_98      0.060    Antigua 5ª Calle Poniente -> Antigua zona 1 comercio
+99    R6_98      R6_99      0.078    Antigua zona 1 comercio -> UMG Antigua Guatemala
+100   R6_00      R6_03      2.705    Plaza Tigo Torre 3 -> Km 15 carr. antigua ES
+101   R6_08      R6_11      2.665    San José Pinula sur aldea -> Aldea La Cerra
+102   R6_16      R6_19      2.110    Aldea Contreras z.12 -> Zona 21 Col. Campo Nuevo
+103   R6_24      R6_27      2.774    Villa Nueva norte km 17 -> Villa Nueva zona 2
+104   R6_32      R6_35      2.775    Bárcenas zona sur -> Lo de Diéguez centro
+105   R6_40      R6_43      2.391    Aldea San Cristóbal El Bajo -> Km 33 ingreso Ciudad Vieja
+106   R6_48      R6_51      1.334    Aldea San Lorenzo El Cubo -> Aldea Chorro de Agua CV
+107   R6_56      R6_59      0.656    Col. El Pensativo Antigua -> Antigua 5ª Av. Sur
+108   R6_64      R6_67      3.480    Zona 17 acceso Km 14 -> Zona 25 Col. El Búcaro
+109   R6_72      R6_75      3.737    Anillo periférico gasolinera -> Villa Nueva zona 4
+110   R6_80      R6_83      4.056    Bárcenas acceso norte -> Caserio Los Lotes
+111   R6_88      R6_91      2.775    Ciudad Vieja zona 1 -> Aldea Las Mercedes Antigua
+112   R6_96      R6_99      0.113    Antigua 6ª Av. Sur -> UMG Antigua Guatemala
+
+================================================================================
+RESUMEN GLOBAL
+================================================================================
+  Total nodos en todas las rutas : 600
+  Total aristas en todas las rutas: 672
+
+REPRESENTACION DEL GRAFO (formato lista de adyacencia):
+  Cada arista es bidireccional (grafo no dirigido)
+  Formato por linea: ID_NODO_A | ID_NODO_B | DISTANCIA_KM
+
+INSTRUCCIONES PARA IMPLEMENTACION EN JAVA:
+  1. Crear clase Nodo { String id; String nombre; double lat; double lng; }
+  2. Crear clase Arista { Nodo destino; double peso; }
+  3. Crear Map<String, List<Arista>> grafo = new HashMap<>();
+  4. Agregar nodos y aristas bidireccionales segun tablas de cada ruta
+  5. Implementar Dijkstra con PriorityQueue<Nodo> ordenada por distancia acumulada
+  6. Ejecutar desde nodo origen (R1_00 / R2_00 / etc.) hasta R_X_99 (UMG Antigua)
+================================================================================

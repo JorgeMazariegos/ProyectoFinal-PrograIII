@@ -1,0 +1,100 @@
+0,R1_00,14.57220,-90.48200,Plaza Tigo Torre 3
+1,R1_01,14.57290,-90.48480,Paso a desnivel Km 9.5
+2,R1_02,14.57360,-90.48700,Gasolinera Puma Km 9
+3,R1_03,14.57420,-90.48950,CC Pradera Concepción
+4,R1_04,14.57800,-90.49300,Zona 15 ingreso norte
+5,R1_05,14.58200,-90.49700,Col. Vista Hermosa II
+6,R1_06,14.58550,-90.50100,Blvd. Vista Hermosa km 10
+7,R1_07,14.58700,-90.50500,Centro Médico Santa Rosita
+8,R1_08,14.58850,-90.50900,Zona 16 Santa Rosita
+9,R1_09,14.59100,-90.51400,Intersección 20 Calle z.10
+10,R1_10,14.59400,-90.51800,Blvd. Los Próceres
+11,R1_11,14.59700,-90.52100,Anillo Periférico z.10
+12,R1_12,14.60000,-90.52400,CC Miraflores
+13,R1_13,14.60400,-90.52800,Zona 11 Mariscal
+14,R1_14,14.60800,-90.53100,Calzada Aguilar Batres z.11
+15,R1_15,14.61100,-90.53500,CC Las Majadas
+16,R1_16,14.61500,-90.53800,Intersección Periférico-Agt.B.
+17,R1_17,14.62000,-90.54200,Trébol z.7
+18,R1_18,14.62300,-90.54600,Calzada San Juan km 1
+19,R1_19,14.62600,-90.54900,Col. El Gallito z.3
+20,R1_20,14.63000,-90.55300,Calzada Roosevelt km 6
+21,R1_21,14.63300,-90.55700,CC Peri-Roosevelt
+22,R1_22,14.63500,-90.56100,Zona 7 El Rodeo
+23,R1_23,14.63800,-90.56600,Gasolinera Texaco Mixco km 12
+24,R1_24,14.64000,-90.57200,Col. Monte Verde Mixco
+25,R1_25,14.64100,-90.57800,Mixco km 14 centro
+26,R1_26,14.64200,-90.58400,Colonia El Naranjillo
+27,R1_27,14.64300,-90.59000,Desvío Los Altos Mixco
+28,R1_28,14.64400,-90.59600,San Cristóbal Mixco km 16
+29,R1_29,14.64450,-90.60200,Col. Lomas de Portugal
+30,R1_30,14.64480,-90.60800,Colonia Residenciales km 17
+31,R1_31,14.64450,-90.61400,Puente Mixco-Sacatepéquez
+32,R1_32,14.64350,-90.62000,El Panorama desvío
+33,R1_33,14.64200,-90.62600,Col. San Isidro z.13 Mixco
+34,R1_34,14.64100,-90.63300,Santiago Sacatepéquez acceso
+35,R1_35,14.63950,-90.64000,Aldea Las Trojas
+36,R1_36,14.63750,-90.64700,Km 20 CA-1 Occidente
+37,R1_37,14.63500,-90.65300,Aldea El Rejón
+38,R1_38,14.63200,-90.65900,San Bartolomé M.A. desvío
+39,R1_39,14.62900,-90.66400,Km 22 CA-1
+40,R1_40,14.62550,-90.66800,Puente Los Chocoyos
+41,R1_41,14.62150,-90.67100,San Lucas Sacatepéquez centro
+42,R1_42,14.61900,-90.67300,Mercado Municipal San Lucas
+43,R1_43,14.61650,-90.67500,Gasolinera Shell San Lucas
+44,R1_44,14.61400,-90.67750,Km 25 CA-1 / Cruce RN-10
+45,R1_45,14.61100,-90.67900,RN-10 inicio bajada a Antigua
+46,R1_46,14.60700,-90.68100,Mirador El Calvario RN-10
+47,R1_47,14.60300,-90.68400,Aldea Los Gavilanes
+48,R1_48,14.59900,-90.68800,Curva El Caracol RN-10
+49,R1_49,14.59600,-90.69600,Santa Lucía Milpas Altas cruce
+50,R1_50,14.59200,-90.70000,Granja Carberts RN-10
+51,R1_51,14.58800,-90.70300,Aldea San Miguel Milpas Altas
+52,R1_52,14.58400,-90.70600,Col. Monte Sión RN-10
+53,R1_53,14.58000,-90.70900,Puente sobre Río Pensativo
+54,R1_54,14.57600,-90.71100,Km 31 RN-10
+55,R1_55,14.57200,-90.71400,Aldea San Felipe de Jesús
+56,R1_56,14.56800,-90.71700,Aldea La Concepción RN-10
+57,R1_57,14.56400,-90.72000,Curva Panorámica RN-10
+58,R1_58,14.57000,-90.72400,Jocotenango ingreso norte
+59,R1_59,14.56900,-90.72750,Col. Santa Inés del Monte Pulgas
+60,R1_60,14.57000,-90.73100,Jocotenango centro
+61,R1_61,14.57000,-90.73400,Antigua ingreso norte Km 42
+62,R1_62,14.56920,-90.73420,Col. San Felipe Antigua
+63,R1_63,14.56800,-90.73450,1ª Av. Norte Antigua
+64,R1_64,14.56020,-90.73310,Parque Central Antigua
+65,R1_65,14.55750,-90.73360,4ª Calle Oriente Antigua
+66,R1_66,14.55700,-90.73380,6ª Calle Poniente Antigua
+67,R1_67,14.55950,-90.73400,Arco de Santa Catalina
+68,R1_68,14.55800,-90.73350,Col. San Francisco Antigua
+69,R1_69,14.55650,-90.73390,C. del Chajon / 3ª Calle
+70,R1_70,14.55580,-90.73400,UMG Antigua Guatemala
+71,R1_71,14.64150,-90.58400,Gasolinera Uno Mixco km 15
+72,R1_72,14.62900,-90.54100,Col. Primero de Julio z.5
+73,R1_73,14.62800,-90.54600,Zona 6 El Gallito
+74,R1_74,14.63150,-90.53300,Puente El Incienso
+75,R1_75,14.63800,-90.51900,Centro Cívico z.4
+76,R1_76,14.60500,-90.51600,Blvd. Liberación z.9
+77,R1_77,14.58300,-90.52700,Av. Hincapié z.13 aeropuerto
+78,R1_78,14.58500,-90.53100,Zona 13 La Aurora
+79,R1_79,14.58700,-90.70100,Km 28 RN-10 curva pino
+80,R1_80,14.57500,-90.71000,Aldea El Hato Antigua
+81,R1_81,14.59050,-90.70200,Entrada Colegio Bilingüe RN-10
+82,R1_82,14.61000,-90.68000,Km 26 CA-1 mirador
+83,R1_83,14.61700,-90.67600,Puente San Lucas sur
+84,R1_84,14.60500,-90.53600,Col. San Marcos z.12
+85,R1_85,14.61400,-90.54000,Blvd. Mateo Flores
+86,R1_86,14.60100,-90.53100,Col. La Reformita z.12
+87,R1_87,14.59600,-90.52800,Zona 12 Col. Bello Horizonte
+88,R1_88,14.59300,-90.52500,Anillo Periférico Sur z.12
+89,R1_89,14.59100,-90.52200,Intersección CA-9 z.12
+90,R1_90,14.62000,-90.67200,Gasolinera Full San Lucas
+91,R1_91,14.62200,-90.67000,Cementerio San Lucas
+92,R1_92,14.62350,-90.66900,Escola Parroquial San Lucas
+93,R1_93,14.55600,-90.73300,Antigua zona 3 sector Sur
+94,R1_94,14.55450,-90.73500,Hospital Nacional Pedro de Bethancourt
+95,R1_95,14.55550,-90.73450,Colegio La Salle Antigua
+96,R1_96,14.56000,-90.73500,Antigua calle del Arco
+97,R1_97,14.55900,-90.73550,Col. Santa Lucía Antigua
+98,R1_98,14.55850,-90.73420,USAC Antigua
+99,R1_99,14.55720,-90.73410,2ª Calle Poniente Antigua

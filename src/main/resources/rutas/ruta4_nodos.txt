@@ -1,0 +1,100 @@
+1     R4_00      14.57220     -90.48200     Plaza Tigo Torre 3
+2     R4_01      14.57700     -90.48500     Km 9 desvío norte z.15
+3     R4_02      14.58300     -90.49400     Col. Vista Hermosa z.15 norte
+4     R4_03      14.58800     -90.50100     Blvd. Vista Hermosa norte
+5     R4_04      14.59200     -90.50600     Zona 15 Col. Eureka
+6     R4_05      14.59600     -90.51200     Zona 10 ingreso av.reforma
+7     R4_06      14.59900     -90.51600     Av. Reforma y 20 calle
+8     R4_07      14.60200     -90.51900     Zona 10 CC Oakland
+9     R4_08      14.60500     -90.52100     Blvd. Los Próceres norte
+10    R4_09      14.60800     -90.52300     Zona 14 av. Las Américas
+11    R4_10      14.58700     -90.52800     Zona 13 IRTRA acceso
+12    R4_11      14.61300     -90.52000     Zona 9 Torre del Reformador
+13    R4_12      14.63800     -90.51900     Centro Cívico z.4
+14    R4_13      14.64000     -90.52100     Ministerios z.1 sur
+15    R4_14      14.64300     -90.52500     Anillo Periférico norte
+16    R4_15      14.64400     -90.53800     Calzada San Juan norte
+17    R4_16      14.64500     -90.54900     Zona 7 El Gallito norte
+18    R4_17      14.64300     -90.56000     Mixco km 12 acceso
+19    R4_18      14.64200     -90.56800     Col. Primero de Julio Mixco
+20    R4_19      14.64400     -90.58500     San Cristóbal Mixco km 15
+21    R4_20      14.64450     -90.59500     Gasolinera UNO Km 16 Mixco
+22    R4_21      14.64400     -90.60500     Puente La Democracia Mixco
+23    R4_22      14.64300     -90.61300     El Panorama km 17
+24    R4_23      14.64200     -90.62000     Desvío El Panorama-RN14
+25    R4_24      14.64000     -90.62800     Col. Planes de Bello Horizonte
+26    R4_25      14.63800     -90.63600     Finca San Isidro camino
+27    R4_26      14.63600     -90.64400     Aldea El Potrero Sacatepéquez
+28    R4_27      14.63800     -90.66000     Santiago Sacatepéquez sur
+29    R4_28      14.64000     -90.66800     Santiago Sacatepéquez centro
+30    R4_29      14.64200     -90.67200     Mercado Santiago S.
+31    R4_30      14.64300     -90.67800     Santiago S. salida oeste
+32    R4_31      14.64200     -90.68700     Km 29 camino a Sumpango
+33    R4_32      14.64100     -90.69500     Aldea El Rejón norte
+34    R4_33      14.64000     -90.70500     Sumpango norte acceso
+35    R4_34      14.63800     -90.73600     Sumpango mercado
+36    R4_35      14.63700     -90.73900     Sumpango centro parque
+37    R4_36      14.63500     -90.74200     Sumpango zona 2
+38    R4_37      14.63000     -90.74400     Sumpango sur desvío
+39    R4_38      14.62500     -90.74300     Aldea El Rejón sur
+40    R4_39      14.62000     -90.74200     Km 34 camino bajada a Antigua
+41    R4_40      14.61300     -90.74000     Aldea El Tablón Sacatepéquez
+42    R4_41      14.60600     -90.73800     Aldea Los Pinos Sacatepéquez
+43    R4_42      14.59800     -90.73600     San Bartolomé Milpas Altas
+44    R4_43      14.59200     -90.73500     Aldea Concepción Milpas Altas
+45    R4_44      14.58600     -90.73400     Aldea San Antonio M.A.
+46    R4_45      14.58000     -90.73600     Jocotenango norte
+47    R4_46      14.57500     -90.73700     Jocotenango centro
+48    R4_47      14.57100     -90.73700     Jocotenango sur / ingreso
+49    R4_48      14.57000     -90.73400     Antigua ingreso norte
+50    R4_49      14.56800     -90.73450     Antigua 1ª Av. Norte
+51    R4_50      14.56020     -90.73310     Antigua Parque Central
+52    R4_51      14.55650     -90.73390     C. del Chajon Antigua
+53    R4_52      14.55580     -90.73400     UMG Antigua Guatemala
+54    R4_53      14.57450     -90.48100     Gasolinera z.15 km 8.5
+55    R4_54      14.58000     -90.48700     Col. Residenciales z.15
+56    R4_55      14.58500     -90.49200     Zona 16 Santa Rosita norte
+57    R4_56      14.58700     -90.49600     CC Plaza Mayor z.16
+58    R4_57      14.61000     -90.52000     Gasolinera Shell z.14
+59    R4_58      14.60700     -90.52400     Torre Murano z.10
+60    R4_59      14.60300     -90.52600     Zona 10 Hotel Princess
+61    R4_60      14.61000     -90.51900     Zona 9 Centro Médico
+62    R4_61      14.64200     -90.51300     Zona 1 Palacio Nacional
+63    R4_62      14.64500     -90.50900     Zona 2 Mercado Norte
+64    R4_63      14.64600     -90.54300     Calzada San Juan km 2
+65    R4_64      14.64400     -90.55500     Zona 7 Col. Monte Verde
+66    R4_65      14.64300     -90.56500     Mixco km 13 gasolinera
+67    R4_66      14.64400     -90.57600     Aldea El Naranjito Mixco
+68    R4_67      14.64420     -90.59000     Col. San José Mixco
+69    R4_68      14.64350     -90.60000     El Panorama km 18
+70    R4_69      14.64250     -90.61000     Aldea Cruz Blanca
+71    R4_70      14.63950     -90.63200     Km 30 desvío San Marcos
+72    R4_71      14.63700     -90.65100     Aldea La Embaulada Sacatepéquez
+73    R4_72      14.63900     -90.66500     Santiago S. zona 1
+74    R4_73      14.64000     -90.67000     Gasolinera Santiago Sac.
+75    R4_74      14.63950     -90.71000     Sumpango aldea norte
+76    R4_75      14.63850     -90.72000     Sumpango gasolinera
+77    R4_76      14.63750     -90.73000     Sumpango barrio El Calvario
+78    R4_77      14.62800     -90.74350     Bajada Sumpango km 36
+79    R4_78      14.62200     -90.74250     Km 37 camino Antigua
+80    R4_79      14.61500     -90.74100     Aldea El Calvario Sac.
+81    R4_80      14.60900     -90.73950     Km 38 bajada norte Antigua
+82    R4_81      14.60200     -90.73750     Aldea San Felipe Neri
+83    R4_82      14.59600     -90.73550     SBM zona 2
+84    R4_83      14.59300     -90.73480     SBM mercado
+85    R4_84      14.58900     -90.73420     Aldea San Marcos A. M.A.
+86    R4_85      14.58200     -90.73500     Km 40 bajada final
+87    R4_86      14.57600     -90.73450     Aldea San Felipe Antigua
+88    R4_87      14.57300     -90.73650     Jocotenango iglesia
+89    R4_88      14.57150     -90.73700     Jocotenango Blvd. principal
+90    R4_89      14.56950     -90.73420     Antigua norte km 42
+91    R4_90      14.56850     -90.73440     Antigua calle de los Pasos
+92    R4_91      14.56400     -90.73400     Antigua 1ª Calle Poniente
+93    R4_92      14.56200     -90.73380     Antigua Convento Capuchinas
+94    R4_93      14.56100     -90.73350     Antigua zona 1 norte
+95    R4_94      14.56050     -90.73330     Antigua Casa del Tejido
+96    R4_95      14.56020     -90.73300     Antigua Portal del Comercio
+97    R4_96      14.55850     -90.73320     Antigua zona 1 sur
+98    R4_97      14.55750     -90.73370     Antigua Escuela de Cristo
+99    R4_98      14.55680     -90.73400     Antigua 4ª Av. Sur
+100   R4_99      14.55580     -90.73400     UMG Antigua Guatemala

@@ -1,0 +1,112 @@
+1     R2_00      R2_01      0.829    Plaza Tigo Torre 3 -> Intersección Km 13 Carr. E.S
+2     R2_01      R2_02      0.351    Intersección Km 13 Carr. E.S -> Gasolinera Shell Km 12
+3     R2_02      R2_03      0.351    Gasolinera Shell Km 12 -> Desvío Santa Catarina Pinula
+4     R2_03      R2_04      0.875    Desvío Santa Catarina Pinula -> San José Pinula acceso
+5     R2_04      R2_05      0.464    San José Pinula acceso -> Aldea Canchón
+6     R2_05      R2_06      0.397    Aldea Canchón -> Km 14.5 Carr. El Salvador
+7     R2_06      R2_07      2.746    Km 14.5 Carr. El Salvador -> CC Portales z.17 acceso
+8     R2_07      R2_08      0.545    CC Portales z.17 acceso -> Zona 17 La Castañeda
+9     R2_08      R2_09      3.806    Zona 17 La Castañeda -> Zona 25 Col. El Búcaro
+10    R2_09      R2_10      1.675    Zona 25 Col. El Búcaro -> Puente zona 25-Boca del Mont
+11    R2_10      R2_11      1.211    Puente zona 25-Boca del Mont -> Boca del Monte ingreso
+12    R2_11      R2_12      0.582    Boca del Monte ingreso -> Col. El Maestro Boca del Mon
+13    R2_12      R2_13      1.001    Col. El Maestro Boca del Mon -> Zona 12 anillo sur km 1
+14    R2_13      R2_14      2.772    Zona 12 anillo sur km 1 -> CC Pradera Villa Nueva
+15    R2_14      R2_15      1.396    CC Pradera Villa Nueva -> Villa Nueva 1ª Av.
+16    R2_15      R2_16      2.839    Villa Nueva 1ª Av. -> Mayan Golf desvío
+17    R2_16      R2_17      1.406    Mayan Golf desvío -> Col. Enríquez Gómez VN
+18    R2_17      R2_18      0.774    Col. Enríquez Gómez VN -> Villa Nueva centro mercado
+19    R2_18      R2_19      1.286    Villa Nueva centro mercado -> Puente Río Villalobos
+20    R2_19      R2_20      2.538    Puente Río Villalobos -> San Miguel Petapa norte
+21    R2_20      R2_21      1.040    San Miguel Petapa norte -> Aldea Boca del Río Petapa
+22    R2_21      R2_22      3.289    Aldea Boca del Río Petapa -> Lago de Amatitlán vista
+23    R2_22      R2_23      1.630    Lago de Amatitlán vista -> Amatitlán ingreso norte
+24    R2_23      R2_24      1.127    Amatitlán ingreso norte -> Puente Amatitlán
+25    R2_24      R2_25      0.334    Puente Amatitlán -> Amatitlán centro
+26    R2_25      R2_26      0.310    Amatitlán centro -> Mercado Amatitlán
+27    R2_26      R2_27      0.247    Mercado Amatitlán -> Amatitlán zona 3
+28    R2_27      R2_28      0.310    Amatitlán zona 3 -> Aldea San Juan Amatitlán
+29    R2_28      R2_29      0.392    Aldea San Juan Amatitlán -> Desvío hacia Palín sur
+30    R2_29      R2_30      0.784    Desvío hacia Palín sur -> Km 37 carr. sur Amatitlán
+31    R2_30      R2_31      0.698    Km 37 carr. sur Amatitlán -> Col. Belén Amatitlán
+32    R2_31      R2_32      8.188    Col. Belén Amatitlán -> Villa Canales norte ingreso
+33    R2_32      R2_33      0.392    Villa Canales norte ingreso -> Villa Canales centro
+34    R2_33      R2_34      0.786    Villa Canales centro -> Aldea Boca del Monte VC
+35    R2_34      R2_35      2.802    Aldea Boca del Monte VC -> Carretera Bárcenas desvío
+36    R2_35      R2_36      1.753    Carretera Bárcenas desvío -> Bárcenas norte
+37    R2_36      R2_37      0.633    Bárcenas norte -> Bárcenas centro Villa Nueva
+38    R2_37      R2_38      1.099    Bárcenas centro Villa Nueva -> Km 30 carr. Bárcenas-Antigua
+39    R2_38      R2_39      1.708    Km 30 carr. Bárcenas-Antigua -> Aldea Lo de Diéguez
+40    R2_39      R2_40      1.708    Aldea Lo de Diéguez -> Carretera RD-SAC-01 inicio
+41    R2_40      R2_41      1.025    Carretera RD-SAC-01 inicio -> Aldea Rincón Grande
+42    R2_41      R2_42      0.936    Aldea Rincón Grande -> Puente Río Guacalate norte
+43    R2_42      R2_43      0.936    Puente Río Guacalate norte -> Aldea San Cristóbal El Alto
+44    R2_43      R2_44      0.784    Aldea San Cristóbal El Alto -> Km 36 carr. rural Sacatepéqu
+45    R2_44      R2_45      0.727    Km 36 carr. rural Sacatepéqu -> Aldea Los Llanos Antigua
+46    R2_45      R2_46      4.529    Aldea Los Llanos Antigua -> Ciudad Vieja sur acceso
+47    R2_46      R2_47      0.310    Ciudad Vieja sur acceso -> Ciudad Vieja centro
+48    R2_47      R2_48      0.915    Ciudad Vieja centro -> Aldea San Lorenzo El Cubo
+49    R2_48      R2_49      0.566    Aldea San Lorenzo El Cubo -> Km 40 camino a Antigua sur
+50    R2_49      R2_50      0.786    Km 40 camino a Antigua sur -> Aldea San Pedro Las Huertas
+51    R2_50      R2_51      0.351    Aldea San Pedro Las Huertas -> Col. Vista al Valle
+52    R2_51      R2_52      4.292    Col. Vista al Valle -> San Juan del Obispo sur
+53    R2_52      R2_53      0.242    San Juan del Obispo sur -> San Juan del Obispo centro
+54    R2_53      R2_54      0.550    San Juan del Obispo centro -> Aldea El Hato SJO
+55    R2_54      R2_55      1.158    Aldea El Hato SJO -> Mirador Volcán Agua
+56    R2_55      R2_56      1.117    Mirador Volcán Agua -> Aldea Santa María de Jesús S
+57    R2_56      R2_57      0.676    Aldea Santa María de Jesús S -> Km 45 carretera Antigua sur
+58    R2_57      R2_58      0.445    Km 45 carretera Antigua sur -> Col. Primavera sur Antigua
+59    R2_58      R2_59      1.406    Col. Primavera sur Antigua -> Santa Ana Antigua sur
+60    R2_59      R2_60      0.545    Santa Ana Antigua sur -> Antigua zona 3 sur
+61    R2_60      R2_61      0.338    Antigua zona 3 sur -> Calle Ancha de los Herreros
+62    R2_61      R2_62      1.024    Calle Ancha de los Herreros -> Parque Central Antigua
+63    R2_62      R2_63      0.124    Parque Central Antigua -> Arco de Santa Catalina
+64    R2_63      R2_64      0.334    Arco de Santa Catalina -> C. del Chajon / 3ª Calle
+65    R2_64      R2_65      0.079    C. del Chajon / 3ª Calle -> UMG Antigua Guatemala
+66    R2_65      R2_66      21.389   UMG Antigua Guatemala -> Col. Utatlán z.11
+67    R2_66      R2_67      20.930   Col. Utatlán z.11 -> Puente Ciudad Vieja-Antigua
+68    R2_67      R2_68      14.306   Puente Ciudad Vieja-Antigua -> Gasolinera Puma Villa Nueva
+69    R2_68      R2_69      0.310    Gasolinera Puma Villa Nueva -> Mercado Villa Nueva km 20
+70    R2_69      R2_70      0.774    Mercado Villa Nueva km 20 -> Aldea El Zarzal VN
+71    R2_70      R2_71      0.946    Aldea El Zarzal VN -> San Rafael VN
+72    R2_71      R2_72      0.774    San Rafael VN -> Aldea El Frutal VN
+73    R2_72      R2_73      2.273    Aldea El Frutal VN -> Col. Paraíso Amatitlán
+74    R2_73      R2_74      1.793    Col. Paraíso Amatitlán -> Balneario Los Aposentos
+75    R2_74      R2_75      2.878    Balneario Los Aposentos -> Km 33 carretera Bárcenas
+76    R2_75      R2_76      0.774    Km 33 carretera Bárcenas -> Col. San Francisco Bárcenas
+77    R2_76      R2_77      1.708    Col. San Francisco Bárcenas -> Carretera antigua Bárcenas-C
+78    R2_77      R2_78      11.484   Carretera antigua Bárcenas-C -> Aldea Monte Bello Antigua
+79    R2_78      R2_79      0.896    Aldea Monte Bello Antigua -> Colegio Americano Antigua
+80    R2_79      R2_80      0.196    Colegio Americano Antigua -> Col. El Panorama Antigua
+81    R2_80      R2_81      0.155    Col. El Panorama Antigua -> Antigua 5ª Av. Sur
+82    R2_81      R2_82      0.371    Antigua 5ª Av. Sur -> Hospital Hermano Pedro
+83    R2_82      R2_83      0.155    Hospital Hermano Pedro -> IGSS Antigua
+84    R2_83      R2_84      0.163    IGSS Antigua -> Escuela Técnica Antigua
+85    R2_84      R2_85      6.242    Escuela Técnica Antigua -> Aldea Chijoj norte antigua
+86    R2_85      R2_86      0.875    Aldea Chijoj norte antigua -> Caserio Las Vegas Antigua
+87    R2_86      R2_87      0.633    Caserio Las Vegas Antigua -> Km 38 carretera sur
+88    R2_87      R2_88      1.966    Km 38 carretera sur -> Cruce Cuatro Caminos Antigua
+89    R2_88      R2_89      1.099    Cruce Cuatro Caminos Antigua -> Col. Linda Vista Antigua
+90    R2_89      R2_90      0.946    Col. Linda Vista Antigua -> Desvío San Cristóbal Antigua
+91    R2_90      R2_91      0.550    Desvío San Cristóbal Antigua -> Aldea El Naranjo Antigua
+92    R2_91      R2_92      0.698    Aldea El Naranjo Antigua -> Km 42 camino sur Antigua
+93    R2_92      R2_93      3.119    Km 42 camino sur Antigua -> Aldea Pensativo Antigua
+94    R2_93      R2_94      0.124    Aldea Pensativo Antigua -> Antigua 2ª Calle Oriente
+95    R2_94      R2_95      0.166    Antigua 2ª Calle Oriente -> Antigua Convento La Merced
+96    R2_95      R2_96      0.058    Antigua Convento La Merced -> Antigua Catedral ingreso
+97    R2_96      R2_97      0.054    Antigua Catedral ingreso -> Antigua 3ª Av. Norte
+98    R2_97      R2_98      0.371    Antigua 3ª Av. Norte -> Antigua 1ª Calle Poniente
+99    R2_98      R2_99      0.135    Antigua 1ª Calle Poniente -> UMG Antigua Guatemala
+100   R2_00      R2_03      1.468    Plaza Tigo Torre 3 -> Desvío Santa Catarina Pinula
+101   R2_08      R2_11      4.951    Zona 17 La Castañeda -> Boca del Monte ingreso
+102   R2_16      R2_19      3.328    Mayan Golf desvío -> Puente Río Villalobos
+103   R2_24      R2_27      0.843    Puente Amatitlán -> Amatitlán zona 3
+104   R2_32      R2_35      3.783    Villa Canales norte ingreso -> Carretera Bárcenas desvío
+105   R2_40      R2_43      2.897    Carretera RD-SAC-01 inicio -> Aldea San Cristóbal El Alto
+106   R2_48      R2_51      1.699    Aldea San Lorenzo El Cubo -> Col. Vista al Valle
+107   R2_56      R2_59      2.045    Aldea Santa María de Jesús S -> Santa Ana Antigua sur
+108   R2_64      R2_67      2.820    C. del Chajon / 3ª Calle -> Puente Ciudad Vieja-Antigua
+109   R2_72      R2_75      1.619    Aldea El Frutal VN -> Km 33 carretera Bárcenas
+110   R2_80      R2_83      0.503    Col. El Panorama Antigua -> IGSS Antigua
+111   R2_88      R2_91      1.024    Cruce Cuatro Caminos Antigua -> Aldea El Naranjo Antigua
+112   R2_96      R2_99      0.473    Antigua Catedral ingreso -> UMG Antigua Guatemala

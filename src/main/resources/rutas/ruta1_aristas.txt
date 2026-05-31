@@ -1,0 +1,112 @@
+1     R1_00      R1_01      0.311    Plaza Tigo Torre 3 -> Paso a desnivel Km 9.5
+2     R1_01      R1_02      0.249    Paso a desnivel Km 9.5 -> Gasolinera Puma Km 9
+3     R1_02      R1_03      0.277    Gasolinera Puma Km 9 -> CC Pradera Concepción
+4     R1_03      R1_04      0.566    CC Pradera Concepción -> Zona 15 ingreso norte
+5     R1_04      R1_05      0.619    Zona 15 ingreso norte -> Col. Vista Hermosa II
+6     R1_05      R1_06      0.580    Col. Vista Hermosa II -> Blvd. Vista Hermosa km 10
+7     R1_06      R1_07      0.462    Blvd. Vista Hermosa km 10 -> Centro Médico Santa Rosita
+8     R1_07      R1_08      0.462    Centro Médico Santa Rosita -> Zona 16 Santa Rosita
+9     R1_08      R1_09      0.606    Zona 16 Santa Rosita -> Intersección 20 Calle z.10
+10    R1_09      R1_10      0.545    Intersección 20 Calle z.10 -> Blvd. Los Próceres
+11    R1_10      R1_11      0.464    Blvd. Los Próceres -> Anillo Periférico z.10
+12    R1_11      R1_12      0.464    Anillo Periférico z.10 -> CC Miraflores
+13    R1_12      R1_13      0.619    CC Miraflores -> Zona 11 Mariscal
+14    R1_13      R1_14      0.550    Zona 11 Mariscal -> Calzada Aguilar Batres z.11
+15    R1_14      R1_15      0.545    Calzada Aguilar Batres z.11 -> CC Las Majadas
+16    R1_15      R1_16      0.550    CC Las Majadas -> Intersección Periférico-Agt.
+17    R1_16      R1_17      0.703    Intersección Periférico-Agt. -> Trébol z.7
+18    R1_17      R1_18      0.545    Trébol z.7 -> Calzada San Juan km 1
+19    R1_18      R1_19      0.464    Calzada San Juan km 1 -> Col. El Gallito z.3
+20    R1_19      R1_20      0.619    Col. El Gallito z.3 -> Calzada Roosevelt km 6
+21    R1_20      R1_21      0.545    Calzada Roosevelt km 6 -> CC Peri-Roosevelt
+22    R1_21      R1_22      0.484    CC Peri-Roosevelt -> Zona 7 El Rodeo
+23    R1_22      R1_23      0.633    Zona 7 El Rodeo -> Gasolinera Texaco Mixco km 1
+24    R1_23      R1_24      0.683    Gasolinera Texaco Mixco km 1 -> Col. Monte Verde Mixco
+25    R1_24      R1_25      0.655    Col. Monte Verde Mixco -> Mixco km 14 centro
+26    R1_25      R1_26      0.655    Mixco km 14 centro -> Colonia El Naranjillo
+27    R1_26      R1_27      0.655    Colonia El Naranjillo -> Desvío Los Altos Mixco
+28    R1_27      R1_28      0.655    Desvío Los Altos Mixco -> San Cristóbal Mixco km 16
+29    R1_28      R1_29      0.648    San Cristóbal Mixco km 16 -> Col. Lomas de Portugal
+30    R1_29      R1_30      0.646    Col. Lomas de Portugal -> Colonia Residenciales km 17
+31    R1_30      R1_31      0.646    Colonia Residenciales km 17 -> Puente Mixco-Sacatepéquez
+32    R1_31      R1_32      0.655    Puente Mixco-Sacatepéquez -> El Panorama desvío
+33    R1_32      R1_33      0.667    El Panorama desvío -> Col. San Isidro z.13 Mixco
+34    R1_33      R1_34      0.761    Col. San Isidro z.13 Mixco -> Santiago Sacatepéquez acceso
+35    R1_34      R1_35      0.771    Santiago Sacatepéquez acceso -> Aldea Las Trojas
+36    R1_35      R1_36      0.785    Aldea Las Trojas -> Km 20 CA-1 Occidente
+37    R1_36      R1_37      0.703    Km 20 CA-1 Occidente -> Aldea El Rejón
+38    R1_37      R1_38      0.727    Aldea El Rejón -> San Bartolomé M.A. desvío
+39    R1_38      R1_39      0.633    San Bartolomé M.A. desvío -> Km 22 CA-1
+40    R1_39      R1_40      0.580    Km 22 CA-1 -> Puente Los Chocoyos
+41    R1_40      R1_41      0.550    Puente Los Chocoyos -> San Lucas Sacatepéquez centr
+42    R1_41      R1_42      0.352    San Lucas Sacatepéquez centr -> Mercado Municipal San Lucas
+43    R1_42      R1_43      0.352    Mercado Municipal San Lucas -> Gasolinera Shell San Lucas
+44    R1_43      R1_44      0.387    Gasolinera Shell San Lucas -> Km 25 CA-1 / Cruce RN-10
+45    R1_44      R1_45      0.371    Km 25 CA-1 / Cruce RN-10 -> RN-10 inicio bajada a Antigu
+46    R1_45      R1_46      0.494    RN-10 inicio bajada a Antigu -> Mirador El Calvario RN-10
+47    R1_46      R1_47      0.550    Mirador El Calvario RN-10 -> Aldea Los Gavilanes
+48    R1_47      R1_48      0.619    Aldea Los Gavilanes -> Curva El Caracol RN-10
+49    R1_48      R1_49      0.923    Curva El Caracol RN-10 -> Santa Lucía Milpas Altas cru
+50    R1_49      R1_50      0.619    Santa Lucía Milpas Altas cru -> Granja Carberts RN-10
+51    R1_50      R1_51      0.550    Granja Carberts RN-10 -> Aldea San Miguel Milpas Alta
+52    R1_51      R1_52      0.550    Aldea San Miguel Milpas Alta -> Col. Monte Sión RN-10
+53    R1_52      R1_53      0.550    Col. Monte Sión RN-10 -> Puente sobre Río Pensativo
+54    R1_53      R1_54      0.494    Puente sobre Río Pensativo -> Km 31 RN-10
+55    R1_54      R1_55      0.550    Km 31 RN-10 -> Aldea San Felipe de Jesús
+56    R1_55      R1_56      0.550    Aldea San Felipe de Jesús -> Aldea La Concepción RN-10
+57    R1_56      R1_57      0.550    Aldea La Concepción RN-10 -> Curva Panorámica RN-10
+58    R1_57      R1_58      0.794    Curva Panorámica RN-10 -> Jocotenango ingreso norte
+59    R1_58      R1_59      0.393    Jocotenango ingreso norte -> Col. Santa Inés del Monte Pu
+60    R1_59      R1_60      0.393    Col. Santa Inés del Monte Pu -> Jocotenango centro
+61    R1_60      R1_61      0.323    Jocotenango centro -> Antigua ingreso norte Km 42
+62    R1_61      R1_62      0.092    Antigua ingreso norte Km 42 -> Col. San Felipe Antigua
+63    R1_62      R1_63      0.137    Col. San Felipe Antigua -> 1ª Av. Norte Antigua
+64    R1_63      R1_64      0.880    1ª Av. Norte Antigua -> Parque Central Antigua
+65    R1_64      R1_65      0.305    Parque Central Antigua -> 4ª Calle Oriente Antigua
+66    R1_65      R1_66      0.060    4ª Calle Oriente Antigua -> 6ª Calle Poniente Antigua
+67    R1_66      R1_67      0.279    6ª Calle Poniente Antigua -> Arco de Santa Catalina
+68    R1_67      R1_68      0.175    Arco de Santa Catalina -> Col. San Francisco Antigua
+69    R1_68      R1_69      0.172    Col. San Francisco Antigua -> C. del Chajon / 3ª Calle
+70    R1_69      R1_70      0.079    C. del Chajon / 3ª Calle -> UMG Antigua Guatemala
+71    R1_70      R1_71      18.744   UMG Antigua Guatemala -> Gasolinera Uno Mixco km 15
+72    R1_71      R1_72      4.831    Gasolinera Uno Mixco km 15 -> Col. Primero de Julio z.5
+73    R1_72      R1_73      0.549    Col. Primero de Julio z.5 -> Zona 6 El Gallito
+74    R1_73      R1_74      1.452    Zona 6 El Gallito -> Puente El Incienso
+75    R1_74      R1_75      1.671    Puente El Incienso -> Centro Cívico z.4
+76    R1_75      R1_76      3.684    Centro Cívico z.4 -> Blvd. Liberación z.9
+77    R1_76      R1_77      2.718    Blvd. Liberación z.9 -> Av. Hincapié z.13 aeropuerto
+78    R1_77      R1_78      0.485    Av. Hincapié z.13 aeropuerto -> Zona 13 La Aurora
+79    R1_78      R1_79      18.295   Zona 13 La Aurora -> Km 28 RN-10 curva pino
+80    R1_79      R1_80      1.649    Km 28 RN-10 curva pino -> Aldea El Hato Antigua
+81    R1_80      R1_81      1.927    Aldea El Hato Antigua -> Entrada Colegio Bilingüe RN-
+82    R1_81      R1_82      3.210    Entrada Colegio Bilingüe RN- -> Km 26 CA-1 mirador
+83    R1_82      R1_83      0.889    Km 26 CA-1 mirador -> Puente San Lucas sur
+84    R1_83      R1_84      15.123   Puente San Lucas sur -> Col. San Marcos z.12
+85    R1_84      R1_85      1.089    Col. San Marcos z.12 -> Blvd. Mateo Flores
+86    R1_85      R1_86      1.740    Blvd. Mateo Flores -> Col. La Reformita z.12
+87    R1_86      R1_87      0.643    Col. La Reformita z.12 -> Zona 12 Col. Bello Horizonte
+88    R1_87      R1_88      0.464    Zona 12 Col. Bello Horizonte -> Anillo Periférico Sur z.12
+89    R1_88      R1_89      0.392    Anillo Periférico Sur z.12 -> Intersección CA-9 z.12
+90    R1_89      R1_90      16.459   Intersección CA-9 z.12 -> Gasolinera Full San Lucas
+91    R1_90      R1_91      0.309    Gasolinera Full San Lucas -> Cementerio San Lucas
+92    R1_91      R1_92      0.198    Cementerio San Lucas -> Escola Parroquial San Lucas
+93    R1_92      R1_93      10.187   Escola Parroquial San Lucas -> Antigua zona 3 sector Sur
+94    R1_93      R1_94      0.272    Antigua zona 3 sector Sur -> Hospital Nacional Pedro de B
+95    R1_94      R1_95      0.124    Hospital Nacional Pedro de B -> Colegio La Salle Antigua
+96    R1_95      R1_96      0.503    Colegio La Salle Antigua -> Antigua calle del Arco
+97    R1_96      R1_97      0.124    Antigua calle del Arco -> Col. Santa Lucía Antigua
+98    R1_97      R1_98      0.151    Col. Santa Lucía Antigua -> USAC Antigua
+99    R1_98      R1_99      0.145    USAC Antigua -> 2ª Calle Poniente Antigua
+100   R1_00      R1_03      0.837    Plaza Tigo Torre 3 -> CC Pradera Concepción
+101   R1_08      R1_11      1.600    Zona 16 Santa Rosita -> Anillo Periférico z.10
+102   R1_16      R1_19      1.702    Intersección Periférico-Agt. -> Col. El Gallito z.3
+103   R1_24      R1_27      1.965    Col. Monte Verde Mixco -> Desvío Los Altos Mixco
+104   R1_32      R1_35      2.197    El Panorama desvío -> Aldea Las Trojas
+105   R1_40      R1_43      1.253    Puente Los Chocoyos -> Gasolinera Shell San Lucas
+106   R1_48      R1_51      2.025    Curva El Caracol RN-10 -> Aldea San Miguel Milpas Alta
+107   R1_56      R1_59      1.135    Aldea La Concepción RN-10 -> Col. Santa Inés del Monte Pu
+108   R1_64      R1_67      0.124    Parque Central Antigua -> Arco de Santa Catalina
+109   R1_72      R1_75      2.570    Col. Primero de Julio z.5 -> Centro Cívico z.4
+110   R1_80      R1_83      5.933    Aldea El Hato Antigua -> Puente San Lucas sur
+111   R1_88      R1_91      15.932   Anillo Periférico Sur z.12 -> Cementerio San Lucas
+112   R1_96      R1_99      0.326    Antigua calle del Arco -> 2ª Calle Poniente Antigua

@@ -60,4 +60,8 @@ public class Grafo {
         System.out.println("---------- DISTANCIA ENTRE DOS PUNTOS -----------");
         System.out.println(km + " km");
     }
+    
+    public Nodo[] getAllNodos(){
+        return nodos.getAllNodos();
+    }
 }

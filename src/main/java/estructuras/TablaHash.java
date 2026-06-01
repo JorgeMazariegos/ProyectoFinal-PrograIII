@@ -115,8 +115,7 @@ public class TablaHash {
     }
 
     public Nodo getNodoPorIndice(int indice){
-        for(int i = 0; i < buckets.length; i++){
-            NodoHash actual = buckets[i];
+        for (NodoHash actual : buckets) {
             while(actual != null){
                 if(actual.nodo.getIndice() == indice){
                     return actual.nodo;
@@ -125,5 +124,18 @@ public class TablaHash {
             }
         }
         return null;
-    }  
+    }
+    
+    public Nodo[] getAllNodos() {
+        Nodo[] resultado = new Nodo[size];
+        int i = 0;
+        for (NodoHash bucket : buckets) {
+            NodoHash actual = bucket;
+            while (actual != null) {
+                resultado[i++] = actual.nodo;
+                actual = actual.next;
+            }
+        }
+        return resultado;
+    }
 }

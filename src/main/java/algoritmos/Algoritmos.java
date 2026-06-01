@@ -14,10 +14,10 @@ import modelos.Nodo;
  */
 public class Algoritmos {
     
-    public Grafo cargarRuta(){
+    public Grafo cargarRuta(String ruta){
         Grafo grafo = new Grafo();
         try {
-            InputStream is = getClass().getClassLoader().getResourceAsStream("rutas/ruta1_nodos.txt");
+            InputStream is = getClass().getClassLoader().getResourceAsStream("rutas/ruta"+ ruta +"_nodos.txt");
             BufferedReader br = new BufferedReader(new InputStreamReader(is));
             String linea;
             while((linea = br.readLine()) != null){
@@ -34,14 +34,14 @@ public class Algoritmos {
         } catch (IOException ex) {
             ex.printStackTrace();
         }
-        cargarConexiones(grafo);
+        cargarConexiones(grafo, ruta);
         
         return grafo;
     }
     
-    private void cargarConexiones(Grafo grafo){
+    private void cargarConexiones(Grafo grafo, String ruta){
          try {
-            InputStream is = getClass().getClassLoader().getResourceAsStream("rutas/ruta1_aristas.txt");
+            InputStream is = getClass().getClassLoader().getResourceAsStream("rutas/ruta"+ ruta +"_aristas.txt");
             BufferedReader br = new BufferedReader(new InputStreamReader(is));
             String linea;
             while((linea = br.readLine()) != null){
@@ -72,7 +72,7 @@ public class Algoritmos {
         return rad * c;
     }
     
-    public void dijkstra(Grafo grafo, String origenId, String destinoId){
+    public Nodo[] dijkstra(Grafo grafo, String origenId, String destinoId){
         int total = grafo.getTotalNodos();
         double[] distancias = new double[total];
         boolean[] visitados = new boolean[total];
@@ -96,10 +96,8 @@ public class Algoritmos {
             int menorIndice = -1;
             double menorDistancia = Double.MAX_VALUE;
             for(int j = 0; j < total; j++){
-
                 if(!visitados[j] &&
                    distancias[j] < menorDistancia){
-
                     menorDistancia = distancias[j];
                     menorIndice = j;
                 }
@@ -133,23 +131,20 @@ public class Algoritmos {
                 arista = arista.getNext();
             }
         }
-        int indiceDestino = destino.getIndice();
-        System.out.println("===== RUTA MAS CORTA =====");
-        System.out.println(
-            "Distancia total: "
-            + distancias[indiceDestino]
-            + " km"
-        );
-        // Reconstruir camino
+        int cantidad = 0;
         Nodo actual = destino;
-        System.out.println("Ruta:");
         while(actual != null){
-            System.out.println(
-                actual.getId()
-                + " - "
-                + actual.getNombre()
-            );
+            cantidad++;
             actual = anteriores[actual.getIndice()];
         }
+        Nodo[] ruta = new Nodo[cantidad];
+        actual = destino;
+        int pos = cantidad - 1;
+        while(actual != null){
+            ruta[pos] = actual;
+            pos--;
+            actual = anteriores[actual.getIndice()];
+        }
+        return ruta;
     }
 }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="leaflet/leaflet.css"/>
+
+    <style>
+        html, body, #map {
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<script src="leaflet/leaflet.js"></script>
+
+<script>
+
+var carIcon = L.icon({
+    iconUrl: 'car.png',
+    iconSize: [32,32],
+    iconAnchor: [16,16]
+});
+
+var vehiculo = null;
+
+var map = L.map('map').setView([14.57220,-90.48200],13);
+
+L.tileLayer(
+'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+{
+    maxZoom: 19,
+    keepBuffer: 12,
+    updateWhenIdle: true
+}
+).addTo(map);
+
+// Function to add markers
+function agregarMarcador(lat, lng, nombre){
+    L.marker([lat, lng])
+     .addTo(map)
+     .bindPopup(nombre);
+}
+
+// Function to draw a route
+function dibujarRuta(coords){
+    L.polyline(coords, {
+        weight: 6
+    }).addTo(map);
+}
+
+function moverVehiculo(lat, lng){
+    if(vehiculo == null){
+        vehiculo = L.marker(
+            [lat,lng],
+            {icon: carIcon}
+        ).addTo(map);
+    }
+    else{
+        vehiculo.setLatLng([lat,lng]);
+    }
+    
+
+    map.panTo([lat,lng]);
+}
+
+function hacerZoom(lat, lng){
+    map.flyTo([lat,lng], 17, {
+        duration: 1.5
+    });
+}
+
+</script>
+
+</body>
+</html>

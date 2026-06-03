@@ -79,4 +79,8 @@ public class Nodo implements Serializable {
     public Arista getAdyacentes() {
         return adyacentes;
     }
+
+    public void setAdyacentes(Arista adyacentes) {
+        this.adyacentes = adyacentes;
+    }
 }

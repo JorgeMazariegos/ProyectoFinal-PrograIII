@@ -6,12 +6,15 @@ package modelos;
 
 import estructuras.TablaHash;
 import algoritmos.Algoritmos;
+import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Random;
 
 /**
  *
  * @author AMD 5600G
  */
-public class Grafo {
+public class Grafo implements Serializable {
     Algoritmos algoritmos = new Algoritmos();
     private final TablaHash nodos;
     
@@ -72,5 +75,46 @@ public class Grafo {
     
     public Nodo[] getAllNodos(){
         return nodos.getAllNodos();
+    }
+    
+    public void eliminarNodo(Nodo nodoEliminar){
+        if(nodoEliminar == null){
+            return;
+        }
+
+        // Remove incoming edges
+        for(Nodo n : getAllNodos()){
+            eliminarAristasHacia(n, nodoEliminar);
+        }
+
+        // Remove node from graph
+        nodos.remove(nodoEliminar.getId());
+    }
+
+    private void eliminarAristasHacia(Nodo origen,Nodo destinoEliminar){
+        Arista actual = origen.getAdyacentes();
+        Arista anterior = null;
+
+        while(actual != null){
+
+            if(actual.getDestino() == destinoEliminar){
+
+                if(anterior == null){
+                    origen.setAdyacentes(
+                        actual.getNext()
+                    );
+                }
+                else{
+                    anterior.setNext(
+                        actual.getNext()
+                    );
+                }
+            }
+            else{
+                anterior = actual;
+            }
+
+            actual = actual.getNext();
+        }
     }
 }

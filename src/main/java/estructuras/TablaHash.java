@@ -1,15 +1,16 @@
 package estructuras;
 
+import java.io.Serializable;
 import modelos.Nodo;
 
 /**
  *
  * @author AMD 5600G
  */
-public class TablaHash {
+public class TablaHash implements Serializable {
     
     //Nodo de la hash table
-    private class NodoHash{
+    private class NodoHash implements Serializable{
         String idNodo;
         Nodo nodo;
         NodoHash next;

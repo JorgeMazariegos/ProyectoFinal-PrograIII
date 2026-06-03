@@ -6,20 +6,22 @@
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.TextFlow?>
 <?import javafx.scene.web.WebView?>
 
-<AnchorPane prefHeight="800.0" prefWidth="1200.0" stylesheets="@../../../styles/primary.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="umg.proyectofinal.simuladorgps.PrimaryController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" stylesheets="@../../../styles/primary.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="umg.proyectofinal.simuladorgps.PrimaryController">
    <children>
-      <VBox alignment="TOP_CENTER" layoutY="-2.0" prefHeight="481.0" prefWidth="199.0" spacing="20.0">
+      <VBox alignment="TOP_CENTER" layoutY="-2.0" prefHeight="481.0" prefWidth="200.0" spacing="20.0">
          <children>
             <ComboBox fx:id="rutaComboBox" onAction="#loadNodos" prefHeight="32.0" prefWidth="170.0" promptText="Rutas" />
-            <Button mnemonicParsing="false" onAction="#cargarRutaMasCorta" text="Calcular Ruta" />
+            <Button mnemonicParsing="false" onAction="#simulacion" text="Iniciar Simulación" />
             <Label text="Velocidad de la Animación" />
-            <Slider fx:id="speedSlider" blockIncrement="0.5" max="30.0" min="0.5" value="1.0" />
+            <Slider fx:id="speedSlider" blockIncrement="1.0" max="60.0" min="20.0" value="20.0" />
             <Button mnemonicParsing="false" onAction="#guardarRuta" text="Guardar Ruta">
                <styleClass>
                   <String fx:value="button-file" />
@@ -27,17 +29,37 @@
                </styleClass>
             </Button>
             <Button mnemonicParsing="false" onAction="#cargarRuta" styleClass="button-file" text="Cargar Ruta" />
-            <Button mnemonicParsing="false" onAction="#switchToSecondary" text="Button" />
          </children>
          <padding>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </padding>
       </VBox>
-      <WebView fx:id="webView" layoutX="199.0" prefHeight="800.0" prefWidth="1000.0" />
-      <ScrollPane hbarPolicy="NEVER" layoutY="410.0" prefHeight="389.0" prefWidth="199.0">
+      <WebView fx:id="webView" layoutX="200.0" prefHeight="800.0" />
+      <ScrollPane fx:id="routeScrollPane" hbarPolicy="NEVER" layoutX="-1.0" layoutY="410.0" prefHeight="389.0" prefWidth="200.0">
          <content>
             <TextFlow fx:id="routeTextFlow" prefHeight="387.0" prefWidth="200.0" styleClass="text-flow" />
          </content>
       </ScrollPane>
+      <VBox alignment="TOP_CENTER" layoutX="1000.0" prefHeight="315.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <ComboBox fx:id="origenComboBox" editable="true" prefHeight="32.0" prefWidth="217.0" promptText="Origen" />
+            <ComboBox fx:id="destinoComboBox" editable="true" prefHeight="32.0" prefWidth="217.0" promptText="Destino" />
+            <Button mnemonicParsing="false" onAction="#cargarRutaMasCorta" text="Calcular Ruta" />
+            <Separator prefWidth="200.0" />
+            <ComboBox fx:id="buscarComboBox" prefWidth="150.0" />
+            <Button mnemonicParsing="false" onAction="#buscarNodo" text="Buscar Nodo" />
+            <Button mnemonicParsing="false" onAction="#eliminarNodo" text="Eliminar Nodo" />
+            <TextField fx:id="nombreNodoField" promptText="Nombre" />
+            <TextField fx:id="latField" promptText="Latitud" />
+            <TextField fx:id="lngField" promptText="Longitud" />
+            <Button mnemonicParsing="false" onAction="#agregarNodo" text="Agregar Nodo" />
+            <ComboBox fx:id="orgComboBox" editable="true" prefHeight="32.0" prefWidth="217.0" promptText="Origen" />
+            <ComboBox fx:id="destComboBox" editable="true" prefHeight="32.0" prefWidth="217.0" promptText="Destino" />
+            <Button mnemonicParsing="false" onAction="#agregarArista" text="Conectar Nodos" />
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
    </children>
 </AnchorPane>

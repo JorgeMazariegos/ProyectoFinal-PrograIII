@@ -7,8 +7,6 @@ package modelos;
 import estructuras.TablaHash;
 import algoritmos.Algoritmos;
 import java.io.Serializable;
-import java.util.HashSet;
-import java.util.Random;
 
 /**
  *

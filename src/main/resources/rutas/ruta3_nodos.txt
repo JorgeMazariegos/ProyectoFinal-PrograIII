@@ -1,100 +1,100 @@
-1     R3_00      14.57220     -90.48200     Plaza Tigo Torre 3
-2     R3_01      14.56500     -90.48400     Km 13.5 Carr. El Salvador
-3     R3_02      14.56000     -90.48700     Zona 25 ingreso
-4     R3_03      14.57000     -90.52000     Anillo Periférico zona 12
-5     R3_04      14.57500     -90.53500     Zona 12 Calzada Aguilar Batres
-6     R3_05      14.58200     -90.53000     Zona 13 sur aeropuerto
-7     R3_06      14.55000     -90.55000     Gasolinera Km 15 CA-9 Sur
-8     R3_07      14.54000     -90.55500     CA-9 Sur km 16 ingreso
-9     R3_08      14.52500     -90.56500     Villa Nueva CA-9 Sur
-10    R3_09      14.50800     -90.58000     Bárcenas - CA9 Sur cruce
-11    R3_10      14.49500     -90.59000     Km 22 CA-9 Sur
-12    R3_11      14.48500     -90.60000     Finca El Pilar acceso
-13    R3_12      14.47600     -90.62000     Amatitlán CA-9 cruce
-14    R3_13      14.46000     -90.65000     Km 30 CA-9 Sur
-15    R3_14      14.42500     -90.68500     Palín norte ingreso
-16    R3_15      14.40500     -90.69700     Palín centro
-17    R3_16      14.40300     -90.69800     Mercado de Palín
-18    R3_17      14.39800     -90.70000     Palín sur - autopista desvío
-19    R3_18      14.39000     -90.70500     Autopista Palín-Escuintla km 1
-20    R3_19      14.37000     -90.72000     Km 50 Autopista
-21    R3_20      14.34500     -90.73500     Km 55 área boscosa
-22    R3_21      14.31500     -90.77000     Escuintla norte ingreso
-23    R3_22      14.30500     -90.78000     Gasolinera Texaco Escuintla
-24    R3_23      14.30000     -90.78500     Escuintla centro
-25    R3_24      14.29800     -90.78600     Mercado Escuintla
-26    R3_25      14.29600     -90.78700     Escuintla zona 2
-27    R3_26      14.29500     -90.79000     Desvío RN-14 a Antigua
-28    R3_27      14.30500     -90.79500     RN-14 km 1 inicio subida
-29    R3_28      14.33500     -90.77200     RN-14 km 5 curva montaña
-30    R3_29      14.37000     -90.76000     RN-14 km 10 mirador
-31    R3_30      14.40500     -90.75000     RN-14 km 15
-32    R3_31      14.43000     -90.74200     Aldea El Cedro RN-14
-33    R3_32      14.45500     -90.73600     RN-14 km 20 pino
-34    R3_33      14.46000     -90.73100     Santa María de Jesús norte
-35    R3_34      14.47000     -90.72800     Santa María de Jesús centro
-36    R3_35      14.47200     -90.72700     Mercado Sta. María de Jesús
-37    R3_36      14.47500     -90.72650     Aldea Guadalupe SMJ
-38    R3_37      14.48000     -90.72900     RN-14 km 25 bajada
-39    R3_38      14.48500     -90.73000     Mirador Volcán Agua SMJ
-40    R3_39      14.48800     -90.73100     Aldea Eje Quemado SMJ
-41    R3_40      14.49300     -90.73200     Cruce Aldea La Pastora
-42    R3_41      14.50000     -90.73200     San Juan del Obispo norte
-43    R3_42      14.50600     -90.73400     San Juan del Obispo centro
-44    R3_43      14.50800     -90.73300     Aldea San Pedro Apóstol SJO
-45    R3_44      14.51200     -90.73300     Km 32 camino a Antigua
-46    R3_45      14.51800     -90.73200     Aldea El Hato SJO-Antigua
-47    R3_46      14.52300     -90.73100     Aldea San Cristóbal SJO
-48    R3_47      14.52800     -90.72800     Aldea San Pedro Las Huertas
-49    R3_48      14.52000     -90.72200     Ciudad Vieja oriente
-50    R3_49      14.52100     -90.72000     Ciudad Vieja centro
-51    R3_50      14.53000     -90.72400     Km 36 carretera a Antigua
-52    R3_51      14.53400     -90.72400     Aldea El Manchén
-53    R3_52      14.53700     -90.72400     Aldea El Calvario CV
-54    R3_53      14.54100     -90.72500     Aldea Chorro de Agua
-55    R3_54      14.53200     -90.71000     Cruce Alotenango desvío
-56    R3_55      14.52800     -90.70500     Alotenango acceso
-57    R3_56      14.54300     -90.72600     Km 39 carretera Antigua sur
-58    R3_57      14.54500     -90.73800     Santa Ana Antigua
-59    R3_58      14.54600     -90.73600     Col. Alameda Santa Ana
-60    R3_59      14.54800     -90.73400     Antigua zona 3
-61    R3_60      14.55100     -90.73350     Calle Ancha Herreros
-62    R3_61      14.55200     -90.73360     Antigua 7ª Av. Sur
-63    R3_62      14.56020     -90.73310     Antigua Plaza Mayor
-64    R3_63      14.55650     -90.73390     C. del Chajon Antigua
-65    R3_64      14.55580     -90.73400     UMG Antigua Guatemala
-66    R3_65      14.56500     -90.53000     Km 4 CA-9 Sur ingreso
-67    R3_66      14.54000     -90.54500     Puente Río Villalobos CA-9
-68    R3_67      14.44500     -90.66500     Km 25 CA-9 Sur peaje
-69    R3_68      14.42000     -90.67500     Km 35 CA-9 Sur bajada
-70    R3_69      14.35500     -90.72800     Km 43 autopista boscosa
-71    R3_70      14.29300     -90.79200     Escuintla zona 4 sur
-72    R3_71      14.31500     -90.79000     RN-14 km 3 primer curva
-73    R3_72      14.35500     -90.76500     RN-14 km 8 mirador SMJ
-74    R3_73      14.39000     -90.75500     RN-14 km 12 bosque nuboso
-75    R3_74      14.41800     -90.74600     RN-14 km 17 Los Pinos
-76    R3_75      14.44500     -90.73900     RN-14 km 22 mirador volcanes
-77    R3_76      14.46500     -90.72900     SMJ aldea El Pepinal
-78    R3_77      14.47200     -90.72950     SMJ zona baja
-79    R3_78      14.51400     -90.72500     Camino real SJO-CV
-80    R3_79      14.52100     -90.71800     Col. El Rosario CV
-81    R3_80      14.56200     -90.73100     Antigua zona 2 norte
-82    R3_81      14.56100     -90.73200     Gasolinera Shell Antigua
-83    R3_82      14.56000     -90.73250     Antigua Blvd. Principal
-84    R3_83      14.55960     -90.73320     Antigua Hotel Casa Santo Domingo
-85    R3_84      14.55920     -90.73370     Antigua Mercado de artesanías
-86    R3_85      14.55720     -90.73410     Antigua calle del Espíritu Santo
-87    R3_86      14.55670     -90.73400     Antigua 2ª Calle Poniente
-88    R3_87      14.29700     -90.78550     Escuintla Parque Central
-89    R3_88      14.29900     -90.78400     Escuintla zona 1 terminal
-90    R3_89      14.37800     -90.71400     Km 47 autopista Palín barranco
-91    R3_90      14.40400     -90.69750     Palín mercado artesanías
-92    R3_91      14.40100     -90.69900     Palín zona 2 salida
-93    R3_92      14.40700     -90.69600     Desvío Aldea El Sitio Palín
-94    R3_93      14.46800     -90.63400     Km 28 CA-9 curva Amatitlán
-95    R3_94      14.45300     -90.65800     Puente Madre Vieja
-96    R3_95      14.41200     -90.69300     Sector industrial Palín
-97    R3_96      14.40900     -90.69500     Colonia Santa Teresa Palín
-98    R3_97      14.31000     -90.77800     Aldea El Rodeo Escuintla
-99    R3_98      14.30500     -90.78700     Escuintla salida norte RN-14
-100   R3_99      14.55580     -90.73400     UMG Antigua Guatemala
+0,R3_00,14.57220,-90.48200,Plaza Tigo Torre 3
+1,R3_01,14.56500,-90.48400,Km 13.5 Carr. El Salvador
+2,R3_02,14.56000,-90.48700,Zona 25 ingreso
+3,R3_03,14.57000,-90.52000,Anillo Periférico zona 12
+4,R3_04,14.57500,-90.53500,Zona 12 Calzada Aguilar Batres
+5,R3_05,14.58200,-90.53000,Zona 13 sur aeropuerto
+6,R3_06,14.55000,-90.55000,Gasolinera Km 15 CA-9 Sur
+7,R3_07,14.54000,-90.55500,CA-9 Sur km 16 ingreso
+8,R3_08,14.52500,-90.56500,Villa Nueva CA-9 Sur
+9,R3_09,14.50800,-90.58000,Bárcenas - CA9 Sur cruce
+10,R3_10,14.49500,-90.59000,Km 22 CA-9 Sur
+11,R3_11,14.48500,-90.60000,Finca El Pilar acceso
+12,R3_12,14.47600,-90.62000,Amatitlán CA-9 cruce
+13,R3_13,14.46000,-90.65000,Km 30 CA-9 Sur
+14,R3_14,14.42500,-90.68500,Palín norte ingreso
+15,R3_15,14.40500,-90.69700,Palín centro
+16,R3_16,14.40300,-90.69800,Mercado de Palín
+17,R3_17,14.39800,-90.70000,Palín sur - autopista desvío
+18,R3_18,14.39000,-90.70500,Autopista Palín-Escuintla km 1
+19,R3_19,14.37000,-90.72000,Km 50 Autopista
+20,R3_20,14.34500,-90.73500,Km 55 área boscosa
+21,R3_21,14.31500,-90.77000,Escuintla norte ingreso
+22,R3_22,14.30500,-90.78000,Gasolinera Texaco Escuintla
+23,R3_23,14.30000,-90.78500,Escuintla centro
+24,R3_24,14.29800,-90.78600,Mercado Escuintla
+25,R3_25,14.29600,-90.78700,Escuintla zona 2
+26,R3_26,14.29500,-90.79000,Desvío RN-14 a Antigua
+27,R3_27,14.30500,-90.79500,RN-14 km 1 inicio subida
+28,R3_28,14.33500,-90.77200,RN-14 km 5 curva montaña
+29,R3_29,14.37000,-90.76000,RN-14 km 10 mirador
+30,R3_30,14.40500,-90.75000,RN-14 km 15
+31,R3_31,14.43000,-90.74200,Aldea El Cedro RN-14
+32,R3_32,14.45500,-90.73600,RN-14 km 20 pino
+33,R3_33,14.46000,-90.73100,Santa María de Jesús norte
+34,R3_34,14.47000,-90.72800,Santa María de Jesús centro
+35,R3_35,14.47200,-90.72700,Mercado Sta. María de Jesús
+36,R3_36,14.47500,-90.72650,Aldea Guadalupe SMJ
+37,R3_37,14.48000,-90.72900,RN-14 km 25 bajada
+38,R3_38,14.48500,-90.73000,Mirador Volcán Agua SMJ
+39,R3_39,14.48800,-90.73100,Aldea Eje Quemado SMJ
+40,R3_40,14.49300,-90.73200,Cruce Aldea La Pastora
+41,R3_41,14.50000,-90.73200,San Juan del Obispo norte
+42,R3_42,14.50600,-90.73400,San Juan del Obispo centro
+43,R3_43,14.50800,-90.73300,Aldea San Pedro Apóstol SJO
+44,R3_44,14.51200,-90.73300,Km 32 camino a Antigua
+45,R3_45,14.51800,-90.73200,Aldea El Hato SJO-Antigua
+46,R3_46,14.52300,-90.73100,Aldea San Cristóbal SJO
+47,R3_47,14.52800,-90.72800,Aldea San Pedro Las Huertas
+48,R3_48,14.52000,-90.72200,Ciudad Vieja oriente
+49,R3_49,14.52100,-90.72000,Ciudad Vieja centro
+50,R3_50,14.53000,-90.72400,Km 36 carretera a Antigua
+51,R3_51,14.53400,-90.72400,Aldea El Manchén
+52,R3_52,14.53700,-90.72400,Aldea El Calvario CV
+53,R3_53,14.54100,-90.72500,Aldea Chorro de Agua
+54,R3_54,14.53200,-90.71000,Cruce Alotenango desvío
+55,R3_55,14.52800,-90.70500,Alotenango acceso
+56,R3_56,14.54300,-90.72600,Km 39 carretera Antigua sur
+57,R3_57,14.54500,-90.73800,Santa Ana Antigua
+58,R3_58,14.54600,-90.73600,Col. Alameda Santa Ana
+59,R3_59,14.54800,-90.73400,Antigua zona 3
+60,R3_60,14.55100,-90.73350,Calle Ancha Herreros
+61,R3_61,14.55200,-90.73360,Antigua 7ª Av. Sur
+62,R3_62,14.56020,-90.73310,Antigua Plaza Mayor
+63,R3_63,14.55650,-90.73390,C. del Chajon Antigua
+64,R3_64,14.55580,-90.73400,UMG Antigua Guatemala
+65,R3_65,14.56500,-90.53000,Km 4 CA-9 Sur ingreso
+66,R3_66,14.54000,-90.54500,Puente Río Villalobos CA-9
+67,R3_67,14.44500,-90.66500,Km 25 CA-9 Sur peaje
+68,R3_68,14.42000,-90.67500,Km 35 CA-9 Sur bajada
+69,R3_69,14.35500,-90.72800,Km 43 autopista boscosa
+70,R3_70,14.29300,-90.79200,Escuintla zona 4 sur
+71,R3_71,14.31500,-90.79000,RN-14 km 3 primer curva
+72,R3_72,14.35500,-90.76500,RN-14 km 8 mirador SMJ
+73,R3_73,14.39000,-90.75500,RN-14 km 12 bosque nuboso
+74,R3_74,14.41800,-90.74600,RN-14 km 17 Los Pinos
+75,R3_75,14.44500,-90.73900,RN-14 km 22 mirador volcanes
+76,R3_76,14.46500,-90.72900,SMJ aldea El Pepinal
+77,R3_77,14.47200,-90.72950,SMJ zona baja
+78,R3_78,14.51400,-90.72500,Camino real SJO-CV
+79,R3_79,14.52100,-90.71800,Col. El Rosario CV
+80,R3_80,14.56200,-90.73100,Antigua zona 2 norte
+81,R3_81,14.56100,-90.73200,Gasolinera Shell Antigua
+82,R3_82,14.56000,-90.73250,Antigua Blvd. Principal
+83,R3_83,14.55960,-90.73320,Antigua Hotel Casa Santo Domingo
+84,R3_84,14.55920,-90.73370,Antigua Mercado de artesanías
+85,R3_85,14.55720,-90.73410,Antigua calle del Espíritu Santo
+86,R3_86,14.55670,-90.73400,Antigua 2ª Calle Poniente
+87,R3_87,14.29700,-90.78550,Escuintla Parque Central
+88,R3_88,14.29900,-90.78400,Escuintla zona 1 terminal
+89,R3_89,14.37800,-90.71400,Km 47 autopista Palín barranco
+90,R3_90,14.40400,-90.69750,Palín mercado artesanías
+91,R3_91,14.40100,-90.69900,Palín zona 2 salida
+92,R3_92,14.40700,-90.69600,Desvío Aldea El Sitio Palín
+93,R3_93,14.46800,-90.63400,Km 28 CA-9 curva Amatitlán
+94,R3_94,14.45300,-90.65800,Puente Madre Vieja
+95,R3_95,14.41200,-90.69300,Sector industrial Palín
+96,R3_96,14.40900,-90.69500,Colonia Santa Teresa Palín
+97,R3_97,14.31000,-90.77800,Aldea El Rodeo Escuintla
+98,R3_98,14.30500,-90.78700,Escuintla salida norte RN-14
+99,R3_99,14.55580,-90.73400,UMG Antigua Guatemala

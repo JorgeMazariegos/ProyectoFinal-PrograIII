@@ -1,100 +1,100 @@
-1     R6_00      14.57220     -90.48200     Plaza Tigo Torre 3
-2     R6_01      14.56500     -90.48400     Km 13.5 desvío sur
-3     R6_02      14.55800     -90.47600     Col. San José Pinula desvío
-4     R6_03      14.55200     -90.46800     Km 15 carr. antigua ES
-5     R6_04      14.54800     -90.46400     Aldea San Rafael Pinula
-6     R6_05      14.54400     -90.46100     San José Pinula norte
-7     R6_06      14.54100     -90.46000     San José Pinula centro
-8     R6_07      14.53900     -90.46100     Mercado San José Pinula
-9     R6_08      14.53600     -90.46500     San José Pinula sur aldea
-10    R6_09      14.53300     -90.47000     Aldea La Cuchilla
-11    R6_10      14.52900     -90.47800     Km 18 carr. departamental
-12    R6_11      14.52500     -90.48700     Aldea La Cerra
-13    R6_12      14.52200     -90.49600     Desvío hacia zona 25
-14    R6_13      14.52000     -90.50600     Aldea El Cambray
-15    R6_14      14.51800     -90.51600     Km 20 camino departamental
-16    R6_15      14.51600     -90.52600     Puente Río Las Vacas
-17    R6_16      14.51900     -90.53500     Aldea Contreras z.12
-18    R6_17      14.52400     -90.53800     Col. Justo Rufino Barrios z.21
-19    R6_18      14.52900     -90.54200     Zona 21 Sta. Rosa
-20    R6_19      14.53400     -90.54700     Zona 21 Col. Campo Nuevo
-21    R6_20      14.54000     -90.55000     Km 12 Calzada Aguilar Batres S
-22    R6_21      14.54400     -90.55400     Col. Nimajuyú z.21
-23    R6_22      14.54800     -90.55700     Col. El Tesoro z.12
-24    R6_23      14.55100     -90.56000     Anillo Periférico Sur z.12
-25    R6_24      14.53000     -90.57000     Villa Nueva norte km 17
-26    R6_25      14.52500     -90.58000     Villa Nueva mercado central
-27    R6_26      14.52000     -90.58700     Villa Nueva zona 1 centro
-28    R6_27      14.51700     -90.59200     Villa Nueva zona 2
-29    R6_28      14.51300     -90.59600     Villa Nueva zona 3 sur
-30    R6_29      14.50900     -90.60100     Puente Villa Nueva-Barcenas
-31    R6_30      14.50700     -90.60600     Bárcenas km 23
-32    R6_31      14.50600     -90.61200     Bárcenas centro
-33    R6_32      14.50500     -90.61800     Bárcenas zona sur
-34    R6_33      14.51000     -90.62800     Km 25 carretera Lo de Diéguez
-35    R6_34      14.51500     -90.63500     Lo de Diéguez norte
-36    R6_35      14.51800     -90.64000     Lo de Diéguez centro
-37    R6_36      14.52000     -90.64600     Lo de Diéguez zona sur
-38    R6_37      14.52200     -90.65500     Km 28 camino rural
-39    R6_38      14.52500     -90.66000     Aldea Rincón Grande
-40    R6_39      14.52800     -90.66700     Puente Río Guacalate sur
-41    R6_40      14.53100     -90.67300     Aldea San Cristóbal El Bajo
-42    R6_41      14.53400     -90.68000     Km 31 carr. rural Sacatepéquez
-43    R6_42      14.53700     -90.68600     Aldea Los Llanos
-44    R6_43      14.52800     -90.69500     Km 33 ingreso Ciudad Vieja
-45    R6_44      14.52300     -90.70500     Ciudad Vieja norte
-46    R6_45      14.52000     -90.72000     Ciudad Vieja centro
-47    R6_46      14.51900     -90.72200     Mercado Ciudad Vieja
-48    R6_47      14.51800     -90.72400     Ciudad Vieja zona 2
-49    R6_48      14.52800     -90.72200     Aldea San Lorenzo El Cubo
-50    R6_49      14.53200     -90.72150     Aldea El Hato CV
-51    R6_50      14.53600     -90.72100     Km 37 carretera a Antigua
-52    R6_51      14.54000     -90.72200     Aldea Chorro de Agua CV
-53    R6_52      14.54300     -90.72300     Aldea Santa Inés del Monte
-54    R6_53      14.54000     -90.72400     Aldea San Pedro Las Huertas
-55    R6_54      14.54400     -90.72800     Km 39 entrada Antigua sur
-56    R6_55      14.54500     -90.73800     Col. Santa Ana Antigua
-57    R6_56      14.54700     -90.73600     Col. El Pensativo Antigua
-58    R6_57      14.54900     -90.73450     Antigua zona 3 sur
-59    R6_58      14.55100     -90.73400     Antigua calle Ancha
-60    R6_59      14.55250     -90.73380     Antigua 5ª Av. Sur
-61    R6_60      14.55450     -90.73520     Antigua Hospital Hermano Pedro
-62    R6_61      14.56020     -90.73310     Antigua zona 1 parque
-63    R6_62      14.55650     -90.73390     C. del Chajon Antigua
-64    R6_63      14.55580     -90.73400     UMG Antigua Guatemala
-65    R6_64      14.57000     -90.48000     Zona 17 acceso Km 14
-66    R6_65      14.55600     -90.47300     Km 16 Col. Residenciales
-67    R6_66      14.54600     -90.48700     Zona 25 acceso norte
-68    R6_67      14.54400     -90.49800     Zona 25 Col. El Búcaro
-69    R6_68      14.54600     -90.50800     Puente zona 25
-70    R6_69      14.55100     -90.51800     Col. El Maestro
-71    R6_70      14.55400     -90.52200     Boca del Monte gasolinera
-72    R6_71      14.56000     -90.52700     Zona 12 ingreso
-73    R6_72      14.55300     -90.54800     Anillo periférico gasolinera
-74    R6_73      14.53600     -90.55900     Villa Nueva km 16
-75    R6_74      14.53200     -90.56400     Villa Nueva Col. La Enamorada
-76    R6_75      14.52700     -90.57000     Villa Nueva zona 4
-77    R6_76      14.52100     -90.57800     Aldea El Frutal VN norte
-78    R6_77      14.51600     -90.58700     Zona 3 VN mercado
-79    R6_78      14.51200     -90.59400     Puente Villalobos acceso
-80    R6_79      14.50750     -90.60300     Bárcenas km 22 gasolinera
-81    R6_80      14.50650     -90.60900     Bárcenas acceso norte
-82    R6_81      14.51300     -90.63000     Lo de Diéguez acceso
-83    R6_82      14.51600     -90.63700     Aldea El Zarzal LD
-84    R6_83      14.52000     -90.64400     Caserio Los Lotes
-85    R6_84      14.52200     -90.65100     Km 27 camino rural
-86    R6_85      14.52600     -90.66200     Aldea San Antonio CV
-87    R6_86      14.52900     -90.67000     Km 30 puente río
-88    R6_87      14.52200     -90.71200     Aldea El Rosario CV
-89    R6_88      14.52100     -90.71600     Ciudad Vieja zona 1
-90    R6_89      14.51950     -90.71950     CV gasolinera Shell
-91    R6_90      14.54200     -90.72000     Antigua San Cristóbal Km 38
-92    R6_91      14.54400     -90.72600     Aldea Las Mercedes Antigua
-93    R6_92      14.54600     -90.73100     Km 40 ingreso Antigua
-94    R6_93      14.54550     -90.73700     Santa Ana Antigua oriente
-95    R6_94      14.54950     -90.73550     Antigua zona 3 poniente
-96    R6_95      14.55300     -90.73450     Antigua calle Camposanto
-97    R6_96      14.55480     -90.73420     Antigua 6ª Av. Sur
-98    R6_97      14.55600     -90.73420     Antigua 5ª Calle Poniente
-99    R6_98      14.55650     -90.73400     Antigua zona 1 comercio
-100   R6_99      14.55580     -90.73400     UMG Antigua Guatemala
+0,R6_00,14.57220,-90.48200,Plaza Tigo Torre 3
+1,R6_01,14.56500,-90.48400,Km 13.5 desvío sur
+2,R6_02,14.55800,-90.47600,Col. San José Pinula desvío
+3,R6_03,14.55200,-90.46800,Km 15 carr. antigua ES
+4,R6_04,14.54800,-90.46400,Aldea San Rafael Pinula
+5,R6_05,14.54400,-90.46100,San José Pinula norte
+6,R6_06,14.54100,-90.46000,San José Pinula centro
+7,R6_07,14.53900,-90.46100,Mercado San José Pinula
+8,R6_08,14.53600,-90.46500,San José Pinula sur aldea
+9,R6_09,14.53300,-90.47000,Aldea La Cuchilla
+10,R6_10,14.52900,-90.47800,Km 18 carr. departamental
+11,R6_11,14.52500,-90.48700,Aldea La Cerra
+12,R6_12,14.52200,-90.49600,Desvío hacia zona 25
+13,R6_13,14.52000,-90.50600,Aldea El Cambray
+14,R6_14,14.51800,-90.51600,Km 20 camino departamental
+15,R6_15,14.51600,-90.52600,Puente Río Las Vacas
+16,R6_16,14.51900,-90.53500,Aldea Contreras z.12
+17,R6_17,14.52400,-90.53800,Col. Justo Rufino Barrios z.21
+18,R6_18,14.52900,-90.54200,Zona 21 Sta. Rosa
+19,R6_19,14.53400,-90.54700,Zona 21 Col. Campo Nuevo
+20,R6_20,14.54000,-90.55000,Km 12 Calzada Aguilar Batres S
+21,R6_21,14.54400,-90.55400,Col. Nimajuyú z.21
+22,R6_22,14.54800,-90.55700,Col. El Tesoro z.12
+23,R6_23,14.55100,-90.56000,Anillo Periférico Sur z.12
+24,R6_24,14.53000,-90.57000,Villa Nueva norte km 17
+25,R6_25,14.52500,-90.58000,Villa Nueva mercado central
+26,R6_26,14.52000,-90.58700,Villa Nueva zona 1 centro
+27,R6_27,14.51700,-90.59200,Villa Nueva zona 2
+28,R6_28,14.51300,-90.59600,Villa Nueva zona 3 sur
+29,R6_29,14.50900,-90.60100,Puente Villa Nueva-Barcenas
+30,R6_30,14.50700,-90.60600,Bárcenas km 23
+31,R6_31,14.50600,-90.61200,Bárcenas centro
+32,R6_32,14.50500,-90.61800,Bárcenas zona sur
+33,R6_33,14.51000,-90.62800,Km 25 carretera Lo de Diéguez
+34,R6_34,14.51500,-90.63500,Lo de Diéguez norte
+35,R6_35,14.51800,-90.64000,Lo de Diéguez centro
+36,R6_36,14.52000,-90.64600,Lo de Diéguez zona sur
+37,R6_37,14.52200,-90.65500,Km 28 camino rural
+38,R6_38,14.52500,-90.66000,Aldea Rincón Grande
+39,R6_39,14.52800,-90.66700,Puente Río Guacalate sur
+40,R6_40,14.53100,-90.67300,Aldea San Cristóbal El Bajo
+41,R6_41,14.53400,-90.68000,Km 31 carr. rural Sacatepéquez
+42,R6_42,14.53700,-90.68600,Aldea Los Llanos
+43,R6_43,14.52800,-90.69500,Km 33 ingreso Ciudad Vieja
+44,R6_44,14.52300,-90.70500,Ciudad Vieja norte
+45,R6_45,14.52000,-90.72000,Ciudad Vieja centro
+46,R6_46,14.51900,-90.72200,Mercado Ciudad Vieja
+47,R6_47,14.51800,-90.72400,Ciudad Vieja zona 2
+48,R6_48,14.52800,-90.72200,Aldea San Lorenzo El Cubo
+49,R6_49,14.53200,-90.72150,Aldea El Hato CV
+50,R6_50,14.53600,-90.72100,Km 37 carretera a Antigua
+51,R6_51,14.54000,-90.72200,Aldea Chorro de Agua CV
+52,R6_52,14.54300,-90.72300,Aldea Santa Inés del Monte
+53,R6_53,14.54000,-90.72400,Aldea San Pedro Las Huertas
+54,R6_54,14.54400,-90.72800,Km 39 entrada Antigua sur
+55,R6_55,14.54500,-90.73800,Col. Santa Ana Antigua
+56,R6_56,14.54700,-90.73600,Col. El Pensativo Antigua
+57,R6_57,14.54900,-90.73450,Antigua zona 3 sur
+58,R6_58,14.55100,-90.73400,Antigua calle Ancha
+59,R6_59,14.55250,-90.73380,Antigua 5ª Av. Sur
+60,R6_60,14.55450,-90.73520,Antigua Hospital Hermano Pedro
+61,R6_61,14.56020,-90.73310,Antigua zona 1 parque
+62,R6_62,14.55650,-90.73390,C. del Chajon Antigua
+63,R6_63,14.55580,-90.73400,UMG Antigua Guatemala
+64,R6_64,14.57000,-90.48000,Zona 17 acceso Km 14
+65,R6_65,14.55600,-90.47300,Km 16 Col. Residenciales
+66,R6_66,14.54600,-90.48700,Zona 25 acceso norte
+67,R6_67,14.54400,-90.49800,Zona 25 Col. El Búcaro
+68,R6_68,14.54600,-90.50800,Puente zona 25
+69,R6_69,14.55100,-90.51800,Col. El Maestro
+70,R6_70,14.55400,-90.52200,Boca del Monte gasolinera
+71,R6_71,14.56000,-90.52700,Zona 12 ingreso
+72,R6_72,14.55300,-90.54800,Anillo periférico gasolinera
+73,R6_73,14.53600,-90.55900,Villa Nueva km 16
+74,R6_74,14.53200,-90.56400,Villa Nueva Col. La Enamorada
+75,R6_75,14.52700,-90.57000,Villa Nueva zona 4
+76,R6_76,14.52100,-90.57800,Aldea El Frutal VN norte
+77,R6_77,14.51600,-90.58700,Zona 3 VN mercado
+78,R6_78,14.51200,-90.59400,Puente Villalobos acceso
+79,R6_79,14.50750,-90.60300,Bárcenas km 22 gasolinera
+80,R6_80,14.50650,-90.60900,Bárcenas acceso norte
+81,R6_81,14.51300,-90.63000,Lo de Diéguez acceso
+82,R6_82,14.51600,-90.63700,Aldea El Zarzal LD
+83,R6_83,14.52000,-90.64400,Caserio Los Lotes
+84,R6_84,14.52200,-90.65100,Km 27 camino rural
+85,R6_85,14.52600,-90.66200,Aldea San Antonio CV
+86,R6_86,14.52900,-90.67000,Km 30 puente río
+87,R6_87,14.52200,-90.71200,Aldea El Rosario CV
+88,R6_88,14.52100,-90.71600,Ciudad Vieja zona 1
+89,R6_89,14.51950,-90.71950,CV gasolinera Shell
+90,R6_90,14.54200,-90.72000,Antigua San Cristóbal Km 38
+91,R6_91,14.54400,-90.72600,Aldea Las Mercedes Antigua
+92,R6_92,14.54600,-90.73100,Km 40 ingreso Antigua
+93,R6_93,14.54550,-90.73700,Santa Ana Antigua oriente
+94,R6_94,14.54950,-90.73550,Antigua zona 3 poniente
+95,R6_95,14.55300,-90.73450,Antigua calle Camposanto
+96,R6_96,14.55480,-90.73420,Antigua 6ª Av. Sur
+97,R6_97,14.55600,-90.73420,Antigua 5ª Calle Poniente
+98,R6_98,14.55650,-90.73400,Antigua zona 1 comercio
+99,R6_99,14.55580,-90.73400,UMG Antigua Guatemala

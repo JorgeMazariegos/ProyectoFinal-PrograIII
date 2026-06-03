@@ -22,6 +22,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.Slider;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
@@ -59,6 +60,9 @@ public class PrimaryController {
     
     @FXML
     private WebView webView = new WebView();
+    
+    @FXML
+    private TextArea txtHeader;
     
     @FXML
     private ScrollPane routeScrollPane;
@@ -102,7 +106,7 @@ public class PrimaryController {
             return;
         }
         loadRuta(rutaE);
-        mostrarNodos();
+        actualizarInterfaz();
     }
     
     @FXML
@@ -212,21 +216,17 @@ public class PrimaryController {
     
     @FXML
     private void agregarNodo() {
-
         String nombre = nombreNodoField.getText();
-
         if(nombre == null || nombre.isEmpty()){
             return;
         }
-
         double lat = Double.parseDouble(latField.getText());
         double lng = Double.parseDouble(lngField.getText());
         int indice = generarIndice();
         String id = generarId();
+        
         Nodo nuevo = new Nodo(indice, id, nombre, lat, lng);
-
         g.agregarNodo(nuevo);
-
         actualizarInterfaz();
     }
     
@@ -277,6 +277,7 @@ public class PrimaryController {
     }
     
     private void startSimulation(){
+        updateHeader();
         new Thread(() -> {
         Platform.runLater(() -> {
             webView.getEngine().executeScript(
@@ -436,11 +437,9 @@ public class PrimaryController {
                     nombre.toLowerCase()
                           .contains(newText.toLowerCase())
                 );
-                if(!comboBox.isShowing()){
-                    comboBox.show();
-                }
             }
         );
+        comboBox.getSelectionModel().clearSelection();
     }
     
     private void enfocarNodo(Nodo nodo){
@@ -454,6 +453,7 @@ public class PrimaryController {
     
     private void actualizarInterfaz(){
         mostrarNodos();
+        txtHeader.setText("");
         routeTextFlow.getChildren().clear();
     }
     
@@ -492,5 +492,30 @@ public class PrimaryController {
             }
         }
         return false;
+    }
+    
+    private void updateHeader(){
+        Nodo origen = g.getNodoByNombre(origenComboBox.getValue());
+        Nodo destino = g.getNodoByNombre(destinoComboBox.getValue());
+        
+        String desde = origen.getNombre();
+        String hasta = destino.getNombre();
+        
+        double km = 0;
+        for (int i = 0; i < ruta.length - 1; i++) {
+            Nodo actual = ruta[i];
+            Nodo siguiente = ruta[i + 1];
+
+            Arista arista = actual.getAdyacentes();
+
+            while (arista != null) {
+                if (arista.getDestino().equals(siguiente)) {
+                    km += arista.getPeso();
+                    break;
+                }
+                arista = arista.getNext();
+            }
+        }
+         txtHeader.setText(rutaComboBox.getValue() +"\n" + desde + " -> " + hasta + "\n" + "Distancia recorrida: " + String.format("%.2f km", km));
     }
 }

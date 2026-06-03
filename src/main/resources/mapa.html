@@ -32,6 +32,7 @@ var vehiculo = null;
 
 var map = L.map('map').setView([14.57220,-90.48200],13);
 var graphLayer = L.layerGroup().addTo(map);
+var routeLayer = L.layerGroup().addTo(map);
 
 L.tileLayer(
 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -41,6 +42,10 @@ L.tileLayer(
     updateWhenIdle: true
 }
 ).addTo(map);
+
+function limpiarRuta(){
+    routeLayer.clearLayers();
+}
 
 // Function to add markers
 function agregarMarcador(lat, lng, nombre){
@@ -86,6 +91,7 @@ function hacerZoom(lat, lng){
 
 function limpiarMapa(){
     graphLayer.clearLayers();
+     routeLayer.clearLayers();
     vehiculo = null;
 }
 

@@ -131,7 +131,7 @@
 }
 
 .text-flow{
-    -fx-background-color: #1e1e1e;
+    -fx-background-color: white;
     -fx-background-radius: 12;
     -fx-padding: 15;
     -fx-border-color: #3a3a3a;

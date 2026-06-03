@@ -254,6 +254,7 @@ public class PrimaryController {
     private void loadDikjstra(){
         recorrido.clear();
         WebEngine engine = webView.getEngine();
+        engine.executeScript("limpiarRuta();");
         Nodo origen = g.getNodoByNombre(origenComboBox.getValue());
         Nodo destino = g.getNodoByNombre(destinoComboBox.getValue());
         
@@ -269,9 +270,10 @@ public class PrimaryController {
         engine.executeScript(
             "L.polyline(" +
             "[" + puntos + "]," + 
-            "{color:'gold', weight:8}).addTo(graphLayer);"
+            "{color:'gold', weight:8}).addTo(routeLayer);"
         );
         for(Nodo n : ruta){
+           
             recorrido.enqueue(n);
         }
     }
@@ -399,7 +401,7 @@ public class PrimaryController {
         for(int i = 0; i < routeTextFlow.getChildren().size(); i++){
             Text txt = (Text) routeTextFlow.getChildren().get(i);
             if(i == indice){
-                txt.setFill(Color.web("#FFD54F"));
+                txt.setFill(Color.web("blue"));
                 txt.setStyle(
                     "-fx-font-weight:bold;"
                 );
@@ -412,7 +414,7 @@ public class PrimaryController {
                 );
             }
             else{
-                txt.setFill(Color.web("#B0BEC5"));
+                txt.setFill(Color.web("black"));
                 txt.setStyle("");
             }
         }

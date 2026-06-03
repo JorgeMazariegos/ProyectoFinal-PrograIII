@@ -95,11 +95,6 @@ public class PrimaryController {
     }
     
     @FXML
-    private void switchToSecondary() throws IOException {
-        App.setRoot("secondary");
-    }
-    
-    @FXML
     private void loadNodos(){
         String rutaE = rutaComboBox.getValue().replaceAll("\\D+", "");
         if(rutaE.isEmpty()){
@@ -518,6 +513,11 @@ public class PrimaryController {
                 arista = arista.getNext();
             }
         }
-         txtHeader.setText(rutaComboBox.getValue() +"\n" + desde + " -> " + hasta + "\n" + "Distancia recorrida: " + String.format("%.2f km", km));
+        
+        String rutaMain = rutaComboBox.getValue();
+        if(rutaMain == null){
+            rutaMain = "Ruta especial";
+        }
+         txtHeader.setText(rutaMain +"\n" + desde + " -> " + hasta + "\n" + "Distancia recorrida: " + String.format("%.2f km", km));
     }
 }

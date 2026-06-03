@@ -1,27 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Slider?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.TextFlow?>
 <?import javafx.scene.web.WebView?>
 
-
-<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="umg.proyectofinal.simuladorgps.PrimaryController">
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" stylesheets="@../../../styles/primary.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="umg.proyectofinal.simuladorgps.PrimaryController">
    <children>
-      <VBox alignment="CENTER" spacing="20.0">
+      <VBox alignment="TOP_CENTER" layoutY="-2.0" prefHeight="481.0" prefWidth="199.0" spacing="20.0">
          <children>
-            <Label text="Primary View" />
-            <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Switch to Secondary View" />
+            <ComboBox fx:id="rutaComboBox" onAction="#loadNodos" prefHeight="32.0" prefWidth="170.0" promptText="Rutas" />
+            <Button mnemonicParsing="false" onAction="#cargarRutaMasCorta" text="Calcular Ruta" />
+            <Label text="Velocidad de la Animación" />
+            <Slider fx:id="speedSlider" blockIncrement="0.5" max="30.0" min="0.5" value="1.0" />
+            <Button mnemonicParsing="false" onAction="#guardarRuta" text="Guardar Ruta">
+               <styleClass>
+                  <String fx:value="button-file" />
+                  <String fx:value="save-button" />
+               </styleClass>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#cargarRuta" styleClass="button-file" text="Cargar Ruta" />
+            <Button mnemonicParsing="false" onAction="#switchToSecondary" text="Button" />
          </children>
          <padding>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </padding>
       </VBox>
-      <WebView fx:id="webView" layoutX="70.0" layoutY="41.0" prefHeight="701.0" prefWidth="1077.0" />
-      <Button layoutX="14.0" layoutY="162.0" mnemonicParsing="false" onAction="#loadNodos" text="load" />
-      <Button layoutX="8.0" layoutY="212.0" mnemonicParsing="false" onAction="#loadDikjstra" text="dijkstra" />
-      <Button layoutX="8.0" layoutY="258.0" mnemonicParsing="false" onAction="#startSimulation" text="simular" />
+      <WebView fx:id="webView" layoutX="199.0" prefHeight="800.0" prefWidth="1000.0" />
+      <ScrollPane hbarPolicy="NEVER" layoutY="410.0" prefHeight="389.0" prefWidth="199.0">
+         <content>
+            <TextFlow fx:id="routeTextFlow" prefHeight="387.0" prefWidth="200.0" styleClass="text-flow" />
+         </content>
+      </ScrollPane>
    </children>
 </AnchorPane>

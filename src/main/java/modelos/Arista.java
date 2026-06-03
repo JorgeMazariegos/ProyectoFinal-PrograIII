@@ -4,11 +4,13 @@
  */
 package modelos;
 
+import java.io.Serializable;
+
 /**
  *
  * @author AMD 5600G
  */
-public class Arista {
+public class Arista implements Serializable{
     Nodo destino;
     double peso;   
     Arista next;

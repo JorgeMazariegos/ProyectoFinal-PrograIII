@@ -1,10 +1,12 @@
 package modelos;
 
+import java.io.Serializable;
+
 /**
  *
  * @author AMD 5600G
  */
-public class Nodo {
+public class Nodo implements Serializable {
     private int indice;
     private String id;
     private String nombre;

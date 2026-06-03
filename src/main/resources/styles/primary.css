@@ -1,0 +1,148 @@
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #B8D8F8;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI";
+}
+
+.combo-box:hover {
+    -fx-border-color: #7BB6F5;
+}
+
+.combo-box:focused {
+    -fx-border-color: #4A9FF5;
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(74,159,245,0.3),
+        10,
+        0.2,
+        0,
+        0
+    );
+}
+
+/* Text area */
+.combo-box .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #2C3E50;
+}
+
+/* Arrow button */
+.combo-box .arrow-button {
+    -fx-background-color: #EAF4FF;
+    -fx-background-radius: 0 8px 8px 0;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #4A9FF5;
+}
+
+/* Dropdown menu */
+.combo-box-popup .list-view {
+    -fx-background-color: white;
+    -fx-border-color: #B8D8F8;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+/* Items */
+.combo-box-popup .list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: #2C3E50;
+    -fx-padding: 8px;
+}
+
+/* Hover item */
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #EAF4FF;
+}
+
+/* Selected item */
+.combo-box-popup .list-cell:selected {
+    -fx-background-color: #4A9FF5;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #e3f2fd);
+    -fx-text-fill: #1976d2;
+
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+
+    -fx-border-color: #90caf9;
+    -fx-border-width: 1;
+
+    -fx-padding: 8 18 8 18;
+
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #bbdefb);
+}
+
+.button:pressed {
+    -fx-background-color: #90caf9;
+}
+
+.button-file{
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #eaf4ff);
+    -fx-text-fill: #2c3e50;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #b7d7f5;
+    -fx-border-width: 1;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+.button-file:hover{
+    -fx-background-color: linear-gradient(to bottom, #f8fbff, #dceeff);
+    -fx-border-color: #8bbce8;
+}
+
+.button-file:pressed{
+    -fx-background-color: #cfe5fa;
+    -fx-border-color: #6fa8dc;
+}
+
+.button-file:focused{
+    -fx-border-color: #6fa8dc;
+    -fx-border-width: 2;
+}
+
+.save-button{
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #dff4ff);
+    -fx-text-fill: #1f4e79;
+}
+
+.save-button:hover{
+    -fx-background-color: linear-gradient(to bottom, #f5fcff, #cfeeff);
+}
+
+.text-flow{
+    -fx-background-color: #1e1e1e;
+    -fx-background-radius: 12;
+    -fx-padding: 15;
+    -fx-border-color: #3a3a3a;
+    -fx-border-radius: 12;
+}
+
+.scroll-pane{
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport{
+    -fx-background-color: transparent;
+}

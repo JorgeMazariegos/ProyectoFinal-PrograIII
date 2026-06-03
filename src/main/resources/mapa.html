@@ -31,6 +31,7 @@ var carIcon = L.icon({
 var vehiculo = null;
 
 var map = L.map('map').setView([14.57220,-90.48200],13);
+var graphLayer = L.layerGroup().addTo(map);
 
 L.tileLayer(
 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -43,16 +44,23 @@ L.tileLayer(
 
 // Function to add markers
 function agregarMarcador(lat, lng, nombre){
-    L.marker([lat, lng])
-     .addTo(map)
-     .bindPopup(nombre);
+   L.marker([lat,lng])
+    .addTo(graphLayer)
+    .bindPopup(nombre);
 }
 
 // Function to draw a route
 function dibujarRuta(coords){
     L.polyline(coords, {
         weight: 6
-    }).addTo(map);
+    }).addTo(graphLayer);
+}
+
+function agregarArista(lat1,lng1,lat2,lng2){
+    L.polyline([
+        [lat1,lng1],
+        [lat2,lng2]
+    ]).addTo(graphLayer);
 }
 
 function moverVehiculo(lat, lng){
@@ -60,7 +68,7 @@ function moverVehiculo(lat, lng){
         vehiculo = L.marker(
             [lat,lng],
             {icon: carIcon}
-        ).addTo(map);
+        ).addTo(graphLayer);
     }
     else{
         vehiculo.setLatLng([lat,lng]);
@@ -71,9 +79,14 @@ function moverVehiculo(lat, lng){
 }
 
 function hacerZoom(lat, lng){
-    map.flyTo([lat,lng], 17, {
+    map.flyTo([lat,lng], 14, {
         duration: 1.5
     });
+}
+
+function limpiarMapa(){
+    graphLayer.clearLayers();
+    vehiculo = null;
 }
 
 </script>

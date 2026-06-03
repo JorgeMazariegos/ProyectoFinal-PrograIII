@@ -61,6 +61,15 @@ public class Grafo {
         System.out.println(km + " km");
     }
     
+    public Nodo getNodoByNombre(String nombre){
+        for(Nodo n: nodos.getAllNodos()){
+            if(n.getNombre().trim().equals(nombre.trim())){
+                return n;
+            }
+        }
+        return null;
+    }
+    
     public Nodo[] getAllNodos(){
         return nodos.getAllNodos();
     }
